@@ -2962,9 +2962,13 @@
 	 */
 	Navigation.Defaults = {
 		nav: false,
+		// navText: [
+		// 	'<span aria-label="' + 'Previous' + '">&#x2039;</span>',
+		// 	'<span aria-label="' + 'Next' + '">&#x203a;</span>'
+		// ],
 		navText: [
-			'<span aria-label="' + 'Previous' + '">&#x2039;</span>',
-			'<span aria-label="' + 'Next' + '">&#x203a;</span>'
+			'<img src="img/icon/vector.png" alt="Previous">',
+			'<img src="img/icon/vector.png" alt="Next">'
 		],
 		navSpeed: false,
 		navElement: 'button type="button" role="presentation"',

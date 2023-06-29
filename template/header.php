@@ -1,7 +1,7 @@
 <header>
     <nav>
         <div class="topnav">
-            <div class="logo-nav"><figure><a href="/home"><img src="img/logo/logo.png" alt=""></a></figure></div>
+            <div class="logo-nav"><figure><a href="/home"><img src="img/logo/logo white-02.png" alt=""></a></figure></div>
 
             <!-- เมนูปกติ -->
             <ul class="nav-menu">
@@ -28,7 +28,7 @@
                 <li><a href="contact">ติดต่อเรา</a></li>
                 <li class="menu-cart">
                     <a href="#" class="cart">
-                        <i class="fas fa-shopping-basket"></i>
+                    <img src="img/logo/solar_cart.png" alt="">
                         <div class="num-shop-cart">
                             <span></span>
                         </div>
@@ -225,9 +225,9 @@
             
         </div>
     </nav>
-
+    
     <div class="slider owl-carousel">
-        <figure><img src="img/Artboard–30.jpg" alt=""></figure>
+        <figure><img src="img/Rectangle 7.png" alt=""></figure>
     </div>
 
     <!-- ค้นหาเบอร์ -->
