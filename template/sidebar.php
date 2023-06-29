@@ -2,13 +2,10 @@
 
     <!-- หมวดหมู่เบอร์ -->
     <div class="menu-box">
-        <div class="head-text">
-            <h2>หมวดหมู่เบอร์</h2>
-            <a href="cate-ber"><button>ทั้งหมด</button></a>
-        </div>
-
+        
         <div class="menu">
             <ul>
+                <h2 style="color:white">หมวดหมู่เบอร์</h2>
                 <li>
                     <a href="">
                         <span>เบอร์มงคลมาใหม่</span>
@@ -138,157 +135,12 @@
         </div>
     </div>
     
-    <!-- บทความช่องทางชำระเงิน -->
-    <div class="payment-box">
-        <div class="head-text">
-            <h2>ชำระผ่านบัตรเครดิต</h2>
-        </div>
-
-        <figure><a href=""><img src="img/Artboard–14.jpg" alt=""></a></figure>
-    </div>
-
-    <!-- จัดส่งล่าสุด -->
-    <div class="last-release">
-        <div class="head-text">
-            <h2>จัดส่งสินค้าล่าสุด</h2>
-            <a href="last-releast"><button>ทั้งหมด</button></a>
-        </div>
-
-        <div class="menu">
-            <ul>
-                <li>
-                    <a href="">
-                        <span>แอนนี่</span>
-                        <div class="num-ems">
-                            <span>EI630234805TH</span>
-                        </div>
-                        
-                    </a>
-                </li>
-
-                <li>
-                    <a href="">
-                        <span>น้องพลอย</span>
-                        <div class="num-ems">
-                            <span>EI630234805TH</span>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="">
-                        <span>น้องสา</span>
-                        <div class="num-ems">
-                            <span>EI630234805TH</span>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="">
-                        <span>น้ำฝน</span>
-                        <div class="num-ems">
-                            <span>EI630234805TH</span>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="">
-                        <span>เจนนี่</span>
-                        <div class="num-ems">
-                            <span>EI630234805TH</span>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="">
-                        <span>หนูนา</span>
-                        <div class="num-ems">
-                            <span>EI630234805TH</span>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- ลิ้งไปเว็บems -->
-    <div class="ems">
-        <div class="head-text">
-            <h2>ติดตามสถานะสินค้า</h2>
-        </div>
-        <div class="ems-trackbox">
-            <span>EMS Tracking THAIPOST</span>
-            <button>Tracking Here</button>
-        </div>
-    </div>
-
-    <!-- บทความ -->
-    <div class="article">
-        <div class="head-text">
-            <h2>บทความ</h2>
-            <a href="article"><button>ทั้งหมด</button></a>
-        </div>
-
-        <div class="menu">
-            <ul>
-                <li>
-                    <a href="">
-                        <figure><img src="img/view1.jpg" alt=""></figure>
-                        <span>พลังมหานิยมเสน่ห์เหตุตา</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="">
-                        <figure><img src="img/view1.jpg" alt=""></figure>
-                        <span>พลังมหานิยมเสน่ห์เหตุตา</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="">
-                        <figure><img src="img/view2.jpg" alt=""></figure>
-                        <span>พลังมหานิยมเสน่ห์เหตุตา</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="">
-                        <figure><img src="img/view1.jpg" alt=""></figure>
-                        <span>พลังมหานิยมเสน่ห์เหตุตา</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="">
-                        <figure><img src="img/view2.jpg" alt=""></figure>
-                        <span>พลังมหานิยมเสน่ห์เหตุตา</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="">
-                        <figure><img src="img/view1.jpg" alt=""></figure>
-                        <span>พลังมหานิยมเสน่ห์เหตุตา</span>
-                    </a>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-
     <!-- ผลรวมเบอร์ -->
     <div class="sum-nubmer">
-        <div class="head-text">
-            <h2>ผลรวมเบอร์</h2>
-            <a href="sum-ber"><button>ทั้งหมด</button></a>
-        </div>
-
+        
         <div class="menu">
             <ul>
+                <h2 style="color:white">ผลรวมเบอร์</h2>
                 <li>
                     <a href="">
                         <span>เบอร์มงคลมาใหม่</span>
@@ -386,6 +238,145 @@
                         <span>200</span>
                     </a>
                 </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- จัดส่งล่าสุด -->
+    <div class="last-release">
+        <div class="menu"> 
+            <ul>
+                <div class="head-text">
+                    <h2 style="color: white;">จัดส่งสินค้าล่าสุด</h2>
+                    <a href="last-releast"><button>ทั้งหมด</button></a>
+                </div>
+                <li>
+                    <a href="">
+                        <span>แอนนี่</span>
+                        <span>EI630234805TH</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <span>น้องพลอย</span>
+                        <div class="num-ems">
+                            <span>EI630234805TH</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <span>น้องสา</span>
+                        <div class="num-ems">
+                            <span>EI630234805TH</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <span>น้ำฝน</span>
+                        <div class="num-ems">
+                            <span>EI630234805TH</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <span>เจนนี่</span>
+                        <div class="num-ems">
+                            <span>EI630234805TH</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <span>หนูนา</span>
+                        <div class="num-ems">
+                            <span>EI630234805TH</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- บทความช่องทางชำระเงิน -->
+    <div class="payment-box">
+        <div class="head-text">
+            <h2>ชำระผ่านบัตรเครดิต</h2>
+        </div>
+
+        <figure><a href=""><img src="img/Artboard–14.jpg" alt=""></a></figure>
+    </div>
+
+
+    <!-- ลิ้งไปเว็บems -->
+    <div class="ems">
+        <div class="head-text">
+            <h2>ติดตามสถานะสินค้า</h2>
+        </div>
+        <div class="ems-trackbox">
+            <span>EMS Tracking THAIPOST</span>
+            <button>Tracking Here</button>
+        </div>
+    </div>
+
+    <!-- บทความ -->
+    <div class="article">
+        <div class="head-text">
+            <h2>บทความ</h2>
+            <a href="article"><button>ทั้งหมด</button></a>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="">
+                        <figure><img src="img/view1.jpg" alt=""></figure>
+                        <span>พลังมหานิยมเสน่ห์เหตุตา</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <figure><img src="img/view1.jpg" alt=""></figure>
+                        <span>พลังมหานิยมเสน่ห์เหตุตา</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <figure><img src="img/view2.jpg" alt=""></figure>
+                        <span>พลังมหานิยมเสน่ห์เหตุตา</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <figure><img src="img/view1.jpg" alt=""></figure>
+                        <span>พลังมหานิยมเสน่ห์เหตุตา</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <figure><img src="img/view2.jpg" alt=""></figure>
+                        <span>พลังมหานิยมเสน่ห์เหตุตา</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <figure><img src="img/view1.jpg" alt=""></figure>
+                        <span>พลังมหานิยมเสน่ห์เหตุตา</span>
+                    </a>
+                </li>
+
             </ul>
         </div>
     </div>

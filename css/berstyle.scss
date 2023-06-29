@@ -858,7 +858,7 @@ nav{
 
         .menu-box{
             display: none;
-
+            
             @media screen and (min-width:769px) {
                 display: block;
             }
@@ -929,7 +929,7 @@ nav{
             }
 
             .ems-trackbox{
-                background: linear-gradient(#c5a04f,#8e5415);
+                background: linear-gradient(#8b6a22,#8e5415);
                 display: flex;
                 flex-direction: column;
                 align-items: center;
