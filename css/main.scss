@@ -168,105 +168,105 @@
             grid-row-gap: 10px;
         }
 
-        .box{
-            display: grid;
-            grid-template-columns: 20% 50% 30%;
-            padding: 4% 0;
-            border-bottom: 1px solid gray;
+        // .box{
+        //     display: grid;
+        //     grid-template-columns: 20% 50% 30%;
+        //     padding: 4% 0;
+        //     border-bottom: 1px solid gray;
 
-            .logo{
-                figure{
-                    img{
-                        max-width: 100%;
-                    }
-                }
-                .select{
-                    filter: grayscale(1);
-                }
-            }
+        //     .logo{
+        //         figure{
+        //             img{
+        //                 max-width: 100%;
+        //             }
+        //         }
+        //         .select{
+        //             filter: grayscale(1);
+        //         }
+        //     }
 
-            .number{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                padding: 0 10%;
+        //     .number{
+        //         display: flex;
+        //         flex-direction: column;
+        //         justify-content: center;
+        //         padding: 0 10%;
 
-                span:nth-child(1){
-                    font-size: 1.8rem;
-                    font-weight: bolder;
+        //         span:nth-child(1){
+        //             font-size: 1.8rem;
+        //             font-weight: bolder;
 
-                    @media screen and (min-width:768px) and (max-width:1023px) {
-                        font-size: 1.5rem;
-                    }
-                    @media screen and (min-width:1024px) {
-                        font-size: 1.8vw;
-                    }
-                }
-                .sum-num{
-                    color: gray;
-                    font-size: .8rem;
-                }
-                .select{
-                    color: lightgray!important;
-                }
-            }
+        //             @media screen and (min-width:768px) and (max-width:1023px) {
+        //                 font-size: 1.5rem;
+        //             }
+        //             @media screen and (min-width:1024px) {
+        //                 font-size: 1.8vw;
+        //             }
+        //         }
+        //         .sum-num{
+        //             color: gray;
+        //             font-size: .8rem;
+        //         }
+        //         .select{
+        //             color: lightgray!important;
+        //         }
+        //     }
 
-            .detail{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+        //     .detail{
+        //         display: flex;
+        //         flex-direction: column;
+        //         justify-content: space-between;
 
-                .rank{
-                    figure{
-                        text-align: end;
+        //         .rank{
+        //             figure{
+        //                 text-align: end;
 
-                        img{
-                            max-width: 100%;
-                        }
-                    }
-                    .select{
-                        filter: grayscale(1);
-                    }
-                }
+        //                 img{
+        //                     max-width: 100%;
+        //                 }
+        //             }
+        //             .select{
+        //                 filter: grayscale(1);
+        //             }
+        //         }
 
-                .price{
-                    color: $price_color;
-                    font-size: 1.2rem;
-                    text-align: end;
-                }
+        //         .price{
+        //             color: $price_color;
+        //             font-size: 1.2rem;
+        //             text-align: end;
+        //         }
 
                 
-                .icon{
-                    color: gray;
-                    font-size: 1.2rem;
-                    display: flex;
-                    justify-content: space-evenly;
+        //         .icon{
+        //             color: gray;
+        //             font-size: 1.2rem;
+        //             display: flex;
+        //             justify-content: space-evenly;
                     
-                    a{
-                        color: gray;
-                        font-size: 1.2rem;
-                        display: flex;
-                        justify-content: space-evenly;
-                    }
-                    i{
-                        cursor: pointer;
+        //             a{
+        //                 color: gray;
+        //                 font-size: 1.2rem;
+        //                 display: flex;
+        //                 justify-content: space-evenly;
+        //             }
+        //             i{
+        //                 cursor: pointer;
 
-                        &:hover{
-                            transform: scale(1.1);
-                            color: #d00808;
-                            transition: all .2s;
-                        }
-                    }
-                    .unselect{
-                        display: none;
-                        color: red;
-                    }
-                } 
-            }
-            .select{
-                color: lightgray!important;
-            }
-        }
+        //                 &:hover{
+        //                     transform: scale(1.1);
+        //                     color: #d00808;
+        //                     transition: all .2s;
+        //                 }
+        //             }
+        //             .unselect{
+        //                 display: none;
+        //                 color: red;
+        //             }
+        //         } 
+        //     }
+        //     .select{
+        //         color: lightgray!important;
+        //     }
+        // }
     }
 
     .pagination{

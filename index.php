@@ -3,7 +3,7 @@
 
 <?php
     $url = explode('/',$_SERVER['REQUEST_URI']);
-    $slug = urldecode($url[1]);
+    $slug = urldecode($url[2]);
 ?>
 
 <head>
