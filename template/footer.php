@@ -1,4 +1,4 @@
-<footer class="footer" style="margin-bottom: 2%">
+<footer class="footer">
     <div class="logo">
         <figure><img src="img/logo/Group 150.png" alt=""></figure>
         <span>Wynnsoft Solution Co., Ltd.
@@ -50,10 +50,10 @@
     <div class="social-footer">
         <h3 style="text-align: center;">Social Media</h3>
         <div class="flex-container">
-            <div style="background-color:#0170FA; padding:5px; border-radius:10px;"><img src="img/mdi_Facebook.png" alt=""></div>
-            <div style="background-color:#F83A3A; padding:5px; border-radius:10px;"><img src="img/gis_poi-map.png" alt=""></div>
-            <div style="background-color:#E4B81B; padding:5px; border-radius:10px;"><img src="img/eva_phone-call-fill.png" alt=""></div>
-            <div style="background-color:#00D222; padding:5px; border-radius:10px;" ><img src="img/line 1.png" alt=""></div>
+            <div class="social" style="background-color:#0170FA; border-radius:10px; width: 50px; height: 50px; text-align: center; margin-right: 5px; padding-top:5px;"><img src="img/mdi_Facebook.png" alt="" ></div>
+            <div class="social" style="background-color:#F83A3A; border-radius:10px;  width: 50px; height: 50px; text-align: center; margin-right: 5px; padding-top:5px;"><img src="img/gis_poi-map.png" alt=""></div>
+            <div class="social" style="background-color:#E4B81B; border-radius:10px;  width: 50px; height: 50px; text-align: center; margin-right: 5px; padding-top:5px;"><img src="img/eva_phone-call-fill.png" alt=""></div>
+            <div class="social" style="background-color:#00D222; border-radius:10px;  width: 50px; height: 50px; text-align: center; margin-right: 5px; padding-top:5px;" ><img src="img/line 1.png" alt=""></div>
         </div>
 
 
