@@ -1,14 +1,16 @@
 <header>
     <nav>
         <div class="topnav">
-            <div class="logo-nav"><figure><a href="/home"><img src="img/logo/logo white-02.png" alt=""></a></figure></div>
+            <div class="logo-nav">
+                <figure><a href="/home"><img src="img/logo/logo white-02.png" alt=""></a></figure>
+            </div>
 
             <!-- เมนูปกติ -->
             <ul class="nav-menu">
                 <li class="cate-mobile">
                     <a href="#">เมนูหมวดหมู่เบอร์</a>
                     <ul class="cateMobile">
-                        <?php for($i=1;$i<=10;$i++): ?>
+                        <?php for ($i = 1; $i <= 10; $i++) : ?>
                             <li>
                                 <a href="">
                                     <span>เบอร์มงคลมาใหม่</span>
@@ -28,7 +30,7 @@
                 <li><a href="contact">ติดต่อเรา</a></li>
                 <li class="menu-cart">
                     <a href="#" class="cart">
-                    <img src="img/logo/solar_cart.png" alt="">
+                        <img src="img/logo/solar_cart.png" alt="">
                         <div class="num-shop-cart">
                             <span></span>
                         </div>
@@ -128,7 +130,7 @@
             <!-- ปุ่มเมนูตอน responsive -->
             <div class="group-mobile-menu">
                 <div class="cart-mobile">
-                    <li><a href="#" class="cart"><i class="fas fa-shopping-basket"></i></a></li>
+                    <li><img href="#" class="cart" src="img/logo/solar_cart.png" alt=""></li>
                     <div class="cart-hover">
                         <ul>
                             <li class="head-hover">
@@ -222,20 +224,25 @@
                     <i class="fas fa-bars"></i>
                 </div>
             </div>
-            
+
         </div>
     </nav>
-    
+
     <div class="slider owl-carousel">
         <figure><img src="img/Rectangle 7.png" alt=""></figure>
     </div>
 
-    <!-- ค้นหาเบอร์ -->
-    <?php if($slug == "home" || $slug == ""): ?>
+
+
+    <div class="container">
+        <div class="text-box">
+            <span>ยินดีต้อนรับเข้าสู่ Berforyou.com ศูนย์รวมจำหน่ายเบอร์สวย เบอร์มงคล เบอร์เสริมดวง บริการครบเครื่องเรื่องเบอร์ ระบบทำนายเบอร์อัตโนมัติ ระบบค้นหาเบอร์ที่ต้องการ ตรงจุด ทุกความต้องการ<br/>
+            เสริมการเงิน การงาน ความรัก สุขภาพ โชคลาภ สะดวกสบายโดยการเลือกซื้อและชำระเงินผ่านหน้าเว็บไซต์ได้ทันที จัดส่งวันต่อวัน รวดเร็วทันใจ เบอร์ทุกเบอร์คุณภาพคัดเกรด มงคลทั้งเว็บ <br/>ด้วยประสบการณ์ขายมากกว่า 10 ปี</span>
+        </div>
+        <!-- ค้นหาเบอร์ -->
         <section>
             <div class="search-box">
-                <h2>ค้นหาเบอร์</h2>
-
+                <!-- <h2>ค้นหาเบอร์</h2> -->
                 <div class="box">
                     <div class="left-box">
                         <form action="" class="fortune-box-num" id="search">
@@ -309,7 +316,7 @@
                                 <label>บาท</label>
                             </div>
                         </div>
-                        
+
                     </div>
 
                     <div class="right-box">
@@ -327,7 +334,7 @@
                                     <button data-favnum="7">7</button>
                                     <button data-favnum="8">8</button>
                                     <button data-favnum="9">9</button>
-                                </div> 
+                                </div>
                             </div>
 
                             <div class="kirai">
@@ -343,7 +350,7 @@
                                     <button data-favnum="7">7</button>
                                     <button data-favnum="8">8</button>
                                     <button data-favnum="9">9</button>
-                                </div> 
+                                </div>
                             </div>
                         </div>
 
@@ -384,11 +391,11 @@
                         <div class="ber-goodluck">
                             <span>เบอร์มงคล</span>
                             <div class="goodluck-box">
-                                <?php for($i=1;$i<=12;$i++): ?>
-                                <div class="button1">
-                                    <figure><img src="img/icon/lips.svg" alt=""></figure>
-                                    <label>แมว</label>
-                                </div>
+                                <?php for ($i = 1; $i <= 12; $i++) : ?>
+                                    <div class="button1">
+                                        <figure><img src="img/icon/lips.svg" alt=""></figure>
+                                        <label>แมว</label>
+                                    </div>
                                 <?php endfor; ?>
 
                                 <div class="recomment-num">
@@ -398,17 +405,18 @@
                                     </div>
                                 </div>
                             </div>
-                            
-                            
+
+
                         </div>
                     </div>
                 </div>
 
                 <div class="button-form">
+                    <button class="reset">ล้างข้อมูล</button>
                     <button>ค้นหา</button>
-                    <button class="reset">เริ่มใหม่</button>
+                    
                 </div>
             </div>
         </section>
-    <?php endif; ?>
+    </div>
 </header>

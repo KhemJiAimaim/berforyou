@@ -2968,7 +2968,7 @@
 		// ],
 		navText: [
 			'<img src="img/icon/vector.png" alt="Previous">',
-			'<img src="img/icon/vector.png" alt="Next">'
+			'<img src="img/icon/vector_r.png" alt="Next">'
 		],
 		navSpeed: false,
 		navElement: 'button type="button" role="presentation"',
