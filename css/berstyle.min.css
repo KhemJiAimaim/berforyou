@@ -1992,15 +1992,19 @@ nav .topnav .group-mobile-menu .hamberger i {
 }
 
 @media screen and (max-width: 1024px) {
-    .article-img {
-        margin-right: 5px;
+    .flex-container .article-img {
+        margin-right:10px;
+    }
+    .flex-container .article-text{
+        font-size: 12px;
     }
 }
 
 .article-img {
     position: relative;
     display: flex;
-    margin-right: auto;
+    justify-content: center;
+     margin-right: auto; 
     padding-bottom: 15px;
 
 }
@@ -2016,7 +2020,7 @@ nav .topnav .group-mobile-menu .hamberger i {
     color: #fff;
     background-image: url('../img/article/Rectangle 689.png');
     background-size: cover;
-}
+} 
 
 .image {
     opacity: 1;
@@ -2039,7 +2043,7 @@ nav .topnav .group-mobile-menu .hamberger i {
 }
 
 .article-img:hover .image {
-    filter: brightness(70%);
+    filter: brightness(40%);
 }
 
 .article-img:hover .middle {
@@ -2047,7 +2051,7 @@ nav .topnav .group-mobile-menu .hamberger i {
 }
 
 .text {
-    color: rgb(177, 177, 177);
+    color: rgb(255, 255, 255);
     font-size: 16px;
     padding: 16px 32px;
 }

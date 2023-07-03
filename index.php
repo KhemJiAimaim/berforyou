@@ -137,7 +137,7 @@ $slug = urldecode($url[2]);
                             <img src="img/article/Rectangle 684.png" alt="" class="image">
                             <div class="middle">
                                 <div class="text">
-                                    <img src="img/article/mdi_eye.png" alt="" class="image">
+                                    <img src="img/article/mdi_eye.png" alt="" >
                                     <p>Detail</p>
                                 </div>
                             </div>
@@ -152,7 +152,7 @@ $slug = urldecode($url[2]);
                             <img src="img/article/Rectangle 659.png" alt="" class="image">
                             <div class="middle">
                                 <div class="text">
-                                    <img src="img/article/mdi_eye.png" alt="" class="image">
+                                    <img src="img/article/mdi_eye.png" alt="" >
                                     <p>Detail</p>
                                 </div>
                             </div>
@@ -167,7 +167,7 @@ $slug = urldecode($url[2]);
                             <img src="img/article/Rectangle 660.png" alt="" class="image">
                             <div class="middle">
                                 <div class="text">
-                                    <img src="img/article/mdi_eye.png" alt="" class="image">
+                                    <img src="img/article/mdi_eye.png" alt="" >
                                     <p>Detail</p>
                                 </div>
                             </div>
@@ -182,7 +182,7 @@ $slug = urldecode($url[2]);
                             <img src="img/article/Rectangle 661.png" alt="" class="image">
                             <div class="middle">
                                 <div class="text">
-                                    <img src="img/article/mdi_eye.png" alt="" class="image">
+                                    <img src="img/article/mdi_eye.png" alt="" >
                                     <p>Detail</p>
                                 </div>
                             </div>
@@ -197,7 +197,22 @@ $slug = urldecode($url[2]);
                             <img src="img/article/Rectangle 662.png" alt="" class="image">
                             <div class="middle">
                                 <div class="text">
-                                    <img src="img/article/mdi_eye.png" alt="" class="image">
+                                    <img src="img/article/mdi_eye.png" alt="" >
+                                    <p>Detail</p>
+                                </div>
+                            </div>
+                            <div class="article-text">
+                                <h3>Lorem ipsum dolor</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur...</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="article-img">
+                        <a href="#">
+                            <img src="img/article/Rectangle 688.png" alt="" class="image">
+                            <div class="middle">
+                                <div class="text">
+                                    <img src="img/article/mdi_eye.png" alt="" >
                                     <p>Detail</p>
                                 </div>
                             </div>
