@@ -5,7 +5,7 @@
 
     <div class="gallery">
         <div class="column">
-            <!-- column1 -->
+            column1
             <figure><img src="img/review7.jpg" alt=""></figure>
             <figure><img src="img/test1.jpg" alt=""></figure>
             <figure><img src="img/test3.jpg" alt=""></figure>
