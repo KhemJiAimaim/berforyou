@@ -5,7 +5,7 @@
             <span>30000 เบอร์</span>
         </div>
         <div class="right">
-            <div class="network">
+            <!-- <div class="network">
                 <label>เครือข่าย</label>
                 <select name="" id="">
                     <option value="">ทั้งหมด</option>
@@ -17,6 +17,9 @@
                 <select name="" id="">
                     <option value="">ทั้งหมด</option>
                 </select>
+            </div> -->
+            <div class="grade">
+                <img style="cursor:pointer;" src="img/icon/solar_filter-bold.png" alt="">
             </div>
         </div>
     </div>

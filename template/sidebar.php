@@ -208,13 +208,6 @@
                         <span>6106</span>
                     </a>
                 </li>
-
-                <li>
-                    <a href="">
-                        <span>เบอร์ xyxy xxyy เบอร์ห่าม</span>
-                        <span>6106</span>
-                    </a>
-                </li>
             </ul>
         </div>
     </div>
