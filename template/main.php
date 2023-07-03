@@ -33,9 +33,9 @@
                 <div class="grade">
                     <h4>เกรด</h4>
                     <div class="grade-detail">
-                        <h4>A+</h4>
-                        <h4>ผลรวม 50</h4>
-                        <h4>แนะนำ</h4>
+                        <h4 class="grade-ber">A+</h4>
+                        <h4 class="total-sum">ผลรวม 50</h4>
+                        <h4 class="advice">แนะนำ</h4>
                     </div>
                 </div>
                 <div class="price">
@@ -62,9 +62,9 @@
                 <div class="grade">
                     <h4>เกรด</h4>
                     <div class="grade-detail">
-                        <h4>A+</h4>
-                        <h4>ผลรวม 50</h4>
-                        <h4>แนะนำ</h4>
+                        <h4 class="grade-ber">A+</h4>
+                        <h4 class="total-sum">ผลรวม 50</h4>
+                        <h4 class="advice">แนะนำ</h4>
                     </div>
                 </div>
                 <div class="price">
@@ -91,9 +91,9 @@
                 <div class="grade">
                     <h4>เกรด</h4>
                     <div class="grade-detail">
-                        <h4>A+</h4>
-                        <h4>ผลรวม 50</h4>
-                        <h4>แนะนำ</h4>
+                        <h4 class="grade-ber">A+</h4>
+                        <h4 class="total-sum">ผลรวม 50</h4>
+                        <h4 class="advice">แนะนำ</h4>
                     </div>
                 </div>
                 <div class="price">
@@ -120,9 +120,9 @@
                 <div class="grade">
                     <h4>เกรด</h4>
                     <div class="grade-detail">
-                        <h4>A+</h4>
-                        <h4>ผลรวม 50</h4>
-                        <h4>แนะนำ</h4>
+                        <h4 class="grade-ber">A+</h4>
+                        <h4 class="total-sum">ผลรวม 50</h4>
+                        <h4 class="advice">แนะนำ</h4>
                     </div>
                 </div>
                 <div class="price">
@@ -149,9 +149,9 @@
                 <div class="grade">
                     <h4>เกรด</h4>
                     <div class="grade-detail">
-                        <h4>A+</h4>
-                        <h4>ผลรวม 50</h4>
-                        <h4>แนะนำ</h4>
+                        <h4 class="grade-ber">A+</h4>
+                        <h4 class="total-sum">ผลรวม 50</h4>
+                        <h4 class="advice">แนะนำ</h4>
                     </div>
                 </div>
                 <div class="price">
@@ -178,9 +178,9 @@
                 <div class="grade">
                     <h4>เกรด</h4>
                     <div class="grade-detail">
-                        <h4>A+</h4>
-                        <h4>ผลรวม 50</h4>
-                        <h4>แนะนำ</h4>
+                        <h4 class="grade-ber">A+</h4>
+                        <h4 class="total-sum">ผลรวม 50</h4>
+                        <h4 class="advice">แนะนำ</h4>
                     </div>
                 </div>
                 <div class="price">
@@ -207,9 +207,9 @@
                 <div class="grade">
                     <h4>เกรด</h4>
                     <div class="grade-detail">
-                        <h4>A+</h4>
-                        <h4>ผลรวม 50</h4>
-                        <h4>แนะนำ</h4>
+                        <h4 class="grade-ber">A+</h4>
+                        <h4 class="total-sum">ผลรวม 50</h4>
+                        <h4 class="advice">แนะนำ</h4>
                     </div>
                 </div>
                 <div class="price">
@@ -236,9 +236,9 @@
                 <div class="grade">
                     <h4>เกรด</h4>
                     <div class="grade-detail">
-                        <h4>A+</h4>
-                        <h4>ผลรวม 50</h4>
-                        <h4>แนะนำ</h4>
+                        <h4 class="grade-ber">A+</h4>
+                        <h4 class="total-sum">ผลรวม 50</h4>
+                        <h4 class="advice">แนะนำ</h4>
                     </div>
                 </div>
                 <div class="price">
@@ -284,9 +284,9 @@
                 <div class="grade">
                     <h4>เกรด</h4>
                     <div class="grade-detail">
-                        <h4>A+</h4>
-                        <h4>ผลรวม 50</h4>
-                        <h4>แนะนำ</h4>
+                        <h4 class="grade-ber">A+</h4>
+                        <h4 class="total-sum">ผลรวม 50</h4>
+                        <h4 class="advice">แนะนำ</h4>
                     </div>
                 </div>
                 <div class="price">
@@ -307,23 +307,12 @@
     </div>
 
     <div class="pagination">
-        <a href="" class="current">First Page</a>
-        <a href="" class="current"><</a>
-        <a href="" class="current">1</a>
-        <a href="">2</a>
-        <a href="">3</a>
-        <a href="">4</a>
-        <a href="">5</a>
-        <a href="">6</a>
-        <a href="">7</a>
-        <a href="">8</a>
-        <a href="">9</a>
-        <a href="">10</a>
-        <a href="">11</a>
-        <a href="">12</a>
-        <a href="">...</a>
-        <a href="">40</a>
-        <a href="">></a>
-        <a href="">Last Page</a>
+        <div class="wrapper">
+            <a href="" class="current">Previous</a>
+            <a href="" class="current">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">Next</a>
+        </div>
     </div>
 </div> 

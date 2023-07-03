@@ -93,7 +93,7 @@
 
 .main-content .head-text .left span:nth-child(2),
 .sumber-content .head-text .left span:nth-child(2) {
-    color: #d00808;
+    color: #000000;
     margin-left: 3%
 }
 
@@ -292,7 +292,8 @@
     display: grid;
     margin: 3% 0;
     -ms-grid-columns: (100%)[1];
-    grid-template-columns: repeat(1, 100%)
+    grid-template-columns: repeat(1, 100%);
+    grid-gap: 10px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -334,6 +335,9 @@
 .main-content .grid-content .box .box-header .img{
     background: #ffffff;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-content .grid-content .box .box-body {
@@ -341,19 +345,42 @@
 }
 
 .main-content .grid-content .box .box-body .grade {
-    display: flex;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    /* gap: 10px; */
     margin-top: 10px;
 }
+
 .main-content .grid-content .box .box-body .grade .grade-detail {
     display: flex;
     gap: 10px;
     margin-left: 10px;
 }
 
+.main-content .grid-content .box .box-body .grade .grade-detail .grade-ber {
+    background: #43BCCD;
+    color: #FFFFFF;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+.main-content .grid-content .box .box-body .grade .grade-detail .total-sum {
+    background: #773A2C;
+    color: #FFFFFF;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+.main-content .grid-content .box .box-body .grade .grade-detail .advice {
+    background: #8D7045;
+    color: #FFFFFF;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
 .main-content .grid-content .box .box-body .price {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 .main-content .grid-content .box .box-body .price .price-detail {
@@ -523,18 +550,27 @@
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
-    margin: 3% 0
+    justify-content: end;
+    margin: 3% 0;
+}
+
+.main-content .pagination .wrapper {
+    border: 2px solid #DFDFDF;
+    border-radius: 5px;
 }
 
 .main-content .pagination a,
 .sumber-content .pagination a {
     color: gray
 }
-
+.main-content .pagination a{
+    padding: 0 10px;
+}
 .main-content .pagination a:hover,
 .sumber-content .pagination a:hover {
-    color: #000;
+    color: #FFFFFF;
+    background: #43251B;
+    border-radius: 5px;
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
     -webkit-transition: all .2s;
