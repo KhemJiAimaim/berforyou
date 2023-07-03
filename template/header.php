@@ -475,7 +475,7 @@
                     </div>
                     <div class="center-box">
                         <div class="price">
-                            <div class="price-from-left" >
+                            <div class="price-from-left">
                                 <label for="standard-select">ช่วงราคา (จาก)</label>
                                 <div class="select">
                                     <select class="left-select">
@@ -502,51 +502,51 @@
                         </div>
 
                         <div class="sort-from">
-                                <label for="standard-select" style="color:white; font-size:13px">เรียงลำดับ</label>
-                                <div class="select">
-                                    <select class="sort-select">
-                                        <option value="Option 1">จากน้อยไปมาก</option>
-                                        <option value="Option 2">Option 2</option>
-                                        <option value="Option 3">Option 3</option>
-                                        <option value="Option 4">Option 4</option>
-                                        <option value="Option 5">Option 5</option>
-                                    </select>
-                                </div>
+                            <label for="standard-select" style="color:white; font-size:16px">เรียงลำดับ</label>
+                            <div class="select">
+                                <select class="sort-select">
+                                    <option value="Option 1">จากน้อยไปมาก</option>
+                                    <option value="Option 2">Option 2</option>
+                                    <option value="Option 3">Option 3</option>
+                                    <option value="Option 4">Option 4</option>
+                                    <option value="Option 5">Option 5</option>
+                                </select>
                             </div>
-                            <div class="category-from">
-                                <label for="standard-select" style="color:white; font-size:13px">หมวดหมู่เบอร์</label>
-                                <div class="select">
-                                    <select class="category-select">
-                                        <option value="Option 1">เบอร์ทั้งหมด</option>
-                                        <option value="Option 2">Option 2</option>
-                                        <option value="Option 3">Option 3</option>
-                                        <option value="Option 4">Option 4</option>
-                                        <option value="Option 5">Option 5</option>
-                                    </select>
-                                </div>
+                        </div>
+                        <div class="category-from">
+                            <label for="standard-select" style="color:white; font-size:16px">หมวดหมู่เบอร์</label>
+                            <div class="select">
+                                <select class="category-select">
+                                    <option value="Option 1">เบอร์ทั้งหมด</option>
+                                    <option value="Option 2">Option 2</option>
+                                    <option value="Option 3">Option 3</option>
+                                    <option value="Option 4">Option 4</option>
+                                    <option value="Option 5">Option 5</option>
+                                </select>
                             </div>
-                         <div class="sum-from">
-                                <label for="standard-select" style="color:white; font-size:13px">ผลรวม</label>
-                                <div class="select">
-                                    <select class="sum-select">
-                                        <option value="Option 1">ผลรวม</option>
-                                        <option value="Option 2">Option 2</option>
-                                        <option value="Option 3">Option 3</option>
-                                        <option value="Option 4">Option 4</option>
-                                        <option value="Option 5">Option 5</option>
-                                    </select>
-                                </div>
+                        </div>
+                        <div class="sum-from">
+                            <label for="standard-select" style="color:white; font-size:16px">ผลรวม</label>
+                            <div class="select">
+                                <select class="sum-select">
+                                    <option value="Option 1">ผลรวม</option>
+                                    <option value="Option 2">Option 2</option>
+                                    <option value="Option 3">Option 3</option>
+                                    <option value="Option 4">Option 4</option>
+                                    <option value="Option 5">Option 5</option>
+                                </select>
                             </div>
+                        </div>
                         <div class="network-from">
-                                <label for="standard-select" style="color:white; font-size:13px">เครือข่าย</label>
-                                <div class="select">
-                                    <select class="network-select">
-                                        <option value="Option 1">TRUE</option>
-                                        <option value="Option 2">D-tac</option>
-                                        <option value="Option 3">AIS</option>
-                                    </select>
-                                </div>
+                            <label for="standard-select" style="color:white; font-size:16px">เครือข่าย</label>
+                            <div class="select">
+                                <select class="network-select">
+                                    <option value="Option 1">TRUE</option>
+                                    <option value="Option 2">D-tac</option>
+                                    <option value="Option 3">AIS</option>
+                                </select>
                             </div>
+                        </div>
                         <div class="favorite-d">
                             <label>ตัวเลขที่ไม่ชอบ</label><br />
                             <div class="button-num">
@@ -564,15 +564,112 @@
                         </div>
                     </div>
                     <div class="buttom-box">
-                        <div class="">
-                            1
-                        </div>
-                        <div class="">
-                            2
-                        </div>
-                        <div class="">
-                            3
-                        </div>
+                        
+                            <div class="pic">
+                                <span>เสริมดวงด้าน</span>
+                                <div class="box-luck">
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/1.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/2.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/3.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/4.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/5.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/6.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/7.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/8.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/9.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/10.png" alt=""></figure>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pic">
+                                <span>หมวดหมู่เบอร์</span>
+                                <!-- <div class="box-luck">
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/1.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/2.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/3.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/4.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/5.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/6.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/7.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/8.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/9.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/11.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/12.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/1.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/14.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/14.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/1.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/12.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/3.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/5.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/6.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/1.png" alt=""></figure>
+                                    </div>
+                                    <div class="luck-pic">
+                                        <figure><img src="img/luck/9.png" alt=""></figure>
+                                    </div>
+                                </div> -->
+                            </div>
+                        
                     </div>
                 </div>
                 <div class="button-form">
