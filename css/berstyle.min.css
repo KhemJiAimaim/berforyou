@@ -549,7 +549,6 @@ nav .topnav .group-mobile-menu .hamberger i {
     background-color: #43251B;
     margin-bottom: 10px;
     border-radius: 10px;
-    
 }
 
 @media screen and (min-width: 868px) {
@@ -698,7 +697,7 @@ nav .topnav .group-mobile-menu .hamberger i {
   .search-box .grid-container .buttom-box{
     display: grid;
     width: 100%;
-    grid-template-columns: 32% 50% ;
+    grid-template-columns: repeat(2,1fr) ;
     gap: 20px;
     padding: 20px;
   }
