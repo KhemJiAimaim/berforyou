@@ -732,7 +732,7 @@ nav .topnav .group-mobile-menu .hamberger i {
     display: block;
   }
   .luck-pic.active .check-icon {
-    opacity: 0.5;
+    opacity: 1;
   }
   /* .check-icon.active {
     opacity: 1;
@@ -765,6 +765,7 @@ nav .topnav .group-mobile-menu .hamberger i {
     margin-top: 10px;
     cursor: pointer;
     display: block;
+    border: 1px solid #fff;
 }
 .luck-pic:hover{
     opacity: 0.5;
@@ -784,6 +785,7 @@ nav .topnav .group-mobile-menu .hamberger i {
     margin-top: 10px;
     cursor: pointer;
     display: block;
+    border: 1px solid #fff;
 }
   .search-box .grid-container .top-box{
     padding:20px;

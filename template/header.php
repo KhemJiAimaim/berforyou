@@ -2,7 +2,7 @@
     <nav>
         <div class="topnav">
             <div class="logo-nav">
-                <figure><a href="/home"><img src="img/logo/logo white-02.png" alt=""></a></figure>
+                <figure><a href="home"><img src="img/logo/logo white-02.png" alt=""></a></figure>
             </div>
 
             <!-- เมนูปกติ -->
@@ -228,9 +228,11 @@
         </div>
     </nav>
 
-    <div class="slider owl-carousel">
-        <figure><img src="img/Rectangle 7.png" alt=""></figure>
-    </div>
+    
+        <div class="slider owl-carousel">
+            <figure><img src="img/Rectangle 7.png" alt=""></figure>
+        </div>
+   
 
 
 
@@ -807,16 +809,15 @@
 
     var luckPics = document.querySelectorAll('.luck-pic');
 
-luckPics.forEach(function (pic) {
-  pic.addEventListener('click', function () {
-    if (this.classList.contains('active')) {
-      this.style.opacity = ""; // เอาค่า style opacity ออกเพื่อให้กลับมาใช้ค่าจาก CSS
-      this.classList.remove('active');
-    } else {
-      this.style.opacity = "0.5";
-      this.classList.add('active');
-    }
-  });
-});
-
+    luckPics.forEach(function(pic) {
+        pic.addEventListener('click', function() {
+            if (this.classList.contains('active')) {
+                this.style.opacity = ""; // เอาค่า style opacity ออกเพื่อให้กลับมาใช้ค่าจาก CSS
+                this.classList.remove('active');
+            } else {
+                this.style.opacity = "0.5";
+                this.classList.add('active');
+            }
+        });
+    });
 </script>

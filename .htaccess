@@ -38,11 +38,11 @@ Header set Expires "Mon, 29 Oct 1923 20:30:00 GMT"
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /
+RewriteBase /berforyou/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
+RewriteRule . /berforyou/index.php [L]
 </IfModule>
 
 # END WordPress

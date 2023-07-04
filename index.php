@@ -13,12 +13,12 @@ $slug = urldecode($url[2]);
 <body>
 
     <?php include('template/header.php'); ?>
-
+    
     <section>
         <div class="container content">
             <!-- เมนูข้าง -->
             <?php include('template/sidebar.php'); ?>
-
+            
             <!-- ส่วนเนื้อหา -->
             <?php
             switch ($slug) {
@@ -71,6 +71,17 @@ $slug = urldecode($url[2]);
             ?>
 
         </div>
+
+
+
+
+
+
+
+
+
+
+
 
         <!-- รีวิว -->
         <div class="review">
@@ -131,6 +142,9 @@ $slug = urldecode($url[2]);
                         </div>
                     </figure>
                 </div> -->
+
+
+
                 <div class="flex-container">
                     <div class="article-img">
                         <a href="#">
