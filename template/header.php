@@ -228,11 +228,17 @@
         </div>
     </nav>
 
-    
+
+    <?php if ($slug === 'home') { ?>
         <div class="slider owl-carousel">
             <figure><img src="img/Rectangle 7.png" alt=""></figure>
         </div>
-   
+    <?php } ?>
+
+    <!-- <div class="slider owl-carousel">
+            <figure><img src="img/Rectangle 7.png" alt=""></figure>
+        </div> -->
+
 
 
 
