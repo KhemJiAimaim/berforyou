@@ -705,7 +705,7 @@ nav .topnav .group-mobile-menu .hamberger i {
 
   .buttom-box .pic .box-luck {
     display:flex;
-    justify-content: center;
+    justify-content: left;
     width:100%;
     /* background-color: #fff; */
     border-radius: 5px;
@@ -723,6 +723,27 @@ nav .topnav .group-mobile-menu .hamberger i {
     /* margin-left: 20px; */
     /* padding: 20px; */
 }
+
+.luck-pic {
+    position: relative;
+  }
+  
+  .luck-pic.active .check-icon {
+    display: block;
+  }
+
+  
+  .check-icon {
+    display: none;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    width: 10px;
+    height: 10px;
+    background-image: url(../img/icon-check.png) !important; /* เปลี่ยนเป็น URL ของไอคอน checkbox ที่คุณต้องการใช้ */
+    background-size: cover;
+  }
+  
 .buttom-box span{
     color: #fff;
     font-size: 16px;
@@ -737,7 +758,16 @@ nav .topnav .group-mobile-menu .hamberger i {
     padding: 5px;
     margin-top: 10px;
     cursor: pointer;
+    display: block;
 }
+.luck-pic:hover{
+    opacity: 0.5;
+}
+
+.luck-pic {
+    opacity: 1; /* กำหนดค่าเริ่มต้นเป็น 1 (ไม่โปร่งใส) */
+    transition: opacity 0.3s ease; /* ใช้เพื่อทำการเปลี่ยนค่า opacity ให้เป็นเวลา 0.3 วินาที */
+  }
 
 .buttom-box .box-luck-category .luck-pic button{
     width: 45px;
@@ -747,6 +777,7 @@ nav .topnav .group-mobile-menu .hamberger i {
     padding: 5px;
     margin-top: 10px;
     cursor: pointer;
+    display: block;
 }
   .search-box .grid-container .top-box{
     padding:20px;
