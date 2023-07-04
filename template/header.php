@@ -807,17 +807,16 @@
 
     var luckPics = document.querySelectorAll('.luck-pic');
 
-    luckPics.forEach(function(pic) {
-        pic.addEventListener('click', function() {
-            if (this.classList.contains('active')) {
-                this.style.opacity = ""; // เอาค่า style opacity ออกเพื่อให้กลับมาใช้ค่าจาก CSS
-                this.classList.remove('active');
-                this.classList.toggle('active');
-            } else {
-                this.style.opacity = "0.5";
-                this.classList.add('active');
-            }
-        });
-    });
+luckPics.forEach(function (pic) {
+  pic.addEventListener('click', function () {
+    if (this.classList.contains('active')) {
+      this.style.opacity = ""; // เอาค่า style opacity ออกเพื่อให้กลับมาใช้ค่าจาก CSS
+      this.classList.remove('active');
+    } else {
+      this.style.opacity = "0.5";
+      this.classList.add('active');
+    }
+  });
+});
 
 </script>

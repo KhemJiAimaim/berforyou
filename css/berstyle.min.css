@@ -731,8 +731,12 @@ nav .topnav .group-mobile-menu .hamberger i {
   .luck-pic.active .check-icon {
     display: block;
   }
-
-  
+  .luck-pic.active .check-icon {
+    opacity: 0.5;
+  }
+  /* .check-icon.active {
+    opacity: 1;
+  } */
   .check-icon {
     display: none;
     position: absolute;
@@ -742,6 +746,8 @@ nav .topnav .group-mobile-menu .hamberger i {
     height: 10px;
     background-image: url(../img/icon-check.png) !important; /* เปลี่ยนเป็น URL ของไอคอน checkbox ที่คุณต้องการใช้ */
     background-size: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease;
   }
   
 .buttom-box span{
