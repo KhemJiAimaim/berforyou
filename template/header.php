@@ -1,6 +1,3 @@
-<?php
-echo ($slug);
- ?>
 <header>
     <nav>
         <div class="topnav">

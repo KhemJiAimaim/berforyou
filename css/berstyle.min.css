@@ -618,7 +618,7 @@ nav .topnav .group-mobile-menu .hamberger i {
     font-size: 16px;
 }
 
-@media screen and (max-width: 1884px) {
+@media screen and (max-width: 1882px) {
     .search-box .grid-container .grid-top {
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -630,6 +630,12 @@ nav .topnav .group-mobile-menu .hamberger i {
         flex-direction: column;
     }
     
+}
+
+@media screen and (max-width: 1522px) {
+    .search-box .grid-container .buttom-box {
+        flex-direction: column;
+    }
 }
 
 .center-box .price{
