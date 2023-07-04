@@ -429,145 +429,147 @@
         <section>
             <div class="search-box">
                 <div class="grid-container">
-                    <div class="top-box">
-                        <div class="search-number">
-                            <label>วิเคาระห์เบอร์</label><br />
-                            <input type="number" data-position="0" class="search-box-num" value="0" readonly="readonly">
-                            <input type="tel" data-position="1" class="search-box-num" maxlength="1" placeholder="0">
-                            <input type="tel" data-position="2" class="search-box-num" maxlength="1" placeholder="0">
-                            <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
-                            <input type="tel" data-position="3" class="search-box-num" maxlength="1" placeholder="0">
-                            <input type="tel" data-position="4" class="search-box-num" maxlength="1" placeholder="0">
-                            <input type="tel" data-position="5" class="search-box-num" maxlength="1" placeholder="0">
-                            <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
-                            <input type="tel" data-position="6" class="search-box-num" maxlength="1" placeholder="0">
-                            <input type="tel" data-position="7" class="search-box-num" maxlength="1" placeholder="0">
-                            <input type="tel" data-position="8" class="search-box-num" maxlength="1" placeholder="0">
-                            <input type="tel" data-position="9" class="search-box-num" maxlength="1" placeholder="0">
-                            <button>วิเคาระห์เบอร์</button>
-                        </div>
-                        <div class="search-num">
-                            <label>ค้นหาเบอร์</label><br />
-                            <input type="number" data-position="0" class="search-box-num" value="0" readonly="readonly">
-                            <input type="tel" data-position="1" class="search-box-num" maxlength="1" placeholder="0">
-                            <input type="tel" data-position="2" class="search-box-num" maxlength="1" placeholder="0">
-                            <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
-                            <input type="tel" data-position="3" class="search-box-num" maxlength="1" placeholder="0">
-                            <input type="tel" data-position="4" class="search-box-num" maxlength="1" placeholder="0">
-                            <input type="tel" data-position="5" class="search-box-num" maxlength="1" placeholder="0">
-                            <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
-                            <input type="tel" data-position="6" class="search-box-num" maxlength="1" placeholder="0">
-                            <input type="tel" data-position="7" class="search-box-num" maxlength="1" placeholder="0">
-                            <input type="tel" data-position="8" class="search-box-num" maxlength="1" placeholder="0">
-                            <input type="tel" data-position="9" class="search-box-num" maxlength="1" placeholder="0">
-                        </div>
-                        <div class="like-number">
-                            <label for="">ชุดตัวเลขที่ชอบ</label><br />
-                            <input type="number" class="search-like-numbe" placeholder="เช่น 28,40,59">
-                        </div>
-                        <div class="favorite">
-                            <label>ตัวเลขที่ชอบ</label><br />
-                            <div class="button-num">
-                                <button id="button-0" data-favnum="0" class="btn">0</button>
-                                <button id="button-1" data-favnum="1" class="btn">1</button>
-                                <button id="button-2" data-favnum="2" class="btn">2</button>
-                                <button id="button-3" data-favnum="3" class="btn">3</button>
-                                <button id="button-4" data-favnum="4" class="btn">4</button>
-                                <button id="button-5" data-favnum="5" class="btn">5</button>
-                                <button id="button-6" data-favnum="6" class="btn">6</button>
-                                <button id="button-7" data-favnum="7" class="btn">7</button>
-                                <button id="button-8" data-favnum="8" class="btn">8</button>
-                                <button id="button-9" data-favnum="9" class="btn">9</button>
+                    <div class="grid-top">
+                        <div class="top-box">
+                            <div class="search-number">
+                                <label>วิเคาระห์เบอร์</label><br />
+                                <input type="number" data-position="0" class="search-box-num" value="0" readonly="readonly">
+                                <input type="tel" data-position="1" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="2" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
+                                <input type="tel" data-position="3" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="4" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="5" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
+                                <input type="tel" data-position="6" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="7" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="8" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="9" class="search-box-num" maxlength="1" placeholder="0">
+                                <button>วิเคาระห์เบอร์</button>
                             </div>
-                        </div>
-                    </div>
-                    <div class="center-box">
-                        <div class="price">
-                            <div class="price-from-left">
-                                <label for="standard-select">ช่วงราคา (จาก)</label>
-                                <div class="select">
-                                    <select class="left-select">
-                                        <option value="Option 1">100 บาท</option>
-                                        <option value="Option 2">Option 2</option>
-                                        <option value="Option 3">Option 3</option>
-                                        <option value="Option 4">Option 4</option>
-                                        <option value="Option 5">Option 5</option>
-                                    </select>
-                                </div>
+                            <div class="search-num">
+                                <label>ค้นหาเบอร์</label><br />
+                                <input type="number" data-position="0" class="search-box-num" value="0" readonly="readonly">
+                                <input type="tel" data-position="1" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="2" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
+                                <input type="tel" data-position="3" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="4" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="5" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
+                                <input type="tel" data-position="6" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="7" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="8" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="9" class="search-box-num" maxlength="1" placeholder="0">
                             </div>
-                            <div class="price-from-right">
-                                <label for="standard-select">ช่วงราคา (ถึง)</label>
-                                <div class="select">
-                                    <select class="right-select">
-                                        <option value="Option 1">1,000 บาท</option>
-                                        <option value="Option 2">Option 2</option>
-                                        <option value="Option 3">Option 3</option>
-                                        <option value="Option 4">Option 4</option>
-                                        <option value="Option 5">Option 5</option>
-                                    </select>
+                            <div class="like-number">
+                                <label for="">ชุดตัวเลขที่ชอบ</label><br />
+                                <input type="number" class="search-like-numbe" placeholder="เช่น 28,40,59">
+                            </div>
+                            <div class="favorite">
+                                <label>ตัวเลขที่ชอบ</label><br />
+                                <div class="button-num">
+                                    <button id="button-0" data-favnum="0" class="btn">0</button>
+                                    <button id="button-1" data-favnum="1" class="btn">1</button>
+                                    <button id="button-2" data-favnum="2" class="btn">2</button>
+                                    <button id="button-3" data-favnum="3" class="btn">3</button>
+                                    <button id="button-4" data-favnum="4" class="btn">4</button>
+                                    <button id="button-5" data-favnum="5" class="btn">5</button>
+                                    <button id="button-6" data-favnum="6" class="btn">6</button>
+                                    <button id="button-7" data-favnum="7" class="btn">7</button>
+                                    <button id="button-8" data-favnum="8" class="btn">8</button>
+                                    <button id="button-9" data-favnum="9" class="btn">9</button>
                                 </div>
                             </div>
                         </div>
+                        <div class="center-box">
+                            <div class="price">
+                                <div class="price-from-left">
+                                    <label for="standard-select">ช่วงราคา (จาก)</label>
+                                    <div class="select">
+                                        <select class="left-select">
+                                            <option value="Option 1">100 บาท</option>
+                                            <option value="Option 2">Option 2</option>
+                                            <option value="Option 3">Option 3</option>
+                                            <option value="Option 4">Option 4</option>
+                                            <option value="Option 5">Option 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="price-from-right">
+                                    <label for="standard-select">ช่วงราคา (ถึง)</label>
+                                    <div class="select">
+                                        <select class="right-select">
+                                            <option value="Option 1">1,000 บาท</option>
+                                            <option value="Option 2">Option 2</option>
+                                            <option value="Option 3">Option 3</option>
+                                            <option value="Option 4">Option 4</option>
+                                            <option value="Option 5">Option 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
 
-                        <div class="sort-from">
-                            <label for="standard-select" style="color:white; font-size:16px">เรียงลำดับ</label>
-                            <div class="select">
-                                <select class="sort-select">
-                                    <option value="Option 1">จากน้อยไปมาก</option>
-                                    <option value="Option 2">Option 2</option>
-                                    <option value="Option 3">Option 3</option>
-                                    <option value="Option 4">Option 4</option>
-                                    <option value="Option 5">Option 5</option>
-                                </select>
+                            <div class="sort-from">
+                                <label for="standard-select" style="color:white; font-size:16px">เรียงลำดับ</label>
+                                <div class="select">
+                                    <select class="sort-select">
+                                        <option value="Option 1">จากน้อยไปมาก</option>
+                                        <option value="Option 2">Option 2</option>
+                                        <option value="Option 3">Option 3</option>
+                                        <option value="Option 4">Option 4</option>
+                                        <option value="Option 5">Option 5</option>
+                                    </select>
+                                </div>
                             </div>
-                        </div>
-                        <div class="category-from">
-                            <label for="standard-select" style="color:white; font-size:16px">หมวดหมู่เบอร์</label>
-                            <div class="select">
-                                <select class="category-select">
-                                    <option value="Option 1">เบอร์ทั้งหมด</option>
-                                    <option value="Option 2">Option 2</option>
-                                    <option value="Option 3">Option 3</option>
-                                    <option value="Option 4">Option 4</option>
-                                    <option value="Option 5">Option 5</option>
-                                </select>
+                            <div class="category-from">
+                                <label for="standard-select" style="color:white; font-size:16px">หมวดหมู่เบอร์</label>
+                                <div class="select">
+                                    <select class="category-select">
+                                        <option value="Option 1">เบอร์ทั้งหมด</option>
+                                        <option value="Option 2">Option 2</option>
+                                        <option value="Option 3">Option 3</option>
+                                        <option value="Option 4">Option 4</option>
+                                        <option value="Option 5">Option 5</option>
+                                    </select>
+                                </div>
                             </div>
-                        </div>
-                        <div class="sum-from">
-                            <label for="standard-select" style="color:white; font-size:16px">ผลรวม</label>
-                            <div class="select">
-                                <select class="sum-select">
-                                    <option value="Option 1">ผลรวม</option>
-                                    <option value="Option 2">Option 2</option>
-                                    <option value="Option 3">Option 3</option>
-                                    <option value="Option 4">Option 4</option>
-                                    <option value="Option 5">Option 5</option>
-                                </select>
+                            <div class="sum-from">
+                                <label for="standard-select" style="color:white; font-size:16px">ผลรวม</label>
+                                <div class="select">
+                                    <select class="sum-select">
+                                        <option value="Option 1">ผลรวม</option>
+                                        <option value="Option 2">Option 2</option>
+                                        <option value="Option 3">Option 3</option>
+                                        <option value="Option 4">Option 4</option>
+                                        <option value="Option 5">Option 5</option>
+                                    </select>
+                                </div>
                             </div>
-                        </div>
-                        <div class="network-from">
-                            <label for="standard-select" style="color:white; font-size:16px">เครือข่าย</label>
-                            <div class="select">
-                                <select class="network-select">
-                                    <option value="Option 1">TRUE</option>
-                                    <option value="Option 2">D-tac</option>
-                                    <option value="Option 3">AIS</option>
-                                </select>
+                            <div class="network-from">
+                                <label for="standard-select" style="color:white; font-size:16px">เครือข่าย</label>
+                                <div class="select">
+                                    <select class="network-select">
+                                        <option value="Option 1">TRUE</option>
+                                        <option value="Option 2">D-tac</option>
+                                        <option value="Option 3">AIS</option>
+                                    </select>
+                                </div>
                             </div>
-                        </div>
-                        <div class="favorite-d">
-                            <label>ตัวเลขที่ไม่ชอบ</label><br />
-                            <div class="button-num">
-                                <button id="button-0" data-favnum="0" class="btn">0</button>
-                                <button id="button-1" data-favnum="1" class="btn">1</button>
-                                <button id="button-2" data-favnum="2" class="btn">2</button>
-                                <button id="button-3" data-favnum="3" class="btn">3</button>
-                                <button id="button-4" data-favnum="4" class="btn">4</button>
-                                <button id="button-5" data-favnum="5" class="btn">5</button>
-                                <button id="button-6" data-favnum="6" class="btn">6</button>
-                                <button id="button-7" data-favnum="7" class="btn">7</button>
-                                <button id="button-8" data-favnum="8" class="btn">8</button>
-                                <button id="button-9" data-favnum="9" class="btn">9</button>
+                            <div class="favorite-d">
+                                <label>ตัวเลขที่ไม่ชอบ</label><br />
+                                <div class="button-num">
+                                    <button id="button-0" data-favnum="0" class="btn">0</button>
+                                    <button id="button-1" data-favnum="1" class="btn">1</button>
+                                    <button id="button-2" data-favnum="2" class="btn">2</button>
+                                    <button id="button-3" data-favnum="3" class="btn">3</button>
+                                    <button id="button-4" data-favnum="4" class="btn">4</button>
+                                    <button id="button-5" data-favnum="5" class="btn">5</button>
+                                    <button id="button-6" data-favnum="6" class="btn">6</button>
+                                    <button id="button-7" data-favnum="7" class="btn">7</button>
+                                    <button id="button-8" data-favnum="8" class="btn">8</button>
+                                    <button id="button-9" data-favnum="9" class="btn">9</button>
+                                </div>
                             </div>
                         </div>
                     </div>
