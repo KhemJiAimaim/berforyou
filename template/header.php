@@ -564,112 +564,181 @@
                         </div>
                     </div>
                     <div class="buttom-box">
-                        
-                            <div class="pic">
-                                <span>เสริมดวงด้าน</span>
-                                <div class="box-luck">
-                                    <div class="luck-pic">
+                        <div class="pic">
+                            <span>เสริมดวงด้าน</span>
+                            <div class="box-luck">
+                                <div class="luck-pic">
+                                    <button>
                                         <figure><img src="img/luck/1.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
                                         <figure><img src="img/luck/2.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
                                         <figure><img src="img/luck/3.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
                                         <figure><img src="img/luck/4.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
                                         <figure><img src="img/luck/5.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
                                         <figure><img src="img/luck/6.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
                                         <figure><img src="img/luck/7.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
                                         <figure><img src="img/luck/8.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
                                         <figure><img src="img/luck/9.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
                                         <figure><img src="img/luck/10.png" alt=""></figure>
-                                    </div>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="pic-category">
+                            <span>หมวดหมู่เบอร์</span>
+                            <div class="box-luck-category">
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/1.png" alt=""></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/2.png" alt=""></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/3.png" alt=""></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/4.png" alt=""></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/5.png" alt=""></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/6.png" alt=""></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/7.png" alt=""></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/8.png" alt=""></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/9.png" alt=""></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/10.png" alt=""></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/6.png" alt=""></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/7.png" alt=""></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/8.png" alt=""></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/9.png" alt=""></figure>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="box-luck-category">
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/1.png" alt="" class="pic-img"></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/2.png" alt="" class="pic-img"></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/3.png" alt="" class="pic-img"></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/4.png" alt="" class="pic-img"></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/5.png" alt="" class="pic-img"></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/6.png" alt="" class="pic-img"></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/7.png" alt="" class="pic-img"></figure>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/8.png" alt="" class="pic-img"></figure>
+                                </button>
                                 </div>
                             </div>
 
-                            <div class="pic">
-                                <span>หมวดหมู่เบอร์</span>
-                                <!-- <div class="box-luck">
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/1.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/2.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/3.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/4.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/5.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/6.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/7.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/8.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/9.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/11.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/12.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/1.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/14.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/14.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/1.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/12.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/3.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/5.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/6.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/1.png" alt=""></figure>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <figure><img src="img/luck/9.png" alt=""></figure>
-                                    </div>
-                                </div> -->
-                            </div>
-                        
+                        </div>
                     </div>
                 </div>
                 <div class="button-form">
@@ -700,6 +769,45 @@
             // ถ้าปุ่มมีสีเขียวอยู่แล้ว ให้เอาสีเขียวออกเพื่อกลับมาสีปกติ
             else {
                 button.classList.remove('active');
+            }
+        });
+    });
+
+    // ดึงรูปภาพทั้งหมดที่มีคลาส "pic-img"
+    const images = document.querySelectorAll('.pic-img');
+
+    // วนลูปผ่านรูปภาพแต่ละรูป
+    images.forEach(image => {
+        // เพิ่มการฟังก์ชัน click สำหรับรูปภาพแต่ละรูป
+        image.addEventListener('click', function() {
+            // ตรวจสอบว่ารูปภาพถูกคลิกหรือไม่
+            if (!this.classList.contains('active')) {
+                // ลบคลาส "active" จากรูปภาพอื่น ๆ
+                images.forEach(img => img.classList.remove('active'));
+
+                // ตั้งค่า opacity เป็น 0.2
+                this.style.opacity = '0.2';
+
+                // สร้าง element สำหรับรูปภาพในมุมบนด้านขวา
+                const checkImage = document.createElement('img');
+                checkImage.src = 'img/icon-check.png';
+                checkImage.alt = '';
+                checkImage.classList.add('check-image');
+
+                // เพิ่มรูปภาพในมุมบนด้านขวา
+                const container = document.querySelector('.box-luck-category');
+                container.appendChild(checkImage);
+
+                // เพิ่มคลาส "active" เพื่อระบุว่ารูปภาพนี้เป็นรูปภาพที่ถูกเลือก
+                this.classList.add('active');
+            } else {
+                // ถ้ารูปภาพถูกคลิกอีกครั้ง ให้เอาออกคลาส "active" และกลับค่า opacity เป็น 1
+                this.classList.remove('active');
+                this.style.opacity = '1';
+
+                // ลบรูปภาพที่อยู่ในมุมบนด้านขวาออก
+                const checkImage = document.querySelector('.check-image');
+                checkImage.remove();
             }
         });
     });

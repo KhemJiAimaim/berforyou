@@ -697,17 +697,30 @@ nav .topnav .group-mobile-menu .hamberger i {
 
   .search-box .grid-container .buttom-box{
     display: grid;
+    width: 100%;
     grid-template-columns: 32% 50% ;
-    gap: 40px;
+    gap: 20px;
     padding: 20px;
   }
 
   .buttom-box .pic .box-luck {
     display:flex;
     justify-content: center;
+    width:100%;
     /* background-color: #fff; */
     border-radius: 5px;
     gap: 10px;
+    /* padding: 20px; */
+}
+.buttom-box .pic-category .box-luck-category {
+    display:flex;
+    justify-content: left;
+    /* flex-direction: column; */
+    width:100%;
+    /* background-color: #fff; */
+    border-radius: 5px;
+    gap: 10px;
+    /* margin-left: 20px; */
     /* padding: 20px; */
 }
 .buttom-box span{
@@ -715,13 +728,25 @@ nav .topnav .group-mobile-menu .hamberger i {
     font-size: 16px;
     font-weight: 700;
 }
-.buttom-box .box-luck .luck-pic{
-    width: 150px;
-    height: 40px;
+
+.buttom-box .box-luck .luck-pic button  {
+    width: 45px;
+    height: 45px;
     background-color: #fff;
     border-radius: 5px;
     padding: 5px;
     margin-top: 10px;
+    cursor: pointer;
+}
+
+.buttom-box .box-luck-category .luck-pic button{
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
 }
   .search-box .grid-container .top-box{
     padding:20px;
