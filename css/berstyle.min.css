@@ -195,8 +195,8 @@ nav .topnav .nav-menu .cart .num-shop-cart {
     position: absolute;
     top: -10px;
     right: -15px;
-    /* background: gold; */
-    /* border-radius: 20px; */
+    /* background: gold;
+    border-radius: 20px; */
     width: 80%;
     text-align: center;
     padding-left: 5px;
@@ -486,11 +486,7 @@ nav .topnav .group-mobile-menu .hamberger i {
 .slider .owl-stage-outer {
     z-index: 3
 }
-.bandner-nav{
-    padding-top:78px;
-    width: 100%;
-    height: 100%;
-}
+
 
 .slider .owl-nav {
     display: -webkit-box !important;
