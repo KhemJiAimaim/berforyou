@@ -1,5 +1,17 @@
 <div class="fortube-ber">
     <div class="fortune-box">
+        <div class="">
+qqqq
+        </div>
+        <div class="">
+
+        </div>
+    </div>
+ 
+</div>
+
+
+   <!-- <div class="fortune-box">
         <div class="box">
             <h1>ทำนายเบอร์</h1>
             <div class="input">
@@ -271,5 +283,4 @@
                 </p>
             </div>
         </div>
-    </div> 
-</div>
+    </div>  -->

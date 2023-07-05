@@ -462,20 +462,22 @@
                         <div class="grid-top">
                             <div class="top-box">
                                 <div class="search-number">
-                                    <label>วิเคาระห์เบอร์</label><br />
-                                    <input type="number" data-position="0" class="search-box-num" value="0" readonly="readonly">
-                                    <input type="tel" data-position="1" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="2" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
-                                    <input type="tel" data-position="3" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="4" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="5" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
-                                    <input type="tel" data-position="6" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="7" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="8" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="9" class="search-box-num" maxlength="1" placeholder="0">
-                                    <button>วิเคาระห์เบอร์</button>
+                                    <label>วิเคาระห์เบอร์</label>
+                                    <div class="analyze-number">
+                                        <input type="number" data-position="0" class="search-box-num" value="0" readonly="readonly">
+                                        <input type="tel" data-position="1" class="search-box-num" maxlength="1" placeholder="0">
+                                        <input type="tel" data-position="2" class="search-box-num" maxlength="1" placeholder="0">
+                                        <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
+                                        <input type="tel" data-position="3" class="search-box-num" maxlength="1" placeholder="0">
+                                        <input type="tel" data-position="4" class="search-box-num" maxlength="1" placeholder="0">
+                                        <input type="tel" data-position="5" class="search-box-num" maxlength="1" placeholder="0">
+                                        <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
+                                        <input type="tel" data-position="6" class="search-box-num" maxlength="1" placeholder="0">
+                                        <input type="tel" data-position="7" class="search-box-num" maxlength="1" placeholder="0">
+                                        <input type="tel" data-position="8" class="search-box-num" maxlength="1" placeholder="0">
+                                        <input type="tel" data-position="9" class="search-box-num" maxlength="1" placeholder="0">
+                                        <button>วิเคาระห์เบอร์</button>
+                                    </div>
                                 </div>
                                 <div class="search-num">
                                     <label>ค้นหาเบอร์</label><br />
@@ -758,8 +760,6 @@
                                             <span class="check-icon"></span>
                                         </button>
                                     </div>
-                                </div>
-                                <div class="box-luck-category">
                                     <div class="luck-pic">
                                         <button>
                                             <figure><img src="img/luck/1.png" alt="" class="pic-img"></figure>
@@ -809,7 +809,6 @@
                                         </button>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
