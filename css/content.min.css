@@ -11,6 +11,7 @@
     background: linear-gradient(#c5a04f, #8e5415);
     padding: 1%;
     border-radius: 10px 60px 10px 10px
+    
 }
 
 .about-content .head-text h1,
@@ -179,9 +180,11 @@
     text-align: center;
     margin: 3% 0;
     background: -webkit-gradient(linear, left top, left bottom, from(#c5a04f), to(#8e5415));
-    background: linear-gradient(#c5a04f, #8e5415);
+    /* background: linear-gradient(#c5a04f, #8e5415); */
+    background: linear-gradient(#8D7045, #773A2C);
     padding: 1%;
-    border-radius: 10px 60px 10px 10px
+    /* border-radius: 10px 60px 10px 10px */
+    border-radius:10px;
 }
 
 .howtobuy .head-text h1,
@@ -498,5 +501,22 @@
         top: 10%
     }
 }
-
+.pay-ban-bank{
+    width:100%;
+    margin-top:30px;
+}
+.pay-ban-bank img{
+  width:100%;
+}
+.pay-text-lis{
+    width:100%;
+}
+.pay-text-lis li{
+    list-style:decimal;
+    font-size:16px;
+}
+.pay-text-title{
+    font-size: 20px;
+    font-weight: 700;
+}
 /*# sourceMappingURL=content.min.css.map */
