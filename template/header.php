@@ -1,7 +1,3 @@
-<!-- <?php
-        echo ($slug);
-        // exit();
-        ?> -->
 <header>
     <nav>
         <div class="topnav">
@@ -28,16 +24,15 @@
                 <li><a href="home">หน้าแรก</a></li>
                 <li><a href="fortune-ber">ทำนายเบอร์</a></li>
                 <li><a href="ber-mean">ค้นหาเบอร์จากความหมาย</a></li>
-                <li><a href="howtobuy">วิธีการสั่งซื้อ</a></li>
-                <li><a href="delivery-check">เช็คการจัดส่งสินค้า</a></li>
                 <li><a href="article">บทความ</a></li>
+                <li><a href="howtobuy">วิธีการสั่งซื้อ</a></li>
                 <li><a href="about">เกี่ยวกับเรา</a></li>
                 <li><a href="contact">ติดต่อเรา</a></li>
                 <li class="menu-cart">
                     <a href="#" class="cart">
                         <img src="img/logo/solar_cart.png" alt="">
                         <div class="num-shop-cart">
-                            <span>99+</span>
+                            <span></span>
                         </div>
                     </a>
 
@@ -233,52 +228,20 @@
         </div>
     </nav>
 
+
     <?php if ($slug === 'home') { ?>
         <div class="slider owl-carousel">
             <figure><img src="img/Rectangle 7.png" alt=""></figure>
         </div>
     <?php } ?>
-    <?php if ($slug === 'fortune-ber') { ?>
-        <figure><img src="img/Rectangle 692.png" alt="" class="bandner-nav"></figure>
-    <?php } ?>
 
-    <?php if ($slug === 'ber-mean') { ?>
-        <figure><img src="img/Rectangle 6999.png" alt="" class="bandner-nav"></figure>
-    <?php } ?>
-
-    <?php if ($slug === 'howtobuy') { ?>
-        <figure><img src="img/Rectangle 69.png" alt="" class="bandner-nav"></figure>
-    <?php } ?>
-
-    <?php if ($slug === 'article') { ?>
-        <figure><img src="img/Rectangle 213.png" alt="" class="bandner-nav"></figure>
-    <?php } ?>
-
-    <?php if ($slug === 'about') { ?>
-        <figure><img src="img/Rectangle 6.png" alt="" class="bandner-nav"></figure>
-    <?php } ?>
-
-    <?php if ($slug === 'contact') { ?>
-        <figure><img src="img/Rectangle 2.png" alt="" class="bandner-nav"></figure>
-    <?php } ?>
-
-    <?php if ($slug === 'delivery-check') { ?>
-        <figure><img src="img/Rectangle 66.png" alt="" class="bandner-nav"></figure>
-    <?php } ?>
-
-
-    <?php if ($slug === 'home') { ?>
-        <div class="container">
-            <div class="text-box">
-                <span>ยินดีต้อนรับเข้าสู่ Berforyou.com ศูนย์รวมจำหน่ายเบอร์สวย เบอร์มงคล เบอร์เสริมดวง
-                    บริการครบเครื่องเรื่องเบอร์ ระบบทำนายเบอร์อัตโนมัติ ระบบค้นหาเบอร์ที่ต้องการ ตรงจุด
-                    ทุกความต้องการ<br />
-                    เสริมการเงิน การงาน ความรัก สุขภาพ โชคลาภ สะดวกสบายโดยการเลือกซื้อและชำระเงินผ่านหน้าเว็บไซต์ได้ทันที
-                    จัดส่งวันต่อวัน รวดเร็วทันใจ เบอร์ทุกเบอร์คุณภาพคัดเกรด มงคลทั้งเว็บ <br />ด้วยประสบการณ์ขายมากกว่า 10
-                    ปี</span>
-            </div>
-            <!-- ค้นหาเบอร์ -->
-            <!-- <section>
+    <div class="container">
+        <div class="text-box">
+            <span>ยินดีต้อนรับเข้าสู่ Berforyou.com ศูนย์รวมจำหน่ายเบอร์สวย เบอร์มงคล เบอร์เสริมดวง บริการครบเครื่องเรื่องเบอร์ ระบบทำนายเบอร์อัตโนมัติ ระบบค้นหาเบอร์ที่ต้องการ ตรงจุด ทุกความต้องการ<br />
+                เสริมการเงิน การงาน ความรัก สุขภาพ โชคลาภ สะดวกสบายโดยการเลือกซื้อและชำระเงินผ่านหน้าเว็บไซต์ได้ทันที จัดส่งวันต่อวัน รวดเร็วทันใจ เบอร์ทุกเบอร์คุณภาพคัดเกรด มงคลทั้งเว็บ <br />ด้วยประสบการณ์ขายมากกว่า 10 ปี</span>
+        </div>
+        <!-- ค้นหาเบอร์ -->
+        <!-- <section>
             <div class="search-box">
                 <h2>ค้นหาเบอร์</h2>
                 <div class="box">
@@ -456,374 +419,374 @@
                 </div>
             </div>
         </section> -->
-            <section>
-                <div class="search-box">
-                    <div class="grid-container">
-                        <div class="grid-top">
-                            <div class="top-box">
-                                <div class="search-number">
-                                    <label>วิเคาระห์เบอร์</label><br />
+        <section>
+            <div class="search-box">
+                <div class="grid-container">
+                    <div class="grid-top">
+                        <div class="top-box">
+                            <div class="search-number">
+                                <label>วิเคาระห์เบอร์</label>
+                                <div class="analyze-number">
                                     <input type="number" data-position="0" class="search-box-num" value="0" readonly="readonly">
                                     <input type="tel" data-position="1" class="search-box-num" maxlength="1" placeholder="0">
                                     <input type="tel" data-position="2" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
+                                    <input type="tel" data-position="2" class="search-box-nums" value="-" disabled>
                                     <input type="tel" data-position="3" class="search-box-num" maxlength="1" placeholder="0">
                                     <input type="tel" data-position="4" class="search-box-num" maxlength="1" placeholder="0">
                                     <input type="tel" data-position="5" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
+                                    <input type="tel" data-position="2" class="search-box-nums" value="-" disabled>
                                     <input type="tel" data-position="6" class="search-box-num" maxlength="1" placeholder="0">
                                     <input type="tel" data-position="7" class="search-box-num" maxlength="1" placeholder="0">
                                     <input type="tel" data-position="8" class="search-box-num" maxlength="1" placeholder="0">
                                     <input type="tel" data-position="9" class="search-box-num" maxlength="1" placeholder="0">
                                     <button>วิเคาระห์เบอร์</button>
                                 </div>
-                                <div class="search-num">
-                                    <label>ค้นหาเบอร์</label><br />
-                                    <input type="number" data-position="0" class="search-box-num" value="0" readonly="readonly">
-                                    <input type="tel" data-position="1" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="2" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
-                                    <input type="tel" data-position="3" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="4" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="5" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
-                                    <input type="tel" data-position="6" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="7" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="8" class="search-box-num" maxlength="1" placeholder="0">
-                                    <input type="tel" data-position="9" class="search-box-num" maxlength="1" placeholder="0">
-                                </div>
-                                <div class="like-number">
-                                    <label for="">ชุดตัวเลขที่ชอบ</label><br />
-                                    <input type="number" class="search-like-numbe" placeholder="เช่น 28,40,59">
-                                </div>
-                                <div class="favorite">
-                                    <label>ตัวเลขที่ชอบ</label><br />
-                                    <div class="button-num">
-                                        <button id="button-0" data-favnum="0" class="btn">0</button>
-                                        <button id="button-1" data-favnum="1" class="btn">1</button>
-                                        <button id="button-2" data-favnum="2" class="btn">2</button>
-                                        <button id="button-3" data-favnum="3" class="btn">3</button>
-                                        <button id="button-4" data-favnum="4" class="btn">4</button>
-                                        <button id="button-5" data-favnum="5" class="btn">5</button>
-                                        <button id="button-6" data-favnum="6" class="btn">6</button>
-                                        <button id="button-7" data-favnum="7" class="btn">7</button>
-                                        <button id="button-8" data-favnum="8" class="btn">8</button>
-                                        <button id="button-9" data-favnum="9" class="btn">9</button>
-                                    </div>
-                                </div>
                             </div>
-                            <div class="center-box">
-                                <div class="price">
-                                    <div class="price-from-left">
-                                        <label for="standard-select">ช่วงราคา (จาก)</label>
-                                        <div class="select">
-                                            <select class="left-select">
-                                                <option value="Option 1">100 บาท</option>
-                                                <option value="Option 2">Option 2</option>
-                                                <option value="Option 3">Option 3</option>
-                                                <option value="Option 4">Option 4</option>
-                                                <option value="Option 5">Option 5</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="price-from-right">
-                                        <label for="standard-select">ช่วงราคา (ถึง)</label>
-                                        <div class="select">
-                                            <select class="right-select">
-                                                <option value="Option 1">1,000 บาท</option>
-                                                <option value="Option 2">Option 2</option>
-                                                <option value="Option 3">Option 3</option>
-                                                <option value="Option 4">Option 4</option>
-                                                <option value="Option 5">Option 5</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="sort-from">
-                                    <label for="standard-select" style="color:white; font-size:16px">เรียงลำดับ</label>
-                                    <div class="select">
-                                        <select class="sort-select">
-                                            <option value="Option 1">จากน้อยไปมาก</option>
-                                            <option value="Option 2">Option 2</option>
-                                            <option value="Option 3">Option 3</option>
-                                            <option value="Option 4">Option 4</option>
-                                            <option value="Option 5">Option 5</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="category-from">
-                                    <label for="standard-select" style="color:white; font-size:16px">หมวดหมู่เบอร์</label>
-                                    <div class="select">
-                                        <select class="category-select">
-                                            <option value="Option 1">เบอร์ทั้งหมด</option>
-                                            <option value="Option 2">Option 2</option>
-                                            <option value="Option 3">Option 3</option>
-                                            <option value="Option 4">Option 4</option>
-                                            <option value="Option 5">Option 5</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="sum-from">
-                                    <label for="standard-select" style="color:white; font-size:16px">ผลรวม</label>
-                                    <div class="select">
-                                        <select class="sum-select">
-                                            <option value="Option 1">ผลรวม</option>
-                                            <option value="Option 2">Option 2</option>
-                                            <option value="Option 3">Option 3</option>
-                                            <option value="Option 4">Option 4</option>
-                                            <option value="Option 5">Option 5</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="network-from">
-                                    <label for="standard-select" style="color:white; font-size:16px">เครือข่าย</label>
-                                    <div class="select">
-                                        <select class="network-select">
-                                            <option value="Option 1">TRUE</option>
-                                            <option value="Option 2">D-tac</option>
-                                            <option value="Option 3">AIS</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="favorite-d">
-                                    <label>ตัวเลขที่ไม่ชอบ</label><br />
-                                    <div class="button-num">
-                                        <button id="button-0" data-favnum="0" class="btn">0</button>
-                                        <button id="button-1" data-favnum="1" class="btn">1</button>
-                                        <button id="button-2" data-favnum="2" class="btn">2</button>
-                                        <button id="button-3" data-favnum="3" class="btn">3</button>
-                                        <button id="button-4" data-favnum="4" class="btn">4</button>
-                                        <button id="button-5" data-favnum="5" class="btn">5</button>
-                                        <button id="button-6" data-favnum="6" class="btn">6</button>
-                                        <button id="button-7" data-favnum="7" class="btn">7</button>
-                                        <button id="button-8" data-favnum="8" class="btn">8</button>
-                                        <button id="button-9" data-favnum="9" class="btn">9</button>
-                                    </div>
+                            <div class="search-num">
+                                <label>ค้นหาเบอร์</label><br />
+                                <input type="number" data-position="0" class="search-box-num" value="0" readonly="readonly">
+                                <input type="tel" data-position="1" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="2" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
+                                <input type="tel" data-position="3" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="4" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="5" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="2" class="search-box-nums" value="-" required disabled>
+                                <input type="tel" data-position="6" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="7" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="8" class="search-box-num" maxlength="1" placeholder="0">
+                                <input type="tel" data-position="9" class="search-box-num" maxlength="1" placeholder="0">
+                            </div>
+                            <div class="like-number">
+                                <label for="">ชุดตัวเลขที่ชอบ</label><br />
+                                <input type="number" class="search-like-numbe" placeholder="เช่น 28,40,59">
+                            </div>
+                            <div class="favorite">
+                                <label>ตัวเลขที่ชอบ</label>
+                                <div class="button-num">
+                                    <button id="button-0" data-favnum="0" class="btn">0</button>
+                                    <button id="button-1" data-favnum="1" class="btn">1</button>
+                                    <button id="button-2" data-favnum="2" class="btn">2</button>
+                                    <button id="button-3" data-favnum="3" class="btn">3</button>
+                                    <button id="button-4" data-favnum="4" class="btn">4</button>
+                                    <button id="button-5" data-favnum="5" class="btn">5</button>
+                                    <button id="button-6" data-favnum="6" class="btn">6</button>
+                                    <button id="button-7" data-favnum="7" class="btn">7</button>
+                                    <button id="button-8" data-favnum="8" class="btn">8</button>
+                                    <button id="button-9" data-favnum="9" class="btn">9</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="buttom-box">
-                            <div class="pic">
-                                <span>เสริมดวงด้าน</span>
-                                <div class="box-luck">
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/1.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
+                        <div class="center-box">
+                            <div class="price">
+                                <div class="price-from-left">
+                                    <label for="standard-select">ช่วงราคา (จาก)</label>
+                                    <div class="select">
+                                        <select class="left-select">
+                                            <option value="Option 1">100 บาท</option>
+                                            <option value="Option 2">Option 2</option>
+                                            <option value="Option 3">Option 3</option>
+                                            <option value="Option 4">Option 4</option>
+                                            <option value="Option 5">Option 5</option>
+                                        </select>
                                     </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/2.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
+                                </div>
+                                <div class="price-from-right">
+                                    <label for="standard-select">ช่วงราคา (ถึง)</label>
+                                    <div class="select">
+                                        <select class="right-select">
+                                            <option value="Option 1">1,000 บาท</option>
+                                            <option value="Option 2">Option 2</option>
+                                            <option value="Option 3">Option 3</option>
+                                            <option value="Option 4">Option 4</option>
+                                            <option value="Option 5">Option 5</option>
+                                        </select>
                                     </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/3.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/4.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/5.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/6.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/7.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/8.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/9.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/10.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-
                                 </div>
                             </div>
 
-                            <div class="pic-category">
-                                <span>หมวดหมู่เบอร์</span>
-                                <div class="box-luck-category">
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/1.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/2.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/3.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/4.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/5.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/6.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/7.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/8.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/9.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/10.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/6.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/7.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/8.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/9.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
+                            <div class="sort-from">
+                                <label for="standard-select" style="color:white; font-size:16px">เรียงลำดับ</label>
+                                <div class="select">
+                                    <select class="sort-select">
+                                        <option value="Option 1">จากน้อยไปมาก</option>
+                                        <option value="Option 2">Option 2</option>
+                                        <option value="Option 3">Option 3</option>
+                                        <option value="Option 4">Option 4</option>
+                                        <option value="Option 5">Option 5</option>
+                                    </select>
                                 </div>
-                                <div class="box-luck-category">
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/1.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/2.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/3.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/4.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/5.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/6.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/7.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/8.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
+                            </div>
+                            <div class="category-from">
+                                <label for="standard-select" style="color:white; font-size:16px">หมวดหมู่เบอร์</label>
+                                <div class="select">
+                                    <select class="category-select">
+                                        <option value="Option 1">เบอร์ทั้งหมด</option>
+                                        <option value="Option 2">Option 2</option>
+                                        <option value="Option 3">Option 3</option>
+                                        <option value="Option 4">Option 4</option>
+                                        <option value="Option 5">Option 5</option>
+                                    </select>
                                 </div>
-
+                            </div>
+                            <div class="sum-from">
+                                <label for="standard-select" style="color:white; font-size:16px">ผลรวม</label>
+                                <div class="select">
+                                    <select class="sum-select">
+                                        <option value="Option 1">ผลรวม</option>
+                                        <option value="Option 2">Option 2</option>
+                                        <option value="Option 3">Option 3</option>
+                                        <option value="Option 4">Option 4</option>
+                                        <option value="Option 5">Option 5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="network-from">
+                                <label for="standard-select" style="color:white; font-size:16px">เครือข่าย</label>
+                                <div class="select">
+                                    <select class="network-select">
+                                        <option value="Option 1">TRUE</option>
+                                        <option value="Option 2">D-tac</option>
+                                        <option value="Option 3">AIS</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="favorite-d">
+                                <label>ตัวเลขที่ไม่ชอบ</label>
+                                <div class="button-num">
+                                    <button id="button-0" data-favnum="0" class="btn">0</button>
+                                    <button id="button-1" data-favnum="1" class="btn">1</button>
+                                    <button id="button-2" data-favnum="2" class="btn">2</button>
+                                    <button id="button-3" data-favnum="3" class="btn">3</button>
+                                    <button id="button-4" data-favnum="4" class="btn">4</button>
+                                    <button id="button-5" data-favnum="5" class="btn">5</button>
+                                    <button id="button-6" data-favnum="6" class="btn">6</button>
+                                    <button id="button-7" data-favnum="7" class="btn">7</button>
+                                    <button id="button-8" data-favnum="8" class="btn">8</button>
+                                    <button id="button-9" data-favnum="9" class="btn">9</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="button-form">
-                        <button class="reset">ล้างข้อมูล</button>
-                        <button>ค้นหา</button>
+                    <div class="buttom-box">
+                        <div class="pic">
+                            <span>เสริมดวงด้าน</span>
+                            <div class="box-luck">
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/1.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/2.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/3.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/4.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/5.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/6.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/7.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/8.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/9.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/10.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
 
+                            </div>
+                        </div>
+
+                        <div class="pic-category">
+                            <span>หมวดหมู่เบอร์</span>
+                            <div class="box-luck-category">
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/1.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/2.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/3.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/4.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/5.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/6.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/7.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/8.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/9.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/10.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/6.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/7.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/8.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/9.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="box-luck-category">
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/1.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/2.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/3.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/4.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/5.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/6.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/7.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="luck-pic">
+                                    <button>
+                                        <figure><img src="img/luck/8.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
+                <div class="button-form">
+                    <button class="reset">ล้างข้อมูล</button>
+                    <button>ค้นหา</button>
 
-            </section>
-        </div>
-    <?php } ?>
+                </div>
+            </div>
 
+        </section>
+    </div>
 </header>
 
 <script>
