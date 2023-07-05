@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200&family=Mitr:wght@300;500;700&family=Sarabun:wght@200;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,600;0,800;1,100;1,200;1,300;1,400;1,800;1,900&display=swap');
 *,
 *:before,
 *:after {
@@ -503,7 +502,7 @@ nav .topnav .group-mobile-menu .hamberger i {
 }
 
 .owl-carousel .owl-item img {
-    padding-top: 65px;
+    padding-top: 50px;
     margin-bottom: 10px;
 }
 
@@ -682,7 +681,7 @@ nav .topnav .group-mobile-menu .hamberger i {
 }
 
  .center-box .price  label{
-    font-weight: 700;
+    font-weight: 600;
     font-size: 16px;
  }
   .search-box .grid-container .center-box{
@@ -789,7 +788,7 @@ nav .topnav .group-mobile-menu .hamberger i {
 .buttom-box span{
     color: #fff;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .buttom-box .box-luck .luck-pic button  {
@@ -835,7 +834,7 @@ nav .topnav .group-mobile-menu .hamberger i {
     padding: 20px;
   }
 
-  .search-box .grid-container .top-box .search-number button{
+  .search-box .grid-container .top-box .analyze-number button{
     background-color: #773A2C;
     border-radius: 5px;
     border: none;
@@ -847,11 +846,11 @@ nav .topnav .group-mobile-menu .hamberger i {
     
   }
 
-  .search-box .grid-container .top-box .search-number .analyze-number {
+  /* .search-box .grid-container .top-box .search-number .analyze-number {
     display: flex;
     align-items: center;
     gap: 3px;
-  }
+  } */
 
 .search-box .box .left-box {
     width: 100%;
@@ -926,7 +925,7 @@ nav .topnav .group-mobile-menu .hamberger i {
 
 .search-box .top-box .search-number label {
     color: #000000;
-    font-weight: 700;
+    font-weight: 600;
     margin-right: 5%
 }
 

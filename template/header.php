@@ -32,7 +32,7 @@
                     <a href="#" class="cart">
                         <img src="img/logo/solar_cart.png" alt="">
                         <div class="num-shop-cart">
-                            <span></span>
+                            <span>99+</span>
                         </div>
                     </a>
 
@@ -229,12 +229,43 @@
     </nav>
 
 
+    <
+    <?php if ($slug === 'fortune-ber') { ?>
+        <figure><img src="img/Rectangle 692.png" alt="" class="bandner-nav"></figure>
+    <?php } ?>
+
+    <?php if ($slug === 'ber-mean') { ?>
+        <figure><img src="img/Rectangle 6999.png" alt="" class="bandner-nav"></figure>
+    <?php } ?>
+
+    <?php if ($slug === 'howtobuy') { ?>
+        <figure><img src="img/Rectangle 69.png" alt="" class="bandner-nav"></figure>
+    <?php } ?>
+
+    <?php if ($slug === 'article-detail') { ?>
+        <figure><img src="img/Rectangle 213.png" alt="" class="bandner-nav"></figure>
+    <?php } ?>
+    <?php if ($slug === 'article') { ?>
+        <figure><img src="img/Rectangle 213.png" alt="" class="bandner-nav"></figure>
+    <?php } ?>
+
+    <?php if ($slug === 'about') { ?>
+        <figure><img src="img/Rectangle 6.png" alt="" class="bandner-nav"></figure>
+    <?php } ?>
+
+    <?php if ($slug === 'contact') { ?>
+        <figure><img src="img/Rectangle 2.png" alt="" class="bandner-nav"></figure>
+    <?php } ?>
+
+    <?php if ($slug === 'delivery-check') { ?>
+        <figure><img src="img/Rectangle 66.png" alt="" class="bandner-nav"></figure>
+    <?php } ?>
+
     <?php if ($slug === 'home') { ?>
         <div class="slider owl-carousel">
             <figure><img src="img/Rectangle 7.png" alt=""></figure>
         </div>
-    <?php } ?>
-
+  
     <div class="container">
         <div class="text-box">
             <span>ยินดีต้อนรับเข้าสู่ Berforyou.com ศูนย์รวมจำหน่ายเบอร์สวย เบอร์มงคล เบอร์เสริมดวง บริการครบเครื่องเรื่องเบอร์ ระบบทำนายเบอร์อัตโนมัติ ระบบค้นหาเบอร์ที่ต้องการ ตรงจุด ทุกความต้องการ<br />
@@ -787,6 +818,7 @@
 
         </section>
     </div>
+    <?php } ?>
 </header>
 
 <script>

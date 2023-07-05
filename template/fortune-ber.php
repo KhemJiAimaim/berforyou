@@ -1,17 +1,98 @@
 <div class="fortube-ber">
     <div class="fortune-box">
-        <div class="">
-qqqq
+        <div class="top-box">
+            <div class="fortune">
+                <span>ทำนายเบอร์</span>
+            </div>
+            <div class="manual">
+                <a href=""> <span>คู่มือคู่เลข</span></a>
+                <i class="fas fa-book"></i>
+            </div>
         </div>
-        <div class="">
+
+        <div class="buttom-box">
+            <div class="search-number">
+                <label>กรอกหมายเลข</label>
+                <div class="analyze-number">
+                    <input type="number" data-position="0" class="search-box-num" value="0" readonly="readonly">
+                    <input type="tel" data-position="1" class="search-box-num" maxlength="1" placeholder="0">
+                    <input type="tel" data-position="2" class="search-box-num" maxlength="1" placeholder="0">
+                    <input type="tel" data-position="2" class="search-box-nums" value="-" disabled>
+                    <input type="tel" data-position="3" class="search-box-num" maxlength="1" placeholder="0">
+                    <input type="tel" data-position="4" class="search-box-num" maxlength="1" placeholder="0">
+                    <input type="tel" data-position="5" class="search-box-num" maxlength="1" placeholder="0">
+                    <input type="tel" data-position="2" class="search-box-nums" value="-" disabled>
+                    <input type="tel" data-position="6" class="search-box-num" maxlength="1" placeholder="0">
+                    <input type="tel" data-position="7" class="search-box-num" maxlength="1" placeholder="0">
+                    <input type="tel" data-position="8" class="search-box-num" maxlength="1" placeholder="0">
+                    <input type="tel" data-position="9" class="search-box-num" maxlength="1" placeholder="0">
+                    <button>เริ่มทำนาย</button>
+                </div>
+            </div>
+            <div class="auspicious-value">
+                <div class="num-value">
+                    <label for="">ค่าความมงคล</label>
+                    <p>0,000</p>
+                </div>
+                <div class="auspicious-level">
+                    <div class="auspicious-level-color">
+                        <div class="color-img" style="background-color: #F9C80E; width: 22px; height:22px">
+                        </div>
+                        <div class="color-img" style="background-color: #F99719; width: 22px; height:22px">
+                        </div>
+                        <div class="color-img" style="background-color: #F86624; width: 22px; height:22px">
+                        </div>
+                        <div class="color-img" style="background-color: #EA3546; width: 22px; height:22px">
+                        </div>
+                        <div class="color-img" style="background-color: #A83271; width: 22px; height:22px">
+                        </div>
+                        <div class="color-img" style="background-color: #662E9B; width: 22px; height:22px">
+                        </div>
+                        <div class="color-img" style="background-color: #5575B4; width: 22px; height:22px">
+                        </div>
+                        <div class="color-img" style="background-color: #43BCCD; width: 22px; height:22px">
+                        </div>
+                    </div>
+
+                    <div class="center-auspicious">
+                        <div class="">
+
+                        </div>
+                        <div class="border-buttom">
+                        </div>
+                    </div>
+
+                    <div class="buttom-auspicious">
+                        <div class="POOR">
+                            <span>POOR</span>
+                        </div>
+                        <div class="GOOD">
+                            <span>GOOD</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="auspicious-value">
+                <div class="">
+
+                </div>
+                <div class="">
+
+                </div>
+
+            </div>
 
         </div>
     </div>
- 
+
 </div>
 
 
-   <!-- <div class="fortune-box">
+<!-- <div class="fortune-box">
         <div class="box">
             <h1>ทำนายเบอร์</h1>
             <div class="input">

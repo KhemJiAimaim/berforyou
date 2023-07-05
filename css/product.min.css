@@ -1,6 +1,6 @@
 .fortube-ber {
-    margin: 5% 0;
-    
+    margin: 2% 0;
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1023px) {
@@ -12,30 +12,179 @@
 
 .fortube-ber .fortune-box {
     /* background: url(/img/BG-fortune.png); */
-    background: linear-gradient(#8D7045, #773A2C);
+    /* background: linear-gradient(#8D7045, #773A2C); */
+    background-color: #783A2D;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
     width: 100%;
     height: 100px;
-    border-radius: 20px
+    padding: 30px;
+    /* border-radius: 20px */
+    /* padding-bottom: 0px; */
+}
+
+.fortube-ber .fortune-box .top-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.fortube-ber .fortune-box .buttom-box {
+    display: grid;
+    grid-template-columns: 1.5fr 1.2fr 1fr;
+    /* width: 100%; */
+    gap: 20px;
+
+}
+
+.fortube-ber .buttom-box .search-number {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000000;
+    padding: 20px;
+    /* margin: 20px; */
+    /* width:97%; */
+    margin-top: 0px;
+}
+
+.fortube-ber .buttom-box .analyze-number button {
+    background-color: #773A2C;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+    margin-left: 10px;
+
+
+}
+
+.fortune-box label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.auspicious-value p {
+    font-size: 2rem;
+    color: #C4C4C4;
+    font-weight: 1000;
+    font-style: italic;
+}
+
+.fortube-ber .grid-container .buttom-box .search-number button {
+    background-color: #773A2C;
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+.fortube-ber .buttom-box .search-number {
+    gap: 10px;
+}
+
+.fortube-ber .buttom-box .search-number .search-box-num {
+    width: 28px;
+    height: 28px;
+    /* margin-top: 10px; */
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    box-shadow: none;
+    text-align: center;
+    color: #575555;
+    gap: 10px;
+}
+
+.fortube-ber .buttom-box .search-number .search-box-nums {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    border: unset;
+    box-shadow: none;
+    text-align: center;
+    color: #575555;
+}
+
+.fortube-ber .buttom-box .auspicious-value {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000000;
+    padding: 20px;
+    /* margin: 20px; */
+    width: 100%;
+    margin-top: 0px;
+    gap: 10px;
+}
+
+.fortube-ber .buttom-box .auspicious-value .buttom-auspicious{
+    display: flex;
+    justify-content: space-between;
+}
+.buttom-auspicious span{
+    color: #000;
+    font-size: 16px;
+   
+}
+.fortube-ber .buttom-box .auspicious-value .auspicious-level-color{
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto auto auto;
+    gap: 1px;
+    /* margin: 5px; */
+    position: relative;
+}
+
+ .border-buttom{
+    margin-top: 18px;
+    border-bottom: 5px solid #000;
+    border-radius: 5px;
+}
+
+.auspicious-level-color .color-img{
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    border: unset;
+    box-shadow: none;
+    text-align: center;
+    color: #575555;
+
+}
+
+.fortube-ber .buttom-box .auspicious-level{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 3px;
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    .fortube-ber .fortune-box {
-        height: 180px
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
     .fortube-ber .fortune-box {
         height: 200px
     }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .fortube-ber .fortune-box {
+        width: 100%;
         height: 250px
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .fortube-ber .fortune-box {
+        height: 200px
     }
 }
 
