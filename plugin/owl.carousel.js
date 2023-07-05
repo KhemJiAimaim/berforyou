@@ -2962,10 +2962,6 @@
 	 */
 	Navigation.Defaults = {
 		nav: false,
-		// navText: [
-		// 	'<span aria-label="' + 'Previous' + '">&#x2039;</span>',
-		// 	'<span aria-label="' + 'Next' + '">&#x203a;</span>'
-		// ],
 		navText: [
 			'<img src="img/icon/vector.png" alt="Previous">',
 			'<img src="img/icon/vector_r.png" alt="Next">'
