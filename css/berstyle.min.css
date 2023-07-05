@@ -74,7 +74,7 @@ nav .topnav {
 
 @media screen and (min-width: 1025px) and (max-width: 1365px) {
     nav .topnav .logo-nav {
-        width: 30%
+        width: 10%
     }
 }
 
@@ -110,7 +110,7 @@ nav .topnav .nav-menu {
 
 @media screen and (min-width: 1025px) and (max-width: 1365px) {
     nav .topnav .nav-menu {
-        width: 70%;
+        width: 90%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -129,7 +129,7 @@ nav .topnav .nav-menu {
 
 @media screen and (min-width: 1366px) {
     nav .topnav .nav-menu {
-        width: 50%;
+        width: 90%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -167,7 +167,7 @@ nav .topnav .nav-menu li a:hover {
     transition: all .2s;
     border-top-style: solid;
     border-bottom-style: solid;
-    padding: 15px;
+    /* padding: 5px 15px; */
 }
 
 nav .topnav .nav-menu li img {
@@ -636,8 +636,10 @@ nav .topnav .group-mobile-menu .hamberger i {
 
 @media screen and (max-width: 1522px) {
     .search-box .grid-container .buttom-box {
+        display: flex !important;
         flex-direction: column;
     }
+
 }
 
 @media screen and (max-width: 1220px) {
@@ -648,12 +650,22 @@ nav .topnav .group-mobile-menu .hamberger i {
         align-items: center;
     }
     .search-box .grid-container .center-box {
-        /* align-items: center; */
+        align-items: center;
+    }
+    .center-box .price{
+        width: 100%;
+    }
+    .search-box .grid-container .top-box .search-number {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
 .center-box .price{
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: #fff;
     border-radius: 5px;
@@ -731,32 +743,26 @@ nav .topnav .group-mobile-menu .hamberger i {
 }
 
   .search-box .grid-container .buttom-box{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
     width: 100%;
-    /* grid-template-columns: repeat(2,1fr) ; */
     gap: 30px;
     padding: 20px;
   }
 
   .buttom-box .pic .box-luck {
     display:flex;
+    flex-wrap: wrap;
     justify-content: left;
     width:100%;
-    /* background-color: #fff; */
     border-radius: 5px;
     gap: 10px;
-    /* padding: 20px; */
 }
 .buttom-box .pic-category .box-luck-category {
     display:flex;
-    justify-content: left;
-    /* flex-direction: column; */
-    width:100%;
-    /* background-color: #fff; */
+    flex-wrap: wrap;
     border-radius: 5px;
     gap: 10px;
-    /* margin-left: 20px; */
-    /* padding: 20px; */
 }
 
 .luck-pic {
@@ -773,10 +779,9 @@ nav .topnav .group-mobile-menu .hamberger i {
     opacity: 1;
   } */
   .check-icon {
-    display: none;
     position: absolute;
-    top: 25%;
-    right: 10%;
+    top: 0;
+    right: 0;
     width: 10px;
     height: 10px;
     background-image: url(../img/icon-check.png) !important; /* เปลี่ยนเป็น URL ของไอคอน checkbox ที่คุณต้องการใช้ */
@@ -799,7 +804,7 @@ nav .topnav .group-mobile-menu .hamberger i {
     padding: 5px;
     margin-top: 10px;
     cursor: pointer;
-    display: block;
+    position: relative;
     border: 1px solid #fff;
 }
 .luck-pic:hover{
@@ -819,7 +824,7 @@ nav .topnav .group-mobile-menu .hamberger i {
     padding: 5px;
     margin-top: 10px;
     cursor: pointer;
-    display: block;
+    position: relative;
     border: 1px solid #fff;
 }
   .search-box .grid-container .top-box{
@@ -929,6 +934,11 @@ nav .topnav .group-mobile-menu .hamberger i {
     margin-right: 5%
 }
 
+.search-box .top-box .search-number .analyze-number {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .search-box .top-box .search-number .search-box-num {
     width: 32px;
     height:  32px;
@@ -939,6 +949,58 @@ nav .topnav .group-mobile-menu .hamberger i {
     text-align: center;
     color:#575555;
 }
+
+@media screen and (max-width: 627px) {
+    .search-box .grid-container .top-box .search-number {
+        width: 100%;
+    }
+
+    .search-box .grid-container .top-box .search-number .analyze-number {
+        display: flex;
+        justify-content: center;
+    }
+
+    .search-box .top-box .search-number .search-box-num {
+        width: 19px;
+    }
+    
+}
+@media screen and (max-width: 483px) {
+    .search-box .top-box .search-num .search-box-num {
+        width: 20px !important;
+    }
+
+    .search-box .grid-container .top-box .search-number button {
+        margin-top: 10px;
+    }
+    .search-box .top-box .search-number .search-box-nums {
+        width:10px !important;
+    }
+}
+
+@media screen and (max-width: 415px) { 
+    
+    .search-box .top-box .favorite .button-num button {
+        width: 25px !important;
+    }
+
+    .search-box .center-box .favorite-d .button-num button {
+        width: 25px !important;
+    }
+
+    .search-box .top-box .search-number label {
+        margin-bottom: 10px;
+    }
+
+    .search-box .grid-container .top-box .search-number button {
+        margin-left: 0 ;
+    }
+    .search-box .top-box .search-num .search-box-nums {
+        width : 11px !important;
+    }
+
+}
+
 .search-box .top-box .search-number .search-box-nums {
     width: 15px;
     height: 15px;
@@ -1543,9 +1605,14 @@ nav .topnav .group-mobile-menu .hamberger i {
     cursor: pointer
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1030px) {
     .search-box .button-form button {
-        width: 8%
+        width: 8%;
+    }
+}
+@media screen and (max-width: 1029px) {
+    .search-box .button-form button {
+        width: 100px;
     }
 }
 
@@ -1564,6 +1631,7 @@ nav .topnav .group-mobile-menu .hamberger i {
     display: -ms-grid;
     display: grid;
     grid-template-areas: 'content' 'sidebar';
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 480px) {
@@ -1583,7 +1651,7 @@ nav .topnav .group-mobile-menu .hamberger i {
     .content {
         -ms-grid-columns: 25% 73%;
         /* grid-template-columns: 25% 73%; */
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 300px 2fr;
         grid-gap: 2%;
         grid-row-gap: 80px
     }
@@ -1627,7 +1695,6 @@ nav .topnav .group-mobile-menu .hamberger i {
     -ms-flex-align: center;
     align-items: center;
     padding: 0 3%;
-    margin: 3% 0
 }
 
 .content .side-menu .menu-box .head-text button {
@@ -1652,13 +1719,13 @@ nav .topnav .group-mobile-menu .hamberger i {
 
 .content .side-menu .menu-box .menu ul {
     padding: 25px;
-    background: -webkit-gradient(linear,
+    /* background: -webkit-gradient(linear,
             left top,
             left bottom,
-        );
+        ); */
     background: #8D7045;
     border-radius: 10px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .content .side-menu .menu-box .menu ul li {
