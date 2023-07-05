@@ -8,17 +8,21 @@
     text-align: center;
     margin: 3% 0;
     background: -webkit-gradient(linear, left top, left bottom, from(#c5a04f), to(#8e5415));
-    background: linear-gradient(#c5a04f, #8e5415);
+    /* background: linear-gradient(#c5a04f, #8e5415); */
+    background: linear-gradient(#8D7045, #773A2C);
     padding: 1%;
-    border-radius: 10px 60px 10px 10px
+    border-radius: 10px;
     
 }
 
-.about-content .head-text h1,
+/* .about-content .head-text h1,
 .about-content .head-text h2 {
     color: #fff
+} */
+.about-content .head-text h1{
+    color: #fff;
+    text-align: start;
 }
-
 .about-content .about {
     margin: 3% 0
 }
@@ -310,14 +314,20 @@
     text-align: center;
     margin: 3% 0;
     background: -webkit-gradient(linear, left top, left bottom, from(#c5a04f), to(#8e5415));
-    background: linear-gradient(#c5a04f, #8e5415);
+    background: linear-gradient(#8D7045, #773A2C);
     padding: 1%;
-    border-radius: 10px 60px 10px 10px
+    border-radius:10px
 }
 
-.article-content .head-text h1,
+/* .article-content .head-text h1,
 .article-content .head-text h2 {
-    color: #fff
+    color: #fff;
+    text-align: start;
+    
+} */
+.article-content .head-text h1{
+    color: #fff;
+    text-align: start;
 }
 
 .article-content .box-article .item {
@@ -409,9 +419,10 @@
     text-align: center;
     margin: 3% 0;
     background: -webkit-gradient(linear, left top, left bottom, from(#c5a04f), to(#8e5415));
-    background: linear-gradient(#c5a04f, #8e5415);
+    /* background: linear-gradient(#c5a04f, #8e5415); */
+    background: linear-gradient(#8D7045, #773A2C);
     padding: 1%;
-    border-radius: 10px 60px 10px 10px
+    border-radius: 10px ;
 }
 
 .article-detail .head-text h1,
@@ -518,5 +529,38 @@
 .pay-text-title{
     font-size: 20px;
     font-weight: 700;
+}
+.blog-con{
+    width:100%;
+    height:230px;
+    display: flex;
+    align-items: center;
+    gap:13px;
+    border: 1px solid black;
+    padding:12px;
+}
+.blog-img img{
+  width:200px;
+  height:200px;
+}
+.blog-text .blog-date{
+    font-size:16px;
+}
+.blog-text a{
+    color: #000;
+    font-size:20px;
+    font-weight: 700;
+}
+.blog-text .blog-doc{
+    font-size:16px;
+    
+}
+.blog-contac .blog-facebook{
+    width:46px;
+    height:46px;
+}
+.blog-contac .blog-line{
+    width:46px;
+    height:46px;
 }
 /*# sourceMappingURL=content.min.css.map */

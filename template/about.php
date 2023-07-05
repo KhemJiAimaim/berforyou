@@ -4,12 +4,12 @@
     </div>
 
     <!-- เนื้อหา CK -->
-    <div class="about">
-        <?php for($i=1;$i<=40;$i++): ?>
+    <!-- <div class="about">
+        <?php for ($i = 1; $i <= 40; $i++) : ?>
             <h2>หัวเรื่อง</h2>
             <p>เนื้อหาคอนเทนท์เกี่ยวกับเรา CK</p>
         <?php endfor; ?>
-    </div>
+    </div> -->
 
     <!-- แผนที่ -->
     <div class="map">
