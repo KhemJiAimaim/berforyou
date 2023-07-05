@@ -2,8 +2,8 @@
 <html lang="en">
 
 <?php
-    $url = explode('/',$_SERVER['REQUEST_URI']);
-    $slug = urldecode($url[2]);
+$url = explode('/', $_SERVER['REQUEST_URI']);
+$slug = urldecode($url[2]);
 ?>
 
 <head>
@@ -13,12 +13,12 @@
 <body>
 
     <?php include('template/header.php'); ?>
-    
+
     <section>
         <div class="container content">
             <!-- เมนูข้าง -->
             <?php include('template/sidebar.php'); ?>
-            
+
             <!-- ส่วนเนื้อหา -->
             <?php
             switch ($slug) {
@@ -66,6 +66,9 @@
                     break;
                 case 'ber-mean':
                     include('template/number-no-imi.php');
+                    break;
+                case 'delivery-check':
+                    include('template/delivery-check.php');
                     break;
             }
             ?>
@@ -151,7 +154,7 @@
                             <img src="img/article/Rectangle 684.png" alt="" class="image">
                             <div class="middle">
                                 <div class="text">
-                                    <img src="img/article/mdi_eye.png" alt="" >
+                                    <img src="img/article/mdi_eye.png" alt="">
                                     <p>Detail</p>
                                 </div>
                             </div>
@@ -166,7 +169,7 @@
                             <img src="img/article/Rectangle 659.png" alt="" class="image">
                             <div class="middle">
                                 <div class="text">
-                                    <img src="img/article/mdi_eye.png" alt="" >
+                                    <img src="img/article/mdi_eye.png" alt="">
                                     <p>Detail</p>
                                 </div>
                             </div>
@@ -181,7 +184,7 @@
                             <img src="img/article/Rectangle 660.png" alt="" class="image">
                             <div class="middle">
                                 <div class="text">
-                                    <img src="img/article/mdi_eye.png" alt="" >
+                                    <img src="img/article/mdi_eye.png" alt="">
                                     <p>Detail</p>
                                 </div>
                             </div>
@@ -196,7 +199,7 @@
                             <img src="img/article/Rectangle 661.png" alt="" class="image">
                             <div class="middle">
                                 <div class="text">
-                                    <img src="img/article/mdi_eye.png" alt="" >
+                                    <img src="img/article/mdi_eye.png" alt="">
                                     <p>Detail</p>
                                 </div>
                             </div>
@@ -211,7 +214,7 @@
                             <img src="img/article/Rectangle 662.png" alt="" class="image">
                             <div class="middle">
                                 <div class="text">
-                                    <img src="img/article/mdi_eye.png" alt="" >
+                                    <img src="img/article/mdi_eye.png" alt="">
                                     <p>Detail</p>
                                 </div>
                             </div>
@@ -226,7 +229,7 @@
                             <img src="img/article/Rectangle 688.png" alt="" class="image">
                             <div class="middle">
                                 <div class="text">
-                                    <img src="img/article/mdi_eye.png" alt="" >
+                                    <img src="img/article/mdi_eye.png" alt="">
                                     <p>Detail</p>
                                 </div>
                             </div>

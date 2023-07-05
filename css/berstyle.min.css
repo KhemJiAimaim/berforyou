@@ -47,7 +47,8 @@ nav {
     height: 40px;
     z-index: 2;
     position: fixed;
-    width: 100%
+    width: 100%;
+    z-index:10;
 }
 
 nav .topnav {
@@ -194,10 +195,11 @@ nav .topnav .nav-menu .cart .num-shop-cart {
     position: absolute;
     top: -10px;
     right: -15px;
-    background: gold;
-    border-radius: 20px;
+    /* background: gold; */
+    /* border-radius: 20px; */
     width: 80%;
-    text-align: center
+    text-align: center;
+    padding-left: 5px;
 }
 
 nav .topnav .nav-menu .buttonX {
@@ -483,6 +485,11 @@ nav .topnav .group-mobile-menu .hamberger i {
 
 .slider .owl-stage-outer {
     z-index: 3
+}
+.bandner-nav{
+    padding-top:78px;
+    width: 100%;
+    height: 100%;
 }
 
 .slider .owl-nav {
