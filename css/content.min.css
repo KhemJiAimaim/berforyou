@@ -179,7 +179,7 @@
 .howtobuy .head-text {
     text-align: center;
     margin: 3% 0;
-    background: -webkit-gradient(linear, left top, left bottom, from(#c5a04f), to(#8e5415));
+    /* background: -webkit-gradient(linear, left top, left bottom, from(#c5a04f), to(#8e5415)); */
     /* background: linear-gradient(#c5a04f, #8e5415); */
     background: linear-gradient(#8D7045, #773A2C);
     padding: 1%;
@@ -518,5 +518,7 @@
 .pay-text-title{
     font-size: 20px;
     font-weight: 700;
-}
+} 
+
+
 /*# sourceMappingURL=content.min.css.map */
