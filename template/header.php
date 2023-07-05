@@ -235,13 +235,6 @@
         </div>
     <?php } ?>
 
-    <div class="slider owl-carousel">
-            <figure><img src="img/Rectangle 7.png" alt=""></figure>
-        </div>
-
-
-
-
     <div class="container">
         <div class="text-box">
             <span>ยินดีต้อนรับเข้าสู่ Berforyou.com ศูนย์รวมจำหน่ายเบอร์สวย เบอร์มงคล เบอร์เสริมดวง บริการครบเครื่องเรื่องเบอร์ ระบบทำนายเบอร์อัตโนมัติ ระบบค้นหาเบอร์ที่ต้องการ ตรงจุด ทุกความต้องการ<br />
