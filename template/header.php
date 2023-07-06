@@ -277,6 +277,10 @@
         <figure><img src="img/Rectangle 66.png" alt="" class="bandner-nav"></figure>
     <?php } ?>  
 
+    <?php if ($slug === 'cart') { ?>
+        <figure><img class="bandner-nav" style="margin-top: 20px;"></figure>
+    <?php } ?>
+
     <?php if ($slug === 'home') { ?>
         <div class="slider owl-carousel">
             <figure><img src="img/Rectangle 7.png" alt=""></figure>

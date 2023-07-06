@@ -67,7 +67,9 @@
 
 .contact .head-text h1,
 .contact .head-text h2 {
-    color: #fff
+    color: #fff;
+    font-weight: 500;
+
 }
 
 .contact .contact-boxshadow .content-contact {
@@ -76,8 +78,90 @@
 
 .contact .contact-boxshadow .content-contact .box-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
+
+@media screen and (max-width: 949px) {
+    .contact .contact-boxshadow .content-contact .box-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1299px) {
+    .contact .contact-boxshadow .content-contact .box-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+}
+
+/* แก้ไข ขนาด 1024 และ 1025 แสดงซ้อน */
+@media screen and (min-width: 1024px) and (max-width: 1025px) {
+    .content {
+        display: flex;
+    }
+    
+}
+
+.contact .contact-boxshadow .content-contact h1 {
+    font-weight: 500;
+}
+
+.contact .contact-boxshadow .content-contact .box-content .social-facebook {
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact .contact-boxshadow .content-contact .box-content .social-line {
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact .contact-boxshadow .content-contact .box-content .social-phone {
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact .contact-boxshadow .content-contact .box-content .box-facebook {
+    width: 46px;
+    height: 46px;
+    border-radius: 5px;
+    background: #0170FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .contact-boxshadow .content-contact .box-content .box-line { 
+    width: 46px;
+    height: 46px;
+    border-radius: 5px;
+    background: #00D222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .contact-boxshadow .content-contact .box-content .box-phone { 
+    width: 46px;
+    height: 46px;
+    border-radius: 5px;
+    background: #E4B81B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact .boxForm {
@@ -85,6 +169,8 @@
     border-radius: 10px;
     background: #43251B;
     box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.05);
+    color: #FFF;
+    font-weight: 400;
 
 }
 
@@ -93,7 +179,7 @@
     display: grid;
     -ms-grid-columns: (100%)[1];
     grid-template-columns: repeat(1, 100%);
-    grid-row-gap: 20px
+    grid-row-gap: 10px;
 }
 
 /* @media screen and (min-width: 1366px) {
@@ -106,25 +192,25 @@
 } */
 
 .contact .boxForm form .person-data input {
-    border: 1px solid #000;
-    border-radius: 20px;
-    padding: 3%
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #C4C4C4;
+    background: #FBFAFB;
+    height: 40px;
+    width: 100%;
 }
 
-.contact .boxForm form .person-data input::-webkit-input-placeholder {
-    color: #000
+
+.contact .boxForm form .person-data .box-email-tel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
-.contact .boxForm form .person-data input:-ms-input-placeholder {
-    color: #000
-}
-
-.contact .boxForm form .person-data input::-ms-input-placeholder {
-    color: #000
-}
-
-.contact .boxForm form .person-data input::placeholder {
-    color: #000
+.contact .boxForm form .person-data .box-email-tel .detail-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .contact .boxForm form .detail {
@@ -133,25 +219,10 @@
 
 .contact .boxForm form .detail textarea {
     width: 100%;
-    border: 1px solid #000;
-    border-radius: 20px;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    background: #FBFAFB;
     padding: 2%
-}
-
-.contact .boxForm form .detail textarea::-webkit-input-placeholder {
-    color: #000
-}
-
-.contact .boxForm form .detail textarea:-ms-input-placeholder {
-    color: #000
-}
-
-.contact .boxForm form .detail textarea::-ms-input-placeholder {
-    color: #000
-}
-
-.contact .boxForm form .detail textarea::placeholder {
-    color: #000
 }
 
 .contact .boxForm form .button-contact {
@@ -164,19 +235,19 @@
 }
 
 .contact .boxForm form .button-contact button {
-    width: 20%;
-    height: 50px;
+    width: 110px;
+    height: 32px;
     border: unset;
-    border-radius: 20px;
+    border-radius: 5px;
     color: #fff;
-    background: #c6a150;
+    background: #D6C3B2;
     margin: 0 2%;
     font-size: 1rem;
     cursor: pointer
 }
 
 .contact .map {
-    margin: 5% 0
+    margin-top: 5%;
 }
 
 .contact .map iframe {

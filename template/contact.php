@@ -11,29 +11,52 @@
                     <p>เนื้อหา ck ติดต่อเรา</p>
                 <?php endfor; ?>
             </div> -->
+            <h1>ที่อยู่</h1>
             <div class="box-content">
                 <!-- ที่อยู่ -->
                 <div class="contact-address">
-                    <h1>ที่อยู่</h1>
                     <img src="img/logo/berforyoulogo.png" alt="">
                     <p>120/34-35 Moo 24 Mueang Khon Kaen District, Khon Kaen 40000 Tell: 089-898-9898 Email: Berforyou@mail.com</p>
+                        <div class="social-facebook">
+                            <div class="box-facebook"><img src="img/icon/facebook.png" alt=""></div>
+                            <p>Facebook : Berforyou</p>
+                        </div>
+                        <div class="social-line">
+                            <div class="box-line"><img src="img/icon/line1.png" alt=""></div>
+                            <p>Line Chat : Berforyou</p>
+                        </div>
+                        <div class="social-phone">
+                            <div class="box-phone"><img src="img/icon/phone.png" alt=""></div>
+                            <p>Phone : 089-898-9898</p>
+                        </div>
                 </div>
                 <!-- ฟอร์มติดต่อ -->
                 <div class="boxForm">
                     <form action="#">
                         <div class="person-data">
+                            <label for="subject">หัวข้อ</label>
                             <input type="text" maxlength="32" placeholder="หัวข้อ">
+                            <label for="name">ชื่อผู้ติดต่อ</label>
                             <input type="text" maxlength="32" placeholder="ชื่อผู้ติดต่อ">
-                            <input type="email" maxlength="32" placeholder="อีเมล์">
-                            <input type="tel" maxlength="10" placeholder="เบอร์โทรศัพท์">
+
+                            <div class="box-email-tel">
+                                <div class="detail-box">
+                                    <label for="email">อีเมล์</label>
+                                    <input type="email" maxlength="32" placeholder="อีเมล์">
+                                </div>
+                                <div class="detail-box">
+                                    <label for="tel">เบอร์โทร</label>
+                                    <input type="tel" maxlength="10" placeholder="เบอร์โทรศัพท์">
+                                </div>
+                            </div>
                         </div>
 
                         <div class="detail">
-                            <textarea name="" id="" cols="30" rows="10" placeholder="รายละเอียด"></textarea>
+                            <label for="detail">ลายละเอียด</label>
+                            <textarea name="" id="" cols="30" rows="6" placeholder="รายละเอียด"></textarea>
                         </div>
 
                         <div class="button-contact">
-                            <button type="reset">ล้าง</button>
                             <button type="submit">ส่ง</button>
                         </div>
                     </form>

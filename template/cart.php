@@ -1,76 +1,98 @@
 <div class="cart-page">
-    <div class="head-text">
-        <h1>ตระกร้าสินค้า</h1>
-    </div>
+    <div class="cart-shadow">
+        <div class="head-text">
+            <h1>สรุปรายการสินค้าที่สั่งซื้อ</h1>
+        </div>
 
-    <div class="cart-box">
-        <!-- รายการสินค้าที่เลือกเข้าตระกร้า -->
-        <div class="cart-list">
+        <div class="cart-box">
+            <!-- รายการสินค้าที่เลือกเข้าตระกร้า -->
+            <div class="cart-list">
+                <div class="cart-list-menu">
+                    <h3>รายการ</h3>
+                    <h3>2 รายการ</h3>
+                </div>
+                
                 <div class="list-item">
-                    <?php for($i=1;$i<=10;$i++): ?>
+                    
+                    <?php for ($i = 1; $i <= 10; $i++) : ?>
                         <div class="box">
-                            <div class="logo"><figure><img src="img/logo/Artboard – 13.jpg" alt=""></figure></div>
-                            <div class="number">
-                                <a href="detail-ber"><span>099999999</span></a>
-                                <span class="sum-num">ผลรวม 48</span>
+                            <div class="box-header">
+                                <div class="img"><img src="img/icon/Dtac-02.png" alt=""></div>
+                                <h2>089-682-6459</h2>
                             </div>
-                            <div class="detail">
-                                <div class="rank"><figure><img class="grade-A" src="img/grade/Artboard – 24.jpg" alt=""></figure></div>
-                                <div class="price"><span>9000000.-</span></div>
-                                <div class="icon">
-                                    <i id="delete" class="fas fa-trash"></i>
+                            <div class="box-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nesciunt.</p>
+                                <div class="grade">
+                                    <h4>เกรด</h4>
+                                    <div class="grade-detail">
+                                        <h4 class="grade-ber">A+</h4>
+                                        <h4 class="total-sum">ผลรวม 50</h4>
+                                        <h4 class="advice">แนะนำ</h4>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <h4>ราคา</h4>
+                                    <div class="price-detail">
+                                        <h4>9,000,000</h4>
+                                        <h4>THB</h4>
+                                    </div>
+                                    <div class="icon">
+                                        <i id="delete" class="fas fa-trash"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     <?php endfor; ?>
-                    
-                </div>
-        </div>
 
-        <!-- กล่องแสดงรายละเอียดการชำระเงิน -->
-        <div class="checkout-box">
-            <div class="checkout-price">
-                <div class="amount">
-                    <span>จำนวนสินค้า</span
-                    ><span>6 ชิ้น</span>
-                </div>
-
-                <div class="total-price">
-                    <span>รวมราคา</span>
-                    <span>9000000 บาท</span>
-                </div>
-
-                <div class="ps">
-                    <div class="row">
-                        <i class="fas fa-truck"></i>
-                        <span>จัดส่งรวดเร็ว</span>
-                    </div>
-                    <div class="row">
-                        <i class="fas fa-shield-alt"></i>
-                        <span>รับประกันสินค้าเสียหาย</span>
-                    </div>
                 </div>
             </div>
 
+            <!-- กล่องแสดงรายละเอียดการชำระเงิน -->
+            <div class="checkout-box">
+                <div class="checkout-price">
+                    <div class="amount">
+                        <span>จำนวนสินค้า</span><span>6 ชิ้น</span>
+                    </div>
+
+                    <div class="total-price">
+                        <span>รวมราคา</span>
+                        <span>9000000 บาท</span>
+                    </div>
+
+                    <div class="ps">
+                        <div class="row">
+                            <i class="fas fa-truck"></i>
+                            <span>จัดส่งรวดเร็ว</span>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>รับประกันสินค้าเสียหาย</span>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
             <div class="address-box">
-                <h2>กรอกข้อมูลเพื่อการจัดส่ง</h2>
+                    <h2>กรอกข้อมูลเพื่อการจัดส่ง</h2>
 
-                <div class="input-zone">
-                    <input type="text" maxlength="32" placeholder="กรุณากรอกชื่อ">
-                    <input type="text" maxlength="32" placeholder="กรุณากรอกนามสกุล">
-                    <input type="tel" maxlength="10" placeholder="กรุณากรอกเบอร์โทร">
-                    <input type="email" maxlength="32" placeholder="กรุณากรอก Email">
+                    <div class="input-zone">
+                        <input type="text" maxlength="32" placeholder="กรุณากรอกชื่อ">
+                        <input type="text" maxlength="32" placeholder="กรุณากรอกนามสกุล">
+                        <input type="tel" maxlength="10" placeholder="กรุณากรอกเบอร์โทร">
+                        <input type="email" maxlength="32" placeholder="กรุณากรอก Email">
+                    </div>
+
+                    <input class="adddress" type="text" placeholder="ที่อยู่">
+
+                    <div class="button-checkout">
+                        <a href="cate-ber"><button class="add-ber">เลือกเบอร์เพิ่ม</button></a>
+                        <button class="buy">สั่งซื้อ</button>
+                        <button class="reset">ล้างข้อมูล</button>
+                    </div>
                 </div>
-
-                <input class="adddress" type="text" placeholder="ที่อยู่">
-
-                <div class="button-checkout">
-                    <a href="cate-ber"><button class="add-ber">เลือกเบอร์เพิ่ม</button></a>
-                    <button class="buy">สั่งซื้อ</button>
-                    <button class="reset">ล้างข้อมูล</button>
-                </div>
-            </div>
         </div>
+
     </div>
 
     <div class="box-loading">
@@ -180,7 +202,7 @@
                 เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK
                 เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK
                 เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CK
-                
+
             </p>
         </div>
     </div>

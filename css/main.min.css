@@ -8,6 +8,8 @@
 
 .main-content .box-shadow {
     padding: 20px;
+    border-radius: 10px;
+    background: #FFF;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
 }
 
@@ -40,8 +42,9 @@
 .sumber-content .head-text .left {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
 }
+
 
 @media screen and (max-width: 768px) {
 
@@ -358,6 +361,11 @@
     background: #773A2C;
     border-radius: 5px;
     color: #FFFFFF;
+    
+}
+
+.main-content .grid-content .box .box-header h2 {
+    font-weight: 600;
 }
 
 .main-content .grid-content .box .box-header .img{
@@ -370,6 +378,10 @@
 
 .main-content .grid-content .box .box-body {
     padding: 20px;
+}
+
+.main-content .grid-content .box .box-body h4 {
+    font-weight: 500;
 }
 
 .main-content .grid-content .box .box-body .grade {
@@ -583,8 +595,9 @@
 }
 
 .main-content .pagination .wrapper {
-    border: 2px solid #DFDFDF;
-    border-radius: 5px;
+    border-radius: 4px;
+    border: 1px solid #DFDFDF;
+    background: #FFF;
 }
 
 .main-content .pagination a,
@@ -597,8 +610,8 @@
 .main-content .pagination a:hover,
 .sumber-content .pagination a:hover {
     color: #FFFFFF;
+    border-radius: 4px;
     background: #43251B;
-    border-radius: 5px;
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
     -webkit-transition: all .2s;
