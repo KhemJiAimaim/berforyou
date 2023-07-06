@@ -5,8 +5,8 @@
                 <span>ทำนายเบอร์</span>
             </div>
             <div class="manual">
-                <a href=""> <span>คู่มือคู่เลข</span></a>
-                <i class="fas fa-book"></i>
+                <a href=""> <span>คู่มือคู่เลข</span>
+                    <i class="fas fa-book"></i></a>
             </div>
         </div>
 
@@ -55,9 +55,7 @@
                     </div>
 
                     <div class="center-auspicious">
-                        <div class="">
-
-                        </div>
+                        <img src="img/Polygon 2.png" class="center-tick" alt="">
                         <div class="border-buttom">
                         </div>
                     </div>
@@ -76,17 +74,147 @@
             </div>
 
 
-            <div class="auspicious-value">
-                <div class="">
-
+            <div class="auspicious-sim">
+                <div class="text-auspicious">
+                    <label for="">เกรดเบอร์</label>
+                    <p>?</p>
                 </div>
-                <div class="">
-
+                <div class="sim-color">
+                    <img src="img/carbon_sim-card.png" class="sim-img" alt="">
                 </div>
 
             </div>
 
         </div>
+    </div>
+
+    <div class="box-content-fortune">
+        <div class="t-head">
+            <label for="">ผลทำนายเลขคู่</label>
+        </div>
+
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="box">
+                            <div class="head-detail">
+                                <h3>
+                                    <div class="kuunum">
+                                        <p style="padding-right:10px;">คู่เลข</p>
+                                        <div class="no0">089</div>
+                                        <div class="no1 pair">7</div>
+                                        <div class="no2 pair">6</div>
+                                        <div class="no3">4</div>
+                                        <div class="no4">4</div>
+                                        <div class="no5">3</div>
+                                        <div class="no6">5</div>
+                                        <div class="no7">8</div>
+                                    </div>
+                                    <div style=" font-weight: 400; font-size: 1rem;">: พลังแห่งความสำเร็จ สมบูรณ์พูลสุข</div>
+
+                                </h3>
+                            </div>
+
+                            <div class="detail">
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, deserunt. Vero error iure blanditiis, ad, id sapiente molestias dolorum ab debitis doloribus optio reprehenderit eos. Ipsa quidem perferendis dolorum, fugit dolor, vel eius rem, tempore corporis explicabo asperiores possimus saepe officia fuga. Accusamus doloremque beatae sit, ea, quam est praesentium aliquam nisi impedit, aperiam odio! Autem, consequatur, quaerat quisquam aliquid fugiat laudantium eveniet necessitatibus dolor sunt vitae voluptas non repudiandae veniam ad harum, debitis numquam deleniti quia explicabo atque incidunt! Debitis tempora quod exercitationem ducimus expedita provident alias accusantium delectus vitae suscipit similique praesentium cumque veniam fugit adipisci dolores neque, tenetur quia quo labore vel nemo. Odio molestiae ut aperiam. Tempore nam delectus dolorum repudiandae. Illo facere numquam praesentium, molestiae tenetur consequuntur velit nostrum! Vitae, fugiat temporibus velit rem quis accusantium eos nostrum doloribus suscipit ducimus autem. Porro consectetur officia nobis necessitatibus quaerat maxime labore, reprehenderit voluptas, cupiditate unde repellendus?
+                                </span>
+                            </div>
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="box">
+                            <div class="head-detail">
+                                <h3>
+                                    <div class="kuunum">
+                                        <p style="padding-right:10px;">คู่เลข</p>
+                                        <div class="no0">089</div>
+                                        <div class="no1 ">7</div>
+                                        <div class="no2 ">6</div>
+                                        <div class="no3 pair">4</div>
+                                        <div class="no4 pair">4</div>
+                                        <div class="no5">3</div>
+                                        <div class="no6">5</div>
+                                        <div class="no7">8</div>
+                                    </div>
+                                    <div style=" font-weight: 400; font-size: 1rem;">: พลังแห่งความสำเร็จ สมบูรณ์พูลสุข</div>
+
+                                </h3>
+                            </div>
+
+                            <div class="detail">
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, deserunt. Vero error iure blanditiis, ad, id sapiente molestias dolorum ab debitis doloribus optio reprehenderit eos. Ipsa quidem perferendis dolorum, fugit dolor, vel eius rem, tempore corporis explicabo asperiores possimus saepe officia fuga. Accusamus doloremque beatae sit, ea, quam est praesentium aliquam nisi impedit, aperiam odio! Autem, consequatur, quaerat quisquam aliquid fugiat laudantium eveniet necessitatibus dolor sunt vitae voluptas non repudiandae veniam ad harum, debitis numquam deleniti quia explicabo atque incidunt! Debitis tempora quod exercitationem ducimus expedita provident alias accusantium delectus vitae suscipit similique praesentium cumque veniam fugit adipisci dolores neque, tenetur quia quo labore vel nemo. Odio molestiae ut aperiam. Tempore nam delectus dolorum repudiandae. Illo facere numquam praesentium, molestiae tenetur consequuntur velit nostrum! Vitae, fugiat temporibus velit rem quis accusantium eos nostrum doloribus suscipit ducimus autem. Porro consectetur officia nobis necessitatibus quaerat maxime labore, reprehenderit voluptas, cupiditate unde repellendus?
+                                </span>
+                            </div>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <div class="box">
+                            <div class="head-detail">
+                                <h3>
+                                    <div class="kuunum">
+                                        <p style="padding-right:10px;">คู่เลข</p>
+                                        <div class="no0">089</div>
+                                        <div class="no1">7</div>
+                                        <div class="no2 pair">6</div>
+                                        <div class="no3 pair">4</div>
+                                        <div class="no4">4</div>
+                                        <div class="no5">3</div>
+                                        <div class="no6">5</div>
+                                        <div class="no7">8</div>
+                                    </div>
+                                    <div style=" font-weight: 400; font-size: 1rem;">: พลังแห่งความสำเร็จ สมบูรณ์พูลสุข</div>
+
+                                </h3>
+                            </div>
+
+                            <div class="detail">
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, deserunt. Vero error iure blanditiis, ad, id sapiente molestias dolorum ab debitis doloribus optio reprehenderit eos. Ipsa quidem perferendis dolorum, fugit dolor, vel eius rem, tempore corporis explicabo asperiores possimus saepe officia fuga. Accusamus doloremque beatae sit, ea, quam est praesentium aliquam nisi impedit, aperiam odio! Autem, consequatur, quaerat quisquam aliquid fugiat laudantium eveniet necessitatibus dolor sunt vitae voluptas non repudiandae veniam ad harum, debitis numquam deleniti quia explicabo atque incidunt! Debitis tempora quod exercitationem ducimus expedita provident alias accusantium delectus vitae suscipit similique praesentium cumque veniam fugit adipisci dolores neque, tenetur quia quo labore vel nemo. Odio molestiae ut aperiam. Tempore nam delectus dolorum repudiandae. Illo facere numquam praesentium, molestiae tenetur consequuntur velit nostrum! Vitae, fugiat temporibus velit rem quis accusantium eos nostrum doloribus suscipit ducimus autem. Porro consectetur officia nobis necessitatibus quaerat maxime labore, reprehenderit voluptas, cupiditate unde repellendus?
+                                </span>
+                            </div>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <div class="box">
+                            <div class="head-detail">
+                                <h3>
+                                    <div class="kuunum">
+                                        <p style="padding-right:10px;">คู่เลข</p>
+                                        <div class="no0">089</div>
+                                        <div class="no1 ">7</div>
+                                        <div class="no2 ">6</div>
+                                        <div class="no3 ">4</div>
+                                        <div class="no4 ">4</div>
+                                        <div class="no5">3</div>
+                                        <div class="no6 pair">5</div>
+                                        <div class="no7 pair">8</div>
+                                    </div>
+                                    <div style=" font-weight: 400; font-size: 1rem;">: พลังแห่งความสำเร็จ สมบูรณ์พูลสุข</div>
+
+                                </h3>
+                            </div>
+
+                            <div class="detail">
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, deserunt. Vero error iure blanditiis, ad, id sapiente molestias dolorum ab debitis doloribus optio reprehenderit eos. Ipsa quidem perferendis dolorum, fugit dolor, vel eius rem, tempore corporis explicabo asperiores possimus saepe officia fuga. Accusamus doloremque beatae sit, ea, quam est praesentium aliquam nisi impedit, aperiam odio! Autem, consequatur, quaerat quisquam aliquid fugiat laudantium eveniet necessitatibus dolor sunt vitae voluptas non repudiandae veniam ad harum, debitis numquam deleniti quia explicabo atque incidunt! Debitis tempora quod exercitationem ducimus expedita provident alias accusantium delectus vitae suscipit similique praesentium cumque veniam fugit adipisci dolores neque, tenetur quia quo labore vel nemo. Odio molestiae ut aperiam. Tempore nam delectus dolorum repudiandae. Illo facere numquam praesentium, molestiae tenetur consequuntur velit nostrum! Vitae, fugiat temporibus velit rem quis accusantium eos nostrum doloribus suscipit ducimus autem. Porro consectetur officia nobis necessitatibus quaerat maxime labore, reprehenderit voluptas, cupiditate unde repellendus?
+                                </span>
+                            </div>
+                        </div>
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+
+
     </div>
 
 </div>

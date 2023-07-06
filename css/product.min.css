@@ -1,5 +1,5 @@
 .fortube-ber {
-    margin: 2% 0;
+    margin: 0% 0;
 
 }
 
@@ -18,7 +18,7 @@
     background-size: cover;
     border-radius: 10px;
     width: 100%;
-    height: 100px;
+    /* height: 100px; */
     padding: 30px;
     /* border-radius: 20px */
     /* padding-bottom: 0px; */
@@ -49,8 +49,13 @@
     padding: 20px;
     /* margin: 20px; */
     /* width:97%; */
-    margin-top: 0px;
+    /* margin-top: 5px; */
 }
+
+.fortube-ber .buttom-box .analyze-number {
+    margin-top: 5px;
+}
+
 
 .fortube-ber .buttom-box .analyze-number button {
     background-color: #773A2C;
@@ -68,6 +73,7 @@
 .fortune-box label {
     font-weight: 600;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .auspicious-value p {
@@ -128,30 +134,43 @@
     gap: 10px;
 }
 
-.fortube-ber .buttom-box .auspicious-value .buttom-auspicious{
+.fortube-ber .buttom-box .auspicious-value .buttom-auspicious {
     display: flex;
     justify-content: space-between;
 }
-.buttom-auspicious span{
+
+.buttom-auspicious span {
     color: #000;
     font-size: 16px;
-   
+
 }
-.fortube-ber .buttom-box .auspicious-value .auspicious-level-color{
+
+.fortube-ber .buttom-box .auspicious-value .auspicious-level-color {
     display: grid;
-    grid-template-columns:  auto auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
     gap: 1px;
     /* margin: 5px; */
     position: relative;
 }
 
- .border-buttom{
+.border-buttom {
     margin-top: 18px;
     border-bottom: 5px solid #000;
     border-radius: 5px;
 }
 
-.auspicious-level-color .color-img{
+.auspicious-level-color .center-auspicious {
+    position: relative;
+}
+
+.center-auspicious .center-tick {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+
+}
+
+.auspicious-level-color .color-img {
     width: 5px;
     height: 5px;
     border-radius: 5px;
@@ -162,12 +181,79 @@
 
 }
 
-.fortube-ber .buttom-box .auspicious-level{
+.fortube-ber .buttom-box .auspicious-level {
     border: 1px solid #000;
     border-radius: 5px;
     padding: 3px;
-
+    position: relative;
 }
+
+.fortube-ber .buttom-box .auspicious-sim {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* justify-content: center; */
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000000;
+    /*padding: 20px;
+     margin: 20px; */
+    width: 100%;
+    margin-top: 0px;
+}
+
+.auspicious-sim .text-auspicious{
+    margin: 15px;
+    text-align: center;
+    
+}
+
+.auspicious-sim p {
+    font-size: 2rem;
+    color: #C4C4C4;
+    font-weight: 1000;
+    font-style: italic;
+    text-align: center;
+}
+
+.auspicious-sim .sim-color {
+    background-color: #43BCCD;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.auspicious-sim .sim-color .sim-img{
+ padding-top: 30px;
+ padding-left: 70px;
+}
+.fortube-ber .box-content-fortune{
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.fortube-ber .box-content-fortune .t-head{
+    color: #fff;
+    background: linear-gradient(#8D7045, #773A2C);
+    padding: 15px;
+    border-radius: 5px; 
+    /* margin-top: 20px; */
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    /* border: 1px solid #F3F3F3; */
+    
+  }
+  td {
+    padding: 15px;
+    text-align: left;
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;  
+  }
+
+  tbody tr:nth-child(odd) {background-color: #FFF;}
+  tbody tr:nth-child(even) {background-color: #F3F3F3;}
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .fortube-ber .fortune-box {
@@ -942,28 +1028,29 @@
 }
 
 @media screen and (max-width: 480px) {
-    .fortube-ber .detail-zone {
+    .fortube-ber .table {
         margin: 5% 0
     }
 }
 
-.fortube-ber .detail-zone .box {
+.fortube-ber table .box {
     padding: 0 2% 2% 2%;
-    border-bottom: 1px solid gray
+    /* border-bottom: 1px solid gray */
 }
 
-.fortube-ber .detail-zone .box .head-detail {
-    margin: 5% 0
+.fortube-ber table .box .head-detail {
+    /* margin: 5% 0 */
+    margin-bottom: 20px;
 }
 
-.fortube-ber .detail-zone .box .head-detail h3 {
+.fortube-ber table .box .head-detail h3 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex
 }
 
 @media screen and (max-width: 768px) {
-    .fortube-ber .detail-zone .box .head-detail h3 {
+    .fortube-ber table .box .head-detail h3 {
         font-size: 1rem;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -972,47 +1059,52 @@
     }
 }
 
-.fortube-ber .detail-zone .box .head-detail h3 .kuunum {
+.fortube-ber table .box .head-detail h3 .kuunum {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex
 }
 
 @media screen and (min-width: 769px) {
-    .fortube-ber .detail-zone .box .head-detail h3 .kuunum {
-        width: 25%
-    }
+    .fortube-ber table .box .head-detail h3 .kuunum {
+        width: 12%
+    }   
 }
 
-.fortube-ber .detail-zone .box .head-detail h3 .kuunum .no0,
-.fortube-ber .detail-zone .box .head-detail h3 .kuunum .no1,
-.fortube-ber .detail-zone .box .head-detail h3 .kuunum .no2,
-.fortube-ber .detail-zone .box .head-detail h3 .kuunum .no3,
-.fortube-ber .detail-zone .box .head-detail h3 .kuunum .no4,
-.fortube-ber .detail-zone .box .head-detail h3 .kuunum .no5,
-.fortube-ber .detail-zone .box .head-detail h3 .kuunum .no6,
-.fortube-ber .detail-zone .box .head-detail h3 .kuunum .no7 {
+.fortube-ber .table .box .head-detail h3 .kuunum{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.fortube-ber .table .box .head-detail h3 .kuunum .no0,
+.fortube-ber .table .box .head-detail h3 .kuunum .no1,
+.fortube-ber .table .box .head-detail h3 .kuunum .no2,
+.fortube-ber .table .box .head-detail h3 .kuunum .no3,
+.fortube-ber .table .box .head-detail h3 .kuunum .no4,
+.fortube-ber .table .box .head-detail h3 .kuunum .no5,
+.fortube-ber .table .box .head-detail h3 .kuunum .no6,
+.fortube-ber .table .box .head-detail h3 .kuunum .no7 {
     color: lightgray
 }
 
-.fortube-ber .detail-zone .box .head-detail h3 .kuunum .no0 {
+.fortube-ber .table .box .head-detail h3 .kuunum .no0 {
     margin-left: 1%
 }
 
-.fortube-ber .detail-zone .box .head-detail h3 .kuunum .no7 {
+.fortube-ber .table .box .head-detail h3 .kuunum .no7 {
     margin-right: 1%
 }
 
-.fortube-ber .detail-zone .box .head-detail h3 .kuunum .pair {
-    color: #c19a4b
+.fortube-ber .table .box .head-detail h3 .kuunum .pair {
+    color: #000000
 }
 
-.fortube-ber .detail-zone .box .detail p {
+.fortube-ber .table .box .detail p {
     text-indent: 2%
 }
 
 @media screen and (max-width: 480px) {
-    .fortube-ber .detail-zone .box .detail p {
+    .fortube-ber .table .box .detail p {
         font-size: .8rem;
         text-indent: 5%
     }

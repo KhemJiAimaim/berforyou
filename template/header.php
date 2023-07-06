@@ -233,8 +233,12 @@
         </div>
     </nav>
 
-
-
+   
+    <!-- <?php if ($slug === 'index') { ?>
+        <div class="slider owl-carousel">
+            <figure><img src="img/Rectangle 7.png" alt=""></figure>
+        </div>
+        <?php } ?> -->
     <?php if ($slug === 'fortune-ber') { ?>
         <figure><img src="img/Rectangle 692.png" alt="" class="bandner-nav"></figure>
     <?php } ?>
@@ -264,20 +268,20 @@
 
     <?php if ($slug === 'delivery-check') { ?>
         <figure><img src="img/Rectangle 66.png" alt="" class="bandner-nav"></figure>
-    <?php } ?>
+    <?php } ?>  
 
     <?php if ($slug === 'home') { ?>
         <div class="slider owl-carousel">
             <figure><img src="img/Rectangle 7.png" alt=""></figure>
         </div>
-  
-    <div class="container">
-        <div class="text-box">
-            <span>ยินดีต้อนรับเข้าสู่ Berforyou.com ศูนย์รวมจำหน่ายเบอร์สวย เบอร์มงคล เบอร์เสริมดวง บริการครบเครื่องเรื่องเบอร์ ระบบทำนายเบอร์อัตโนมัติ ระบบค้นหาเบอร์ที่ต้องการ ตรงจุด ทุกความต้องการ<br />
-                เสริมการเงิน การงาน ความรัก สุขภาพ โชคลาภ สะดวกสบายโดยการเลือกซื้อและชำระเงินผ่านหน้าเว็บไซต์ได้ทันที จัดส่งวันต่อวัน รวดเร็วทันใจ เบอร์ทุกเบอร์คุณภาพคัดเกรด มงคลทั้งเว็บ <br />ด้วยประสบการณ์ขายมากกว่า 10 ปี</span>
-        </div>
-        <!-- ค้นหาเบอร์ -->
-        <!-- <section>
+
+        <div class="container">
+            <div class="text-box">
+                <span>ยินดีต้อนรับเข้าสู่ Berforyou.com ศูนย์รวมจำหน่ายเบอร์สวย เบอร์มงคล เบอร์เสริมดวง บริการครบเครื่องเรื่องเบอร์ ระบบทำนายเบอร์อัตโนมัติ ระบบค้นหาเบอร์ที่ต้องการ ตรงจุด ทุกความต้องการ<br />
+                    เสริมการเงิน การงาน ความรัก สุขภาพ โชคลาภ สะดวกสบายโดยการเลือกซื้อและชำระเงินผ่านหน้าเว็บไซต์ได้ทันที จัดส่งวันต่อวัน รวดเร็วทันใจ เบอร์ทุกเบอร์คุณภาพคัดเกรด มงคลทั้งเว็บ <br />ด้วยประสบการณ์ขายมากกว่า 10 ปี</span>
+            </div>
+            <!-- ค้นหาเบอร์ -->
+            <!-- <section>
             <div class="search-box">
                 <h2>ค้นหาเบอร์</h2>
                 <div class="box">
