@@ -2,7 +2,59 @@
     <div class="head-text">
         <h1>บทความ</h1>
     </div>
-    <div class="blog-con">
+    <!-- <table>
+        <tbody>
+            <tr>
+                <td class="blog-con">
+                    <figure class="blog-img">
+                        <img src="img/test1.jpg" alt="">
+                    </figure>
+                    <div class="blog-text">
+                        <p class="blog-date">13 มิ.ย. 2566</p>
+                        <a href="article-detail">Lorem ipsum dolor sit amet consectetur. Enim nibh est donec sit.</a>
+                        <p class="blog-doc">Lorem ipsum dolor sit amet consectetur. Quis sed dolor blandit adipiscing
+                            augue
+                            velit
+                            sit quam pellentesque. Et tempor egestas mattis parturient arcu id. Risus aenean a volutpat
+                            leo.
+                            Elementum aliquam ac sit viverra diam viverra ultricies non. Non eu scelerisque nisl tempus
+                            venenatis
+                            molestie tincidunt diam tempus. Odio et vitae nisl mauris turpis.</p>
+                        <figure class="blog-contac" style="margin-top:10px;">
+                            <img class="blog-facebook" src="img/facebook.png" alt="">
+                            <img class="blog-line" src="img/line 1.png" alt="">
+                        </figure>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="blog-con">
+                    <figure class="blog-img">
+                        <img src="img/test1.jpg" alt="">
+                    </figure>
+                    <div class="blog-text">
+                        <p class="blog-date">13 มิ.ย. 2566</p>
+                        <a href="article-detail">Lorem ipsum dolor sit amet consectetur. Enim nibh est donec sit.</a>
+                        <p class="blog-doc">Lorem ipsum dolor sit amet consectetur. Quis sed dolor blandit adipiscing
+                            augue
+                            velit
+                            sit quam pellentesque. Et tempor egestas mattis parturient arcu id. Risus aenean a volutpat
+                            leo.
+                            Elementum aliquam ac sit viverra diam viverra ultricies non. Non eu scelerisque nisl tempus
+                            venenatis
+                            molestie tincidunt diam tempus. Odio et vitae nisl mauris turpis.</p>
+                        <figure class="blog-contac" style="margin-top:10px;">
+                            <img class="blog-facebook" src="img/facebook.png" alt="">
+                            <img class="blog-line" src="img/line 1.png" alt="">
+                        </figure>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table> -->
+
+    <!-- <!-- <div class="blog-con">
         <figure class="blog-img">
             <img src="img/test1.jpg" alt="">
         </figure>
@@ -35,42 +87,89 @@
                 <img class="blog-line" src="img/line 1.png" alt="">
             </figure>
         </div>
-    </div>
-    <div class="blog-con">
-        <figure class="blog-img">
-            <img src="img/test1.jpg" alt="">
-        </figure>
-        <div class="blog-text">
-            <p class="blog-date">13 มิ.ย. 2566</p>
-            <a href="article-detail">Lorem ipsum dolor sit amet consectetur. Enim nibh est donec sit.</a>
-            <p class="blog-doc">Lorem ipsum dolor sit amet consectetur. Quis sed dolor blandit adipiscing augue velit
-                sit quam pellentesque. Et tempor egestas mattis parturient arcu id. Risus aenean a volutpat leo.
-                Elementum aliquam ac sit viverra diam viverra ultricies non. Non eu scelerisque nisl tempus venenatis
-                molestie tincidunt diam tempus. Odio et vitae nisl mauris turpis.</p>
-            <figure class="blog-contac" style="margin-top:10px;">
-                <img class="blog-facebook" src="img/facebook.png" alt="">
-                <img class="blog-line" src="img/line 1.png" alt="">
+    </div> -->
+    <section class="blog-blog">
+        <div class="blog-con">
+            <figure class="blog-img">
+                <img src="img/test1.jpg" alt="">
             </figure>
+            <div class="blog-text">
+                <p class="blog-date">13 มิ.ย. 2566</p>
+                <a href="article-detail">Lorem ipsum dolor sit amet consectetur. Enim nibh est donec sit.</a>
+                <p class="blog-doc">Lorem ipsum dolor sit amet consectetur. Quis sed dolor blandit adipiscing augue
+                    velit
+                    sit quam pellentesque. Et tempor egestas mattis parturient arcu id. Risus aenean a volutpat leo.
+                    Elementum aliquam ac sit viverra diam viverra ultricies non. Non eu scelerisque nisl tempus
+                    venenatis
+                    molestie tincidunt diam tempus. Odio et vitae nisl mauris turpis.</p>
+                <figure class="blog-contac" style="margin-top:10px;">
+                    <img class="blog-facebook" src="img/facebook.png" alt="">
+                    <img class="blog-line" src="img/line 1.png" alt="">
+                </figure>
+            </div>
         </div>
-    </div>
-    <div class="blog-con">
-        <figure class="blog-img">
-            <img src="img/test1.jpg" alt="">
-        </figure>
-        <div class="blog-text">
-            <p class="blog-date">13 มิ.ย. 2566</p>
-            <a href="article-detail">Lorem ipsum dolor sit amet consectetur. Enim nibh est donec
-                sit.</a>
-            <p class="blog-doc">Lorem ipsum dolor sit amet consectetur. Quis sed dolor blandit adipiscing augue velit
-                sit quam pellentesque. Et tempor egestas mattis parturient arcu id. Risus aenean a volutpat leo.
-                Elementum aliquam ac sit viverra diam viverra ultricies non. Non eu scelerisque nisl tempus venenatis
-                molestie tincidunt diam tempus. Odio et vitae nisl mauris turpis.</p>
-            <figure class="blog-contac" style="margin-top:10px;">
-                <img class="blog-facebook" src="img/facebook.png" alt="">
-                <img class="blog-line" src="img/line 1.png" alt="">
+        <div class="blog-con">
+            <figure class="blog-img">
+                <img src="img/test1.jpg" alt="">
             </figure>
+            <div class="blog-text">
+                <p class="blog-date">13 มิ.ย. 2566</p>
+                <a href="article-detail">Lorem ipsum dolor sit amet consectetur. Enim nibh est donec
+                    sit.</a>
+                <p class="blog-doc">Lorem ipsum dolor sit amet consectetur. Quis sed dolor blandit adipiscing augue
+                    velit
+                    sit quam pellentesque. Et tempor egestas mattis parturient arcu id. Risus aenean a volutpat leo.
+                    Elementum aliquam ac sit viverra diam viverra ultricies non. Non eu scelerisque nisl tempus
+                    venenatis
+                    molestie tincidunt diam tempus. Odio et vitae nisl mauris turpis.</p>
+                <figure class="blog-contac" style="margin-top:10px;">
+                    <img class="blog-facebook" src="img/facebook.png" alt="">
+                    <img class="blog-line" src="img/line 1.png" alt="">
+                </figure>
+            </div>
         </div>
-    </div>
+        <div class="blog-con">
+            <figure class="blog-img">
+                <img src="img/test1.jpg" alt="">
+            </figure>
+            <div class="blog-text">
+                <p class="blog-date">13 มิ.ย. 2566</p>
+                <a href="article-detail">Lorem ipsum dolor sit amet consectetur. Enim nibh est donec
+                    sit.</a>
+                <p class="blog-doc">Lorem ipsum dolor sit amet consectetur. Quis sed dolor blandit adipiscing augue
+                    velit
+                    sit quam pellentesque. Et tempor egestas mattis parturient arcu id. Risus aenean a volutpat leo.
+                    Elementum aliquam ac sit viverra diam viverra ultricies non. Non eu scelerisque nisl tempus
+                    venenatis
+                    molestie tincidunt diam tempus. Odio et vitae nisl mauris turpis.</p>
+                <figure class="blog-contac" style="margin-top:10px;">
+                    <img class="blog-facebook" src="img/facebook.png" alt="">
+                    <img class="blog-line" src="img/line 1.png" alt="">
+                </figure>
+            </div>
+        </div>
+        <div class="blog-con">
+            <figure class="blog-img">
+                <img src="img/test1.jpg" alt="">
+            </figure>
+            <div class="blog-text">
+                <p class="blog-date">13 มิ.ย. 2566</p>
+                <a href="article-detail">Lorem ipsum dolor sit amet consectetur. Enim nibh est donec
+                    sit.</a>
+                <p class="blog-doc">Lorem ipsum dolor sit amet consectetur. Quis sed dolor blandit adipiscing augue
+                    velit
+                    sit quam pellentesque. Et tempor egestas mattis parturient arcu id. Risus aenean a volutpat leo.
+                    Elementum aliquam ac sit viverra diam viverra ultricies non. Non eu scelerisque nisl tempus
+                    venenatis
+                    molestie tincidunt diam tempus. Odio et vitae nisl mauris turpis.</p>
+                <figure class="blog-contac" style="margin-top:10px;">
+                    <img class="blog-facebook" src="img/facebook.png" alt="">
+                    <img class="blog-line" src="img/line 1.png" alt="">
+                </figure>
+            </div>
+        </div>
+    </section>
+
     <!-- กล่องบทความ -->
     <!-- <div class="box-article">
         <div class="item">
