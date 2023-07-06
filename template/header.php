@@ -242,6 +242,9 @@
     <?php if ($slug === 'fortune-ber') { ?>
         <figure><img src="img/Rectangle 692.png" alt="" class="bandner-nav"></figure>
     <?php } ?>
+    <?php if ($slug === 'detail-ber') { ?>
+        <figure><img src="img/Rectangle 692.png" alt="" class="bandner-nav"></figure>
+    <?php } ?>
 
     <?php if ($slug === 'ber-mean') { ?>
         <figure><img src="img/Rectangle 6999.png" alt="" class="bandner-nav"></figure>
@@ -270,10 +273,15 @@
         <figure><img src="img/Rectangle 66.png" alt="" class="bandner-nav"></figure>
     <?php } ?>  
 
+    <?php if ($slug === 'cart') { ?>
+        <figure><img src="img/Rectangle 66.png" alt="" class="bandner-nav"></figure>
+    <?php } ?>  
+
     <?php if ($slug === 'home') { ?>
         <div class="slider owl-carousel">
             <figure><img src="img/Rectangle 7.png" alt=""></figure>
         </div>
+    
 
         <div class="container">
             <div class="text-box">
