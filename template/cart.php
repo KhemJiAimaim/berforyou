@@ -11,10 +11,10 @@
                     <h3>รายการ</h3>
                     <h3>2 รายการ</h3>
                 </div>
-                
+
                 <div class="list-item">
-                    
-                    <?php for ($i = 1; $i <= 10; $i++) : ?>
+
+                    <?php for ($i = 1; $i <= 3; $i++) : ?>
                         <div class="box">
                             <div class="box-header">
                                 <div class="img"><img src="img/icon/Dtac-02.png" alt=""></div>
@@ -42,8 +42,22 @@
                                 </div>
                             </div>
                         </div>
-                    <?php endfor; ?>
 
+                    <?php endfor; ?>
+                    <!-- <div class="box">
+                            <div class="logo"><figure><img src="img/logo/Artboard – 13.jpg" alt=""></figure></div>
+                            <div class="number">
+                                <a href="detail-ber"><span>099999999</span></a>
+                                <span class="sum-num">ผลรวม 48</span>
+                            </div>
+                            <div class="detail">
+                                <div class="rank"><figure><img class="grade-A" src="img/grade/Artboard – 24.jpg" alt=""></figure></div>
+                                <div class="price"><span>9000000.-</span></div>
+                                <div class="icon">
+                                    <i id="delete" class="fas fa-trash"></i>
+                                </div>
+                            </div>
+                        </div> -->
                 </div>
             </div>
 
@@ -54,6 +68,11 @@
                         <span>จำนวนสินค้า</span><span>6 ชิ้น</span>
                     </div>
 
+                    <div class="shipping-price">
+                        <span>ค่าจัดส่ง</span>
+                        <span>0 บาท</span>
+                    </div>
+
                     <div class="total-price">
                         <span>รวมราคา</span>
                         <span>9000000 บาท</span>
@@ -61,149 +80,204 @@
 
                     <div class="ps">
                         <div class="row">
-                            <i class="fas fa-truck"></i>
-                            <span>จัดส่งรวดเร็ว</span>
+                            <img src="img/icon/shipping.png" alt="">
+                            <span>จัดส่งฟรีเมื่อซื้อสินค้ามียอดรวมขั้นต่ำ 1,500 บาท</span>
                         </div>
                         <div class="row">
-                            <i class="fas fa-shield-alt"></i>
+                            <img src="img/icon/shipping-fast.png" alt="">
+                            <span>ทำการจัดส่งทันทีหลังจากการทำรายการสั่งซื้อสำเร็จ</span>
+                        </div>
+                        <div class="row">
+                            <img src="img/icon/shield-check.png" alt="">
                             <span>รับประกันสินค้าเสียหาย</span>
+                        </div>
+                        <div class="row">
+                            <img src="img/icon/eye-sharp.png" alt="">
+                            <span>สามารถติดตามสถานะสินค้าได้ทุกเมื่อ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="address-box">
+                <h2>กรอกข้อมูลเพื่อการจัดส่ง</h2>
+
+                <div class="input-zone">
+                    <label for="name-customer">ชื่อ/นามสกุล</label>
+                    <input type="text" maxlength="32" placeholder="กรุณากรอกชื่อ">
+                    <div class="box-email-tel">
+                        <div class="detail-box">
+                            <label for="email">อีเมล์</label>
+                            <input type="email" maxlength="32" placeholder="อีเมล์">
+                        </div>
+                        <div class="detail-box">
+                            <label for="tel">เบอร์โทร</label>
+                            <input type="tel" maxlength="10" placeholder="เบอร์โทรศัพท์">
+                        </div>
+                    </div>
+
+                    <label for="tel">ที่อยู่จัดส่ง</label>
+                    <textarea name="" id="" cols="30" rows="3" placeholder="รายละเอียด"></textarea>
+
+                    <div class="box-address">
+                        <div class="detail-box">
+                            <label for="email">แขวง/ตำบล</label>
+                            <input type="text" placeholder="ตำบล">
+                        </div>
+                        <div class="detail-box">
+                            <label for="tel">เขต/อำเภอ</label>
+                            <input type="text" placeholder="อำเภอ">
+                        </div>
+                        <div class="detail-box">
+                            <label for="tel">จังหวัด</label>
+                            <input type="text" placeholder="จังหวัด">
+                        </div>
+                        <div class="detail-box">
+                            <label for="tel">รหัสไปรษณีย์</label>
+                            <input type="text" placeholder="00000">
                         </div>
                     </div>
                 </div>
 
-                
-            </div>
-            <div class="address-box">
-                    <h2>กรอกข้อมูลเพื่อการจัดส่ง</h2>
 
-                    <div class="input-zone">
-                        <input type="text" maxlength="32" placeholder="กรุณากรอกชื่อ">
-                        <input type="text" maxlength="32" placeholder="กรุณากรอกนามสกุล">
-                        <input type="tel" maxlength="10" placeholder="กรุณากรอกเบอร์โทร">
-                        <input type="email" maxlength="32" placeholder="กรุณากรอก Email">
-                    </div>
-
-                    <input class="adddress" type="text" placeholder="ที่อยู่">
-
-                    <div class="button-checkout">
-                        <a href="cate-ber"><button class="add-ber">เลือกเบอร์เพิ่ม</button></a>
-                        <button class="buy">สั่งซื้อ</button>
-                        <button class="reset">ล้างข้อมูล</button>
-                    </div>
+                <div class="button-checkout">
+                    <!-- <a href="cate-ber"><button class="add-ber">เลือกเบอร์เพิ่ม</button></a> -->
+                    <button class="buy">ส่ง</button>
+                    <!-- <button class="reset">ล้างข้อมูล</button> -->
                 </div>
+            </div>
         </div>
 
     </div>
 
-    <div class="box-loading">
+    <!-- <div class="box-loading">
         <div class="loading"></div>
     </div>
 
     <div class="thank-you">
         <figure><img src="img/thank.png" alt=""></figure>
+    </div> -->
+
+    <div class="upload-box">
+        <div class="upload-shadow">
+            <div class="head-text">
+                <h1>การอัฟโหลดสลิป</h1>
+            </div>
+
+            <div class="upload-content">
+                <div class="upload-background">
+                    
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="howtobuy">
-        <div class="head-text">
-            <h1>ช่องทางการชำระเงิน</h1>
-        </div>
-
-        <!-- ธนาคาร -->
-        <div class="payby">
-            <div class="paybybank">
-                <h3>ชำระผ่านการโอน</h3>
-                <div class="box-bank">
-                    <div class="item">
-                        <figure><img src="img/bank/1-01.jpg" alt=""></figure>
-                        <div class="text">
-                            <span>บัญชี : ธนาคารกสิกรไทย</span>
-                            <span>เลขบัญชี : 7732280256</span>
-                            <span>ชื่อบัญชี : บริษัท พีดีเอส พรอสเพอริที จำกัด</span>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <figure><img src="img/bank/2-01.jpg" alt=""></figure>
-                        <div class="text">
-                            <span>บัญชี : ธนาคารกสิกรไทย</span>
-                            <span>เลขบัญชี : 7732280256</span>
-                            <span>ชื่อบัญชี : บริษัท พีดีเอส พรอสเพอริที จำกัด</span>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <figure><img src="img/bank/3-01.jpg" alt=""></figure>
-                        <div class="text">
-                            <span>บัญชี : ธนาคารกสิกรไทย</span>
-                            <span>เลขบัญชี : 7732280256</span>
-                            <span>ชื่อบัญชี : บริษัท พีดีเอส พรอสเพอริที จำกัด</span>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <figure><img src="img/bank/4-01.jpg" alt=""></figure>
-                        <div class="text">
-                            <span>บัญชี : ธนาคารกสิกรไทย</span>
-                            <span>เลขบัญชี : 7732280256</span>
-                            <span>ชื่อบัญชี : บริษัท พีดีเอส พรอสเพอริที จำกัด</span>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <figure><img src="img/bank/5-01.jpg" alt=""></figure>
-                        <div class="text">
-                            <span>บัญชี : ธนาคารกสิกรไทย</span>
-                            <span>เลขบัญชี : 7732280256</span>
-                            <span>ชื่อบัญชี : บริษัท พีดีเอส พรอสเพอริที จำกัด</span>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <figure><img src="img/bank/6-01.jpg" alt=""></figure>
-                        <div class="text">
-                            <span>บัญชี : ธนาคารกสิกรไทย</span>
-                            <span>เลขบัญชี : 7732280256</span>
-                            <span>ชื่อบัญชี : บริษัท พีดีเอส พรอสเพอริที จำกัด</span>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <figure><img src="img/bank/7-01.jpg" alt=""></figure>
-                        <div class="text">
-                            <span>บัญชี : ธนาคารกสิกรไทย</span>
-                            <span>เลขบัญชี : 7732280256</span>
-                            <span>ชื่อบัญชี : บริษัท พีดีเอส พรอสเพอริที จำกัด</span>
-                        </div>
-                    </div>
-                </div>
+        <div class="howtobuy-shadow">
+            <div class="head-text">
+                <h1>ช่องทางการชำระเงิน</h1>
             </div>
 
-            <div class="paybycredit">
-                <h3>ชำระผ่านบัตรเครดิต</h3>
-                <div class="box-credit">
-                    <figure><img src="img/bank/Master-card.jpg" alt=""></figure>
-                    <figure><img src="img/bank/american-express.jpg" alt=""></figure>
-                    <figure><img src="img/bank/union-pay.jpg" alt=""></figure>
-                    <figure><img src="img/bank/visa.jpg" alt=""></figure>
-                    <figure><img src="img/bank/JCB-01.jpg" alt=""></figure>
+            <!-- ธนาคาร -->
+            <div class="payby">
+                <div class="paybybank">
+                    <h3>ชำระผ่านการโอน</h3>
+                    <div class="box-bank">
+                        <div class="item">
+                            <figure><img src="img/bank/5-01.jpg" alt=""></figure>
+                            <div class="text">
+                                <span>บัญชี : ธนาคารกสิกรไทย</span>
+                                <span>เลขบัญชี : 7732280256</span>
+                                <span>ชื่อบัญชี : บริษัท พีดีเอส พรอสเพอริที จำกัด</span>
+                            </div>
+                        </div>
+
+                        <!-- <div class="item">
+                            <figure><img src="img/bank/1-01.jpg" alt=""></figure>
+                            <div class="text">
+                                <span>บัญชี : ธนาคารกสิกรไทย</span>
+                                <span>เลขบัญชี : 7732280256</span>
+                                <span>ชื่อบัญชี : บริษัท พีดีเอส พรอสเพอริที จำกัด</span>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <figure><img src="img/bank/2-01.jpg" alt=""></figure>
+                            <div class="text">
+                                <span>บัญชี : ธนาคารกสิกรไทย</span>
+                                <span>เลขบัญชี : 7732280256</span>
+                                <span>ชื่อบัญชี : บริษัท พีดีเอส พรอสเพอริที จำกัด</span>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <figure><img src="img/bank/3-01.jpg" alt=""></figure>
+                            <div class="text">
+                                <span>บัญชี : ธนาคารกสิกรไทย</span>
+                                <span>เลขบัญชี : 7732280256</span>
+                                <span>ชื่อบัญชี : บริษัท พีดีเอส พรอสเพอริที จำกัด</span>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <figure><img src="img/bank/4-01.jpg" alt=""></figure>
+                            <div class="text">
+                                <span>บัญชี : ธนาคารกสิกรไทย</span>
+                                <span>เลขบัญชี : 7732280256</span>
+                                <span>ชื่อบัญชี : บริษัท พีดีเอส พรอสเพอริที จำกัด</span>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <figure><img src="img/bank/6-01.jpg" alt=""></figure>
+                            <div class="text">
+                                <span>บัญชี : ธนาคารกสิกรไทย</span>
+                                <span>เลขบัญชี : 7732280256</span>
+                                <span>ชื่อบัญชี : บริษัท พีดีเอส พรอสเพอริที จำกัด</span>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <figure><img src="img/bank/7-01.jpg" alt=""></figure>
+                            <div class="text">
+                                <span>บัญชี : ธนาคารกสิกรไทย</span>
+                                <span>เลขบัญชี : 7732280256</span>
+                                <span>ชื่อบัญชี : บริษัท พีดีเอส พรอสเพอริที จำกัด</span>
+                            </div>
+                        </div> -->
+                    </div>
                 </div>
+
+                <!-- <div class="paybycredit">
+                    <h3>ชำระผ่านบัตรเครดิต</h3>
+                    <div class="box-credit">
+                        <figure><img src="img/bank/Master-card.jpg" alt=""></figure>
+                        <figure><img src="img/bank/american-express.jpg" alt=""></figure>
+                        <figure><img src="img/bank/union-pay.jpg" alt=""></figure>
+                        <figure><img src="img/bank/visa.jpg" alt=""></figure>
+                        <figure><img src="img/bank/JCB-01.jpg" alt=""></figure>
+                    </div>
+                </div> -->
             </div>
-        </div>
 
-        <!-- เนื้อหาck -->
-        <div class="ck">
-            <p>
-                เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK
-                เนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKvเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CK
-                เนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CK
-                เนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CK
-                เนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CK
-                เนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK
-                เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK
-                เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK
-                เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CK เนื้อหาคอนเทนท์ CKเนื้อหาคอนเทนท์ CK
-
-            </p>
+            <!-- เนื้อหาck -->
+            <div class="ck">
+                <p>ขั้นตอนการชำระเงิน</p>
+                <ol>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni reprehenderit laborum rem tempore porro dolore molestiae, provident, ex cum iure in culpa veritatis, enim nam quod quasi ratione unde.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni reprehenderit laborum rem tempore porro dolore molestiae, provident, ex cum iure in culpa veritatis, enim nam quod quasi ratione unde.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni reprehenderit laborum rem tempore porro dolore molestiae, provident, ex cum iure in culpa veritatis, enim nam quod quasi ratione unde.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni reprehenderit laborum rem tempore porro dolore molestiae, provident, ex cum iure in culpa veritatis, enim nam quod quasi ratione unde.
+                    </li>
+                </ol>
+            </div>
         </div>
     </div>
 </div>
