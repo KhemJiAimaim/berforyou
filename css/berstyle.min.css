@@ -501,7 +501,7 @@ nav .topnav .group-mobile-menu .hamberger i {
 }
 
 .owl-carousel .owl-item img {
-    padding-top: 50px;
+    padding-top: 75px;
     margin-bottom: 10px;
 }
 
@@ -546,7 +546,7 @@ nav .topnav .group-mobile-menu .hamberger i {
     /* background: -webkit-gradient(linear, left top, left bottom, from(#c5a04f), to(#8e5415));
     background: linear-gradient(#c5a04f, #8e5415) */
     background-image: url(../img/bg-number.png) !important;
-    background-size: cover;
+    background-size: 100% 100%;
     background-color: #43251B;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -554,7 +554,7 @@ nav .topnav .group-mobile-menu .hamberger i {
 
 @media screen and (min-width: 868px) {
     .search-box {
-        background-image: url('img/BG.png');
+        background-image: url(../img/BG.png);
         background-repeat: no-repeat;
         background-position: center
     }
