@@ -681,6 +681,7 @@
 
 .blog-blog .blog-con:nth-child(odd) {background-color: #FFF;}
 .blog-blog .blog-con:nth-child(even) {background-color: #F3F3F3;}
+
 .date-share{
     width:100%;
     display:flex;
