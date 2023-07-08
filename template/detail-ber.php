@@ -2,7 +2,7 @@
     <div class="fortune-box">
         <div class="top-box">
             <div class="fortune">
-                <span>ทำนายเบอร์</span>
+                <span>รายละเอียดหมายเลข</span>
             </div>
             <div class="manual">
                 <a href=""> <span>คู่มือคู่เลข</span>
@@ -13,7 +13,7 @@
         <div class="buttom-box">
             <div class="search-number-detail">
                 <div class="ber-detail">
-                    <label>กรอกหมายเลข</label>
+                    <label>หมายเลขโทรศัพท์</label>
                     <p>085-463-82390</p>
                 </div>
                 <div class="color-sim-detail">

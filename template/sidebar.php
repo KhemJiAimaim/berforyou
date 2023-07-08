@@ -4,7 +4,7 @@
         
         <div class="menu">
             <ul>
-                <h2 style="color:white">หมวดหมู่เบอร์</h2>
+                <h2 >หมวดหมู่เบอร์</h2>
                 <li>
                     <a href="">
                         <span>เบอร์ทั้งหมด</span>
@@ -216,7 +216,7 @@
         
         <div class="menu">
             <ul>
-                <h2 style="color:white">ผลรวมเบอร์</h2>
+                <h2>ผลรวมเบอร์</h2>
                 <li>
                     <a href="">
                         <span>พลังแห่งทรัพย์สินและเงินตรา</span>
@@ -435,7 +435,7 @@
         <div class="menu"> 
             <ul>
                 <div class="head-text">
-                    <h2 style="color: white;">จัดส่งสินค้าล่าสุด</h2>
+                    <h2>จัดส่งสินค้าล่าสุด</h2>
                     <a href="">ทั้งหมด</a>
                 </div>
                 <li>
