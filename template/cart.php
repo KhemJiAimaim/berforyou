@@ -165,8 +165,65 @@
             </div>
 
             <div class="upload-content">
-                <div class="upload-background">
-                    
+                <div class="upload-form">
+                    <h3>กรอกข้อมูลการจัดส่ง</h3>
+                    <div class="upload-form-group">
+                        <div class="form-left">
+                            <div class="form-group">
+                                <label for="">โอนเข้าธนาคาร (ธนาคารของทางเว็บเบอร์)</label>
+                                <select class="selection">
+                                    <option value="SCB">SCB Siam Commercial Bank</option>
+                                    <option value="SCB">SCB Siam Commercial Bank</option>
+                                    <option value="SCB">SCB Siam Commercial Bank</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">โอนออกจากธนาคาร (ธนาคารของลูกค้า)</label>
+                                <select class="selection">
+                                    <option value="BAY">BAY Bank of Ayudhya Public Company Limited</option>
+                                    <option value="BAY">BAY Bank of Ayudhya Public Company Limited</option>
+                                    <option value="BAY">BAY Bank of Ayudhya Public Company Limited</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">จำนวนเงิน</label>
+                                <input class="inp" type="text" placeholder="กรอกจำนวนเงิน">
+                            </div>
+                            <div class="row-group">
+                                <div class="form-group">
+                                    <label for="">ชื่อบัญชี</label>
+                                    <input class="inp" type="text" placeholder="กรอกชื่อบัญชีผู้โอน">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">วันที่โอน</label>
+                                    <input class="inp" type="date">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="form-right">
+                            <div class="upload-file">
+                                <p>อัปสลิป</p>
+                                <p>กรุณากดเพื่อสลิปชำระค่าเบอร์</p>
+                                <img class="upload-image" src="" alt="">
+                                <p>File Supported JPG,PNG maximum size 2MB</p>
+                                <input type="file" id="upload1" accept="image/*">
+                                <label for="upload1">Upload</label>
+                            </div>
+                            <div class="upload-file">
+                                <p>อัปโหลดเอกสาร</p>
+                                <p>เฉพาะลูกค้าที่ซื้อเบอร์เครือข่ายทรูมูฟเท่านั้น</p>
+                                <img class="upload-image" src="" alt="">
+                                <p>File Supported JPG,PNG,PDF maximum size 2MB</p>
+                                <input type="file" id="upload2" accept="image/*">
+                                <label for="upload2">Upload</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="upload-submit">
+                        <button>ส่ง</button>
+                    </div>
                 </div>
             </div>
         </div>

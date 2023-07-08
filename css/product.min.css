@@ -1759,8 +1759,8 @@
 }
 
 .cart-page .cart-shadow .cart-box .address-box .input-zone .box-email-tel {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
 
@@ -1914,6 +1914,7 @@
     max-width: 100%
 }
 
+/* Start Box-upload */
 .cart-page .upload-box {
     
 }
@@ -1929,18 +1930,89 @@
 }
 
 .cart-page .upload-box .upload-shadow .upload-content {
-    padding: 5% 20px;
+    padding: 3% 20px;
 }
 
-.cart-page .upload-box .upload-shadow .upload-content .upload-background {
+.cart-page .upload-box .upload-shadow .upload-content .upload-form {
     background: #43251B;
     background-image: url(../img/bg-number.png);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
-    height: 419px;
+    height: 100%;
     border-radius: 10px;
+    color: #FFF;
+    padding: 20px;
 }
+
+.cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+} 
+
+.cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-left .selection {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    background: #FBFAFB;
+}
+
+.cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-left .inp {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    background: #FBFAFB;
+}
+
+.cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-left .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-left .row-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-right {
+    display: flex;
+}
+
+.upload-file input[type="file"] {
+    display: none;
+}
+
+.cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-right .upload-file label {
+    border-radius: 5px;
+    background: #FFF;
+    color: #000000;
+    box-shadow: 2px 2px 5px 0px rgba(0, 58, 130, 0.50);
+  }
+
+.cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-right .upload-file .upload-image {
+    width: 196px;
+    height: 136px;
+    border-radius: 10px;
+    border: 2px dashed #FFF;
+}
+
+.cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-submit {
+    display: flex;
+    justify-content: center;
+}
+
+.cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-submit button {
+    border-radius: 5px;
+    background: #D6C3B2;
+    border: none;
+    width: 110px;
+    height: 32px;
+    margin-top: 20px;
+}
+
+/* end Box-upload */
 
 
 @media screen and (max-width: 480px) {
