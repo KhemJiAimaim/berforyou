@@ -35,7 +35,282 @@
 
 
 
+    <div class="mean-prediction-con">
+        <div class="mean-prediction-finance">
+            <div class="finance-text">
+                <img src="img/logo/finance.png" alt="">
+                <p>การเงิน</p>
+            </div>
+            <div class="finance-predic">
+                <div class="finance-predic-item">
+                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="finance-predic-item">
+                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="finance-predic-item">
+                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="finance-predic-item">
+                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="finance-predic-item">
+                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="finance-predic-item">
+                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="finance-predic-item">
+                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="finance-predic-item">
+                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="finance-predic-item">
+                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="finance-predic-item">
+                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="finance-predic-item">
+                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="finance-predic-item">
+                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="finance-predic-item">
+                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="finance-predic-item">
+                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="finance-predic-item">
+                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="finance-predic-item">
+                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="finance-predic-item">
+                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
 
+            </div>
+        </div>
+
+        <div class="mean-prediction-finance">
+            <div class="finance-text">
+                <img src="img/logo/work.png" alt="">
+                <p>อาชีพการงาน</p>
+            </div>
+            <div class="work-predic">
+                <div class="work-predic-item">
+                    <p class="work-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="work-predic-item">
+                    <p class="work-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="work-predic-item">
+                    <p class="work-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="mean-prediction-finance">
+            <div class="finance-text">
+                <img src="img/logo/luck.png" alt="">
+                <p>โชคลาภ วาสนา</p>
+            </div>
+            <div class="luck-predic">
+                <div class="luck-predic-item">
+                    <p class="luck-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="luck-predic-item">
+                    <p class="luck-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="luck-predic-item">
+                    <p class="luck-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="luck-predic-item">
+                    <p class="luck-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="mean-prediction-finance">
+            <div class="finance-text">
+                <img src="img/logo/love.png" alt="">
+                <p>ความรัก</p>
+            </div>
+            <div class="love-predic">
+                <div class="love-predic-item">
+                    <p class="love-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="love-predic-item">
+                    <p class="love-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="love-predic-item">
+                    <p class="love-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="love-predic-item">
+                    <p class="love-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="mean-prediction-finance">
+            <div class="finance-text">
+                <img src="img/logo/health.png" alt="">
+                <p>สุขภาพ</p>
+            </div>
+            <div class="health-predic">
+                <div class="health-predic-item">
+                    <p class="health-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="health-predic-item">
+                    <p class="health-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="health-predic-item">
+                    <p class="health-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="health-predic-item">
+                    <p class="health-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="health-predic-item">
+                    <p class="health-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="mean-prediction-finance">
+            <div class="finance-text">
+                <img src="img/logo/speech.png" alt="">
+                <p>วาจา</p>
+            </div>
+            <div class="speech-predic">
+                <div class="speech-predic-item">
+                    <p class="speech-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="speech-predic-item">
+                    <p class="speech-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="speech-predic-item">
+                    <p class="speech-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="speech-predic-item">
+                    <p class="speech-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="speech-predic-item">
+                    <p class="speech-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="speech-predic-item">
+                    <p class="speech-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="mean-prediction-finance">
+            <div class="finance-text">
+                <img src="img/logo/mind.png" alt="">
+                <p>จิตใจ</p>
+            </div>
+            <div class="mind-predic">
+                <div class="mind-predic-item">
+                    <p class="mind-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="mind-predic-item">
+                    <p class="mind-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="mind-predic-item">
+                    <p class="mind-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="mind-predic-item">
+                    <p class="mind-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="mind-predic-item">
+                    <p class="mind-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="mind-predic-item">
+                    <p class="mind-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="mind-predic-item">
+                    <p class="mind-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="mind-predic-item">
+                    <p class="mind-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="mean-prediction-finance">
+            <div class="finance-text">
+                <img src="img/logo/charm.png" alt="">
+                <p>เสน่ห์ ความนิยม</p>
+            </div>
+            <div class="charm-predic">
+                <div class="charm-predic-item">
+                    <p class="charm-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="charm-predic-item">
+                    <p class="charm-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="mean-prediction-finance">
+            <div class="finance-text">
+                <img src="img/logo/personality.png" alt="">
+                <p>บุคลิก ลักษณะ นิสัย</p>
+            </div>
+            <div class="personality-predic">
+                <div class="personality-predic-item">
+                    <p class="personality-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="personality-predic-item">
+                    <p class="personality-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="personality-predic-item">
+                    <p class="personality-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+            </div>
+        </div>
+        <div class="mean-prediction-finance">
+            <div class="finance-text">
+                <img src="img/logo/learn.png" alt="">
+                <p>การเรียน สติปัญญา</p>
+            </div>
+            <div class="learn-predic">
+                <div class="learn-predic-item">
+                    <p class="learn-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="learn-predic-item">
+                    <p class="learn-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="mean-prediction-finance">
+            <div class="finance-text">
+                <img src="img/logo/kudog.png" alt="">
+                <p>เบอร์มังกร เบอร์หงส์ เบอร์กวนอู</p>
+            </div>
+            <div class="kudog-predic">
+                <div class="kudog-predic-item">
+                    <p class="kudog-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
 
 
 
