@@ -141,6 +141,7 @@
     outline: none;
     font-size: 18px;
 }
+
 .fortube-ber .btn-social .btn-tel a svg {
     align-content: center;
 }
@@ -158,7 +159,7 @@
 .fortube-ber .btn-social .btn-cart a {
     border-radius: 5px;
     background: #8D7045;
-    padding: 15px 30px 15px 30px;    
+    padding: 15px 30px 15px 30px;
     flex-shrink: 0;
     outline: none;
     font-size: 18px;
@@ -352,7 +353,7 @@
 .fortube-ber .box-content-fortune {
     border: 1px solid #ddd;
     margin-top: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
 
@@ -360,7 +361,7 @@
     color: #fff;
     background: linear-gradient(#8D7045, #773A2C);
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 10px;
     /* margin-top: 20px; */
     margin-bottom: 10px;
     font-size: 1rem;
@@ -378,7 +379,17 @@
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .fortube-ber .fortune-box {
-        height: 200px
+        height: auto;
+    }
+
+    .fortube-ber .fortune-box .auspicious-value {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fortube-ber .fortune-box .auspicious-sim {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -1561,6 +1572,7 @@
     gap: 10px;
     align-items: center;
 }
+
 /* end box product*/
 
 
@@ -1777,7 +1789,7 @@
     border-radius: 5px;
     border: 1px solid #C4C4C4;
     background: #FBFAFB;
-    padding: 10px ;
+    padding: 10px;
     width: 100%;
 }
 
@@ -1895,9 +1907,7 @@
     max-width: 100%
 }
 
-.cart-page .upload-box {
-    
-}
+.cart-page .upload-box {}
 
 .cart-page .upload-box .upload-shadow {
     border-radius: 10px;
@@ -2046,7 +2056,7 @@
     color: #000;
     font-size: 16px;
     font-weight: 400;
-line-height: 19px;
+    line-height: 19px;
 }
 
 .cart-page .howtobuy .payby .paybycredit h3 {
@@ -2073,7 +2083,7 @@ line-height: 19px;
 .cart-page .howtobuy .ck ol {
     margin-top: 20px;
     padding: 0 20px;
-    
+
 }
 
 .cart-page .howtobuy .ck ol li {
@@ -2081,106 +2091,121 @@ line-height: 19px;
 }
 
 .ber-mean-page {
-    margin:0;
+    margin: 0;
 }
-.ber-meaningnumber{
-    width:100%;
-    height:379px;
-    padding:10px;
-    background-color: #783A2D ;
+
+.ber-meaningnumber {
+    width: 100%;
+    height: 379px;
+    padding: 10px;
+    background-color: #783A2D;
     background-image: url('../img/logo/Rectangle 893.png');
     background-repeat: no-repeat;
-    background-size:100% 100%;
-    border-radius:5px;
-    
+    background-size: 100% 100%;
+    border-radius: 5px;
+
 }
-.ber-meaningnumber .ber-text-sr{
-    
+
+.ber-meaningnumber .ber-text-sr {
+
     color: white;
-    margin-left:12px;
+    margin-left: 12px;
 }
-.ber-mean-wrap{
-    width:100%;
+
+.ber-mean-wrap {
+    width: 100%;
     height: 85%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.mean-box{
-    width:65%;
-   
+
+.mean-box {
+    width: 65%;
+
     display: flex;
     align-items: center;
 }
-.mean-box .box-big{
-    width:90%;
-    height:260px;
+
+.mean-box .box-big {
+    width: 90%;
+    height: 260px;
     background-color: #fff;
-    border-radius:10px;
+    border-radius: 10px;
 }
-.mean-box .box-mini{
-    width:85px;
-    height:100px;
+
+.mean-box .box-mini {
+    width: 85px;
+    height: 100px;
     background-color: white;
     border-radius: 0 10px 10px 0;
     display: flex;
     align-items: center;
 }
-.mean-box .box-mini img{
-    width:100%;
+
+.mean-box .box-mini img {
+    width: 100%;
 }
-.mean-select{
-    width:30%;
-    height:93%;
-    
-    padding:5px;
+
+.mean-select {
+    width: 30%;
+    height: 93%;
+
+    padding: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:10px;
-    
+    gap: 10px;
+
 }
-.mean-select .mean-select-price{
-    width:100%;
+
+.mean-select .mean-select-price {
+    width: 100%;
     height: 90px;
     background-color: #fff;
     display: flex;
     align-items: center;
-    padding:9px;
+    padding: 9px;
     justify-content: space-between;
-    border-radius:5px;
+    border-radius: 5px;
 }
-.mean-select .mean-select-price .mean-select-start p{
-  font-size:13px;
-  margin-left:12px;
+
+.mean-select .mean-select-price .mean-select-start p {
+    font-size: 13px;
+    margin-left: 12px;
 
 }
-.mean-select .mean-select-price .mean-select-start select{
-    width:130px;
-    height:28px;
-    border-radius:3px;
+
+.mean-select .mean-select-price .mean-select-start select {
+    width: 130px;
+    height: 28px;
+    border-radius: 3px;
 }
-.mean-select .mean-select-price .mean-select-end p{
-    font-size:13px;
-    margin-left:12px;
-  
-  }
-  .mean-select .mean-select-price .mean-select-end select{
-      width:130px;
-      height:28px;
-      border-radius:3px;
-  }
-  .mean-select .mean-select-button button{
-    width:110px;
-    padding:2px;
+
+.mean-select .mean-select-price .mean-select-end p {
+    font-size: 13px;
+    margin-left: 12px;
+
+}
+
+.mean-select .mean-select-price .mean-select-end select {
+    width: 130px;
+    height: 28px;
+    border-radius: 3px;
+}
+
+.mean-select .mean-select-button button {
+    width: 110px;
+    padding: 2px;
     height: 29px;
-    background-color:#D6C3B2 ;
+    background-color: #D6C3B2;
     border: none;
-    border-radius:5px;
-    font-size:16px;
+    border-radius: 5px;
+    font-size: 16px;
     color: #343434;
-  }
+}
+
 @media screen and (min-width: 769px) and (max-width: 1023px) {
     .ber-mean-page {
         grid-area: content
@@ -3636,13 +3661,13 @@ line-height: 19px;
     color: white;
     font-size: 18px;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
 
-.delivery-check .search-delivery {
+/* .delivery-check .search-delivery {
     margin-bottom: 30px;
-}
+} */
 
 .table-delivery table {
     border-collapse: collapse;
@@ -3692,7 +3717,7 @@ tbody tr:nth-child(even) {
 
 .delivery-check .box-shadow {
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
-    border-radius: 5px;
+    border-radius: 10px;
     height: auto;
 
 }
@@ -3717,16 +3742,27 @@ tbody tr:nth-child(even) {
     cursor: pointer;
 }
 
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
 
-th,
-td {
-    padding: 15px;
+
+table {
+    width: 100%;
+    /* border: 1px solid #aaa; */
+    border-collapse: separate;
+    overflow: hidden;
+    border-spacing: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     text-align: center;
-    /* border: 1px solid #ddd; */
+    /* border: 1px solid #aaa; */
+  
+    th, td {
+        padding: 15px;
+        text-align: center;
+  
+      &:last-child {
+        border-right: none;
+      }
+    }
 }
 
 

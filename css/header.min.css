@@ -6,12 +6,24 @@ nav .topnav{
     height: 100%;
     padding-top: 44px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1900px) {
     .bandner-nav{
-        padding-top: 80px;
+        padding-top: 82px !important ; 
     }
 }
-@media screen and (min-width: 820px){ 
+@media screen and (min-width: 1301px) and (max-width: 1899px)  {
+    .bandner-nav{
+        padding-top: 70px !important ; 
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1300px) {
+    .bandner-nav{
+        padding-top: 65px !important ; 
+    }
+}
+
+
+/*@media screen and (min-width: 820px){ 
     .bandner-nav{
         padding-top: 44px;
     }
@@ -20,6 +32,6 @@ nav .topnav{
     .bandner-nav{
         padding-top: 68px;
     }
-}
+} */
 
 
