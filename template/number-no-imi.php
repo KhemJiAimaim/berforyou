@@ -1,6 +1,57 @@
 <div class="ber-mean-page">
+
+    <div class="ber-meaningnumber">
+        <p class="ber-text-sr">ค้นหาเบอร์จากความหมาย</p>
+        <div class="ber-mean-wrap">
+            <div class="mean-box">
+                <div class="box-big"></div>
+                <div class="box-mini">
+                    <img src="img/icon/Group 557.png" alt="">
+                </div>
+            </div>
+            <div class="mean-select">
+                <form action="" class="mean-select-price">
+                    <div class="mean-select-start">
+                        <p>ช่วงราคา(จาก)</p>
+                        <select name="" id="">
+                            <option value="">100 บาท</option>
+                        </select>
+                    </div>
+                    <div class="mean-select-end">
+                        <p>ช่วงราคา(ถึง)</p>
+                        <select name="" id="">
+                            <option value="">10000 บาท</option>
+                        </select>
+                    </div>
+                </form>
+                <div class="mean-select-button">
+                    <button>ล้างข้อมูล</button>
+                    <button>ค้นหา</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- กล่องดึงความหมาย -->
-    <div class="box-search">
+    <!-- <div class="box-search">
         <div class="box-magic">
             <figure>
                 <img src="img/ring/ring.png" alt="">
@@ -91,12 +142,14 @@
             </div>
         </div>
 
-        <div class="ps"><p>หมายเหตุ* กรุณาเลือกความหมายเบอร์ที่คุณถูกใจ</p></div>
-    </div>
+        <div class="ps">
+            <p>หมายเหตุ* กรุณาเลือกความหมายเบอร์ที่คุณถูกใจ</p>
+        </div>
+    </div> -->
 
     <!-- ตัวเลือกความหมาย -->
-   <div class="choice">
-       <div class="speak">
+    <!-- <div class="choice">
+        <div class="speak">
             <div class="head-text">
                 <h1>วาจา</h1>
             </div>
@@ -127,9 +180,9 @@
                     <label>เจรจาสิ่งใดก็สำเร็จ</label>
                 </figure>
             </div>
-       </div>
+        </div>
 
-       <div class="mind">
+        <div class="mind">
             <div class="head-text">
                 <h1>จิตใจ</h1>
             </div>
@@ -160,9 +213,9 @@
                     <label>ใจนักเลง กล้าได้กล้าเสีย</label>
                 </figure>
             </div>
-       </div>
+        </div>
 
-       <div class="money">
+        <div class="money">
             <div class="head-text">
                 <h1>การเงิน</h1>
             </div>
@@ -188,9 +241,9 @@
                     <label>รับเงินเป็นก้อน</label>
                 </figure>
             </div>
-       </div>
+        </div>
 
-       <div class="job">
+        <div class="job">
             <div class="head-text">
                 <h1>อาชีพการงาน</h1>
             </div>
@@ -381,9 +434,9 @@
                     <label>นักเรียน นักศึกษา</label>
                 </figure>
             </div>
-       </div>
+        </div>
 
-       <div class="luck">
+        <div class="luck">
             <div class="head-text">
                 <h1>โชคลาภวาสนา</h1>
             </div>
@@ -439,9 +492,9 @@
                     <label>แคล้วคลาดปลอดภัย</label>
                 </figure>
             </div>
-       </div>
+        </div>
 
-       <div class="love">
+        <div class="love">
             <div class="head-text">
                 <h1>ความรักความนิยม</h1>
             </div>
@@ -497,9 +550,9 @@
                     <label>เสน่ห์ เมตตามหานิยม</label>
                 </figure>
             </div>
-       </div>
+        </div>
 
-       <div class="property">
+        <div class="property">
             <div class="head-text">
                 <h1>การเงิน</h1>
             </div>
@@ -630,6 +683,6 @@
                     <label>ไอเดียดี</label>
                 </figure>
             </div>
-       </div>
-   </div>
+        </div>
+    </div> -->
 </div>

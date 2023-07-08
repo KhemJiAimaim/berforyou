@@ -255,7 +255,7 @@
     <?php } ?>
 
     <?php if ($slug === 'article-detail') { ?>
-        <figure><img src="img/Rectangle 213.png" alt="" class="bandner-nav"></figure>
+        <figure><img alt="" class="bandner-nav"></figure>
     <?php } ?>
     <?php if ($slug === 'article') { ?>
         <figure><img src="img/Rectangle 213.png" alt="" class="bandner-nav"></figure>
