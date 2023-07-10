@@ -1698,7 +1698,6 @@ nav .topnav .group-mobile-menu .hamberger i {
         -ms-grid-columns: 25% 73%;
         grid-template-columns: 25% 73%;
         grid-gap: 2%;
-        grid-row-gap: 80px
     }
 }
 
@@ -2430,12 +2429,10 @@ nav .topnav .group-mobile-menu .hamberger i {
 .content .side-menu .provicy {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (49%)[2];
+    /* -ms-grid-columns: (49%)[2]; */
     grid-template-columns: repeat(2, 49%);
-    grid-gap: 2%;
-    grid-row-gap: 3%;
-    /* background:#cec4b6; */
-    margin-top: 20px;
+    gap: 10px;
+    margin: 20px 0;
 }
 
 .content .side-menu .box-provicy {
@@ -2462,8 +2459,7 @@ nav .topnav .group-mobile-menu .hamberger i {
         display: grid;
         -ms-grid-columns: (49%)[2];
         grid-template-columns: repeat(2, 49%);
-        grid-gap: 1%;
-        grid-row-gap: 5px;
+        gap: 15px;
     }
 }
 
@@ -2481,7 +2477,6 @@ nav .topnav .group-mobile-menu .hamberger i {
     /* background: -webkit-gradient(linear, left top, left bottom, from(#c5a04f), to(#8e5415));
     background: linear-gradient(#c5a04f, #8e5415) */
     background-color: #D6C3B2;
-    margin-top: 15px;
 }
 
 @media screen and (max-width: 1024px) {
