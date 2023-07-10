@@ -30,7 +30,29 @@
     font-size: 1rem;
 
 }
+.fortube-ber .fortune-box-detail {
+    /* background: url(/img/BG-fortune.png); */
+    /* background: linear-gradient(#8D7045, #773A2C); */
+    background-color: #783A2D;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    /* height: 100px; */
+    padding: 30px;
+    /* border-radius: 20px */
+    /* padding-bottom: 0px; */
+}
 
+.fortube-ber .fortune-box-detail .top-box-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
 
 .fortube-ber .fortune-box {
     /* background: url(/img/BG-fortune.png); */
@@ -132,7 +154,7 @@
         gap: 10px !important;
     }
     .fortube-ber .buttom-box .search-number .search-box-num {
-        width: 25px !important;
+        width: 23px !important;
         height: 25px !important;
         gap: 10px !important;
     }
@@ -141,9 +163,111 @@
         width: 10px !important;
         height: 10px !important;
     }
+    .fortube-ber .buttom-box .analyze-number button{
+        margin-left: 0px !important;
+    }
     
 }
 
+@media screen and (min-width: 500px) and (max-width: 1875px) {
+    .fortube-ber .fortune-box-detail .buttom-box-detail {
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 10px;
+    }
+    .fortube-ber .buttom-box-detail .search-number-detail .color-sim-detail {
+        width: 250px;
+        height: 100px;
+        margin: 10px;
+        border-radius: 5px !important;
+    }
+    .fortube-ber .buttom-box-detail .search-number-detail {
+        grid-template-columns: 1fr !important;
+        border-radius: 5px ;
+        grid-column: span 2 !important;
+        place-items: center;
+        gap: 0px !important;
+    }
+    .fortube-ber .buttom-box-detail .auspicious-value{
+        grid-template-columns: 1fr !important;
+        place-items: center;
+        padding: 10px !important;
+    }
+    .fortube-ber .buttom-box-detail .auspicious-sim-detail{
+        grid-template-columns: 1fr !important;
+        place-items: center;
+    }
+    .auspicious-sim-detail .sim-color-detail{
+        width: 200px;
+        height: 100px;
+        margin: 10px;
+        border-radius: 5px !important;
+    }
+    .auspicious-sim-detail .text-auspicious-detail{
+        display: flex;
+        flex-direction: column;
+    }
+    .buttom-box-detail .auspicious-value .num-value{
+        display: flex;
+        flex-direction: column;
+    }
+    .fortube-ber .fortune-box-detail{
+        padding: 10px;
+    }
+    .fortube-ber .fortune-box-detail .buttom-box-detail{
+        gap: 10px !important;
+    }
+    .fortube-ber .btn-social{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        place-items: center;
+        gap: 30px !important;
+
+    }
+    .fortube-ber .btn-social{
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 500px){
+    .fortube-ber .btn-social{
+        display: grid !important;
+        grid-template-columns: 1fr!important;
+        place-items: center;
+        gap: 30px !important;
+
+    }
+    .fortube-ber .fortune-box-detail .buttom-box-detail {
+        grid-template-columns: 1fr !important;
+    }
+    .fortube-ber .buttom-box-detail .search-number-detail .ber-detail p ,
+     .buttom-box-detail .auspicious-value .num-value span{
+        font-size: 1.4rem !important;
+        text-align: center !important;
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 410px){
+    .fortube-ber .buttom-box-detail .auspicious-value {
+        grid-template-columns: 1fr !important;
+        place-items: center;
+    }
+   
+    .buttom-box-detail .auspicious-value .num-value{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .auspicious-value span{
+        font-size: 1rem !important;
+    }
+    .fortube-ber .fortune-box-detail{
+        padding: 10px;
+    }
+    .fortube-ber .fortune-box-detail .buttom-box-detail{
+        gap: 10px !important;
+    }
+}
 
 .search-number .analyze-number{
     justify-content: center;
@@ -155,10 +279,25 @@
     grid-template-columns: 1.5fr 1.2fr 1fr;
     /* width: 100%; */
     gap: 20px;
+}
+.fortube-ber .fortune-box-detail .buttom-box-detail {
+    display: grid;
+    grid-template-columns: 1.5fr 1.2fr 1fr;
+    /* width: 100%; */
+    gap: 20px;
 
 }
 
 .fortube-ber .buttom-box .search-number {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000000;
+    padding: 20px;
+    /* margin: 20px; */
+    /* width:97%; */
+    /* margin-top: 5px; */
+}
+.fortube-ber .buttom-box-detail .search-number {
     background-color: #fff;
     border-radius: 5px;
     color: #000000;
@@ -274,7 +413,7 @@
     gap: 10px;
 }
 
-.fortube-ber .buttom-box .search-number-detail {
+.fortube-ber .buttom-box-detail .search-number-detail {
     display: grid;
     grid-template-columns: 2fr 1fr;
     width: 100%;
@@ -285,13 +424,13 @@
 
 }
 
-.fortube-ber .buttom-box .search-number-detail .color-sim-detail .img-sim-detail {
+.fortube-ber .buttom-box-detail .search-number-detail .color-sim-detail .img-sim-detail {
     width: 70px;
     height: 40px;
     border-radius: 5px;
 }
 
-.fortube-ber .buttom-box .search-number-detail .color-sim-detail {
+.fortube-ber .buttom-box-detail .search-number-detail .color-sim-detail {
     background-color: #E7E8EA;
     border-radius: 0px 5px 5px 0px;
     display: flex;
@@ -301,11 +440,11 @@
 
 }
 
-.fortube-ber .buttom-box .search-number-detail .ber-detail {
+.fortube-ber .buttom-box-detail .search-number-detail .ber-detail {
     padding: 20px;
 }
 
-.fortube-ber .buttom-box .search-number-detail .ber-detail p {
+.fortube-ber .buttom-box-detail .search-number-detail .ber-detail p {
     font-size: 2rem;
     font-weight: 900;
     font-style: italic;
@@ -334,6 +473,18 @@
     background-color: transparent;
 }
 
+.fortube-ber .buttom-box-detail .auspicious-value {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000000;
+    padding: 20px;
+    /* margin: 20px; */
+    width: 100%;
+    margin-top: 0px;
+    gap: 10px;
+}
 .fortube-ber .buttom-box .auspicious-value {
     display: grid;
     grid-template-columns: auto auto;
@@ -358,6 +509,24 @@
 
 }
 
+.fortube-ber .buttom-box-detail .auspicious-value .buttom-auspicious-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttom-auspicious-detail span {
+    color: #000000;
+    font-size: 16px;
+
+}
+
+.fortube-ber .buttom-box-detail .auspicious-value .auspicious-level-color-detail {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    gap: 1px;
+    /* margin: 5px; */
+    position: relative;
+}
 .fortube-ber .buttom-box .auspicious-value .auspicious-level-color {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto;
@@ -383,6 +552,17 @@
 
 }
 
+.auspicious-level-color .center-auspicious-detail {
+    position: relative;
+}
+
+.center-auspicious-detail .center-tick-detail {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+
+}
+
 .auspicious-level-color .color-img {
     width: 5px;
     height: 5px;
@@ -400,6 +580,13 @@
     padding: 3px;
     position: relative;
 }
+.fortube-ber .buttom-box-detail .auspicious-level {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 3px;
+    position: relative;
+}
+
 
 .fortube-ber .buttom-box .auspicious-sim {
     display: grid;
@@ -415,6 +602,11 @@
 }
 
 .auspicious-sim .text-auspicious {
+    margin: 15px;
+    text-align: center;
+
+}
+.auspicious-sim-detail .text-auspicious-detail {
     margin: 15px;
     text-align: center;
 
@@ -444,6 +636,51 @@
     justify-content: center;
     align-items: center;
 }
+
+.fortube-ber .buttom-box-detail .auspicious-sim-detail {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* justify-content: center; */
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000000;
+    /*padding: 20px;
+     margin: 20px; */
+    width: 100%;
+    margin-top: 0px;
+}
+
+.auspicious-sim-detail .text-auspicious-detail {
+    margin: 15px;
+    text-align: center;
+
+}
+
+.auspicious-sim-detail span {
+    font-size: 2rem;
+    color: #000000;
+    font-weight: 1000;
+    font-style: italic;
+    text-align: center;
+}
+
+.auspicious-sim-detail p {
+    font-size: 2rem;
+    color: #C4C4C4;
+    font-weight: 1000;
+    font-style: italic;
+    text-align: center;
+}
+
+.auspicious-sim-detail .sim-color-detail {
+    background-color: #43BCCD;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .fortube-ber .box-content-fortune {
     border: 1px solid #ddd;
