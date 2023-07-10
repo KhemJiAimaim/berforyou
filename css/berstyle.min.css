@@ -2430,7 +2430,7 @@ nav .topnav .group-mobile-menu .hamberger i {
     display: -ms-grid;
     display: grid;
     /* -ms-grid-columns: (49%)[2]; */
-    grid-template-columns: repeat(2, 49%);
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
     margin: 20px 0;
 }
@@ -2453,15 +2453,6 @@ nav .topnav .group-mobile-menu .hamberger i {
     font-weight: 500;
 }
 
-@media screen and (max-width: 768px) {
-    .content .side-menu .provicy {
-        display: -ms-grid;
-        display: grid;
-        -ms-grid-columns: (49%)[2];
-        grid-template-columns: repeat(2, 49%);
-        gap: 15px;
-    }
-}
 
 .content .side-menu .provicy figure {
     margin: 5% 0

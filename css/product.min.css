@@ -1609,6 +1609,14 @@
     }
 }
 
+@media screen and (max-width: 480px) {
+    .cart-page .cart-box .cart-list .list-item {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
 @media screen and (min-width: 1025px) {
     .cart-page .cart-box .cart-list .list-item {
         height: 420px;
@@ -1664,7 +1672,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background: lightgray 50%;
+    background: #FFF;
 }
 
 .cart-page .cart-box .cart-list .list-item .box .box-header h2 {
@@ -1686,14 +1694,45 @@
     align-items: center;
 }
 
+.cart-page .cart-box .cart-list .list-item .box .box-body .grade .grade-detail .grade-ber {
+    background: #43BCCD;
+    color: #FFFFFF;
+    padding: 1px 5px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.cart-page .cart-box .cart-list .list-item .box .box-body .grade .grade-detail .total-sum {
+    background: #773A2C;
+    color: #FFFFFF;
+    padding: 1px 5px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.cart-page .cart-box .cart-list .list-item .box .box-body .grade .grade-detail .advice {
+    background: #8D7045;
+    color: #FFFFFF;
+    padding: 1px 5px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
 .cart-page .cart-box .cart-list .list-item .box .box-body .price {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+    margin-top: 0.5rem;
 }
 
 .cart-page .cart-box .cart-list .list-item .box .box-body .price .price-detail {
     display: flex;
     gap: 10px;
+    align-items: center;
+}
+
+.cart-page .cart-box .cart-list .list-item .box .box-body .price .icon {
+    display: flex;
+    justify-content: end;
     align-items: center;
 }
 
@@ -1940,15 +1979,6 @@
     justify-content: center;
 }
 
-.cart-page .cart-shadow .cart-box .address-box .button-checkout button {
-    width: 32.33%;
-    height: 38px;
-    border-radius: 10px;
-    border: unset;
-    cursor: pointer;
-    color: #fffdea;
-    font-size: 1rem
-}
 
 .cart-page .cart-shadow .cart-box .address-box .button-checkout .add-ber {
     background: #c6a150
@@ -1957,6 +1987,12 @@
 .cart-page .cart-shadow .cart-box .address-box .button-checkout .buy {
     border-radius: 10px;
     background: #D6C3B2;
+    width: 110px;
+    height: 38px;
+    border: unset;
+    cursor: pointer;
+    color: #43251B;
+    font-size: 1rem;
 }
 
 .cart-page .cart-shadow .cart-box .address-box .button-checkout .reset {
@@ -2072,6 +2108,7 @@
     border-radius: 5px;
     border: 1px solid #C4C4C4;
     background: #FBFAFB;
+    width: 100%;
 }
 
 .cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-left .inp {
@@ -2090,6 +2127,21 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+}
+
+@media screen and (max-width: 433px) { 
+    .cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-left .row-group {
+        grid-template-columns: 1fr;
+    }
+    .cart-page .cart-shadow .cart-box .address-box .input-zone .box-address {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-right {
+        flex-direction: column;
+    }
 }
 
 .cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-right {
@@ -2135,11 +2187,14 @@
 }
 
 .cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-submit button {
-    border-radius: 5px;
+    border-radius: 10px;
     background: #D6C3B2;
-    border: none;
     width: 110px;
-    height: 32px;
+    height: 38px;
+    border: unset;
+    cursor: pointer;
+    color: #43251B;
+    font-size: 1rem;
     margin-top: 20px;
 }
 
