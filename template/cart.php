@@ -187,7 +187,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="">จำนวนเงิน</label>
-                                <input class="inp" type="text" placeholder="กรอกจำนวนเงิน">
+                                <input class="inp" type="number" placeholder="กรอกจำนวนเงิน">
                             </div>
                             <div class="row-group">
                                 <div class="form-group">
@@ -206,18 +206,22 @@
                             <div class="upload-file">
                                 <p>อัปสลิป</p>
                                 <p>กรุณากดเพื่อสลิปชำระค่าเบอร์</p>
-                                <img class="upload-image" src="" alt="">
-                                <p>File Supported JPG,PNG maximum size 2MB</p>
-                                <input type="file" id="upload1" accept="image/*">
-                                <label for="upload1">Upload</label>
+                                <div class="upload-file-content">
+                                    <img class="upload-image" src="img/icon/upload.png" alt="">
+                                    <p>File Supported JPG,PNG maximum size 2MB</p>
+                                    <input type="file" id="upload1" accept="image/*">
+                                    <label for="upload1">อัปโหลด</label>
+                                </div>
                             </div>
                             <div class="upload-file">
                                 <p>อัปโหลดเอกสาร</p>
                                 <p>เฉพาะลูกค้าที่ซื้อเบอร์เครือข่ายทรูมูฟเท่านั้น</p>
-                                <img class="upload-image" src="" alt="">
-                                <p>File Supported JPG,PNG,PDF maximum size 2MB</p>
-                                <input type="file" id="upload2" accept="image/*">
-                                <label for="upload2">Upload</label>
+                                <div class="upload-file-content">
+                                    <img class="upload-image" src="img/icon/upload.png" alt="">
+                                    <p>File Supported JPG,PNG,PDF maximum size 2MB</p>
+                                    <input type="file" id="upload2" accept="image/*">
+                                    <label for="upload2">อัปโหลด</label>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -90,10 +90,11 @@
         </div>
     </div> -->
         <section class="blog-blog">
+            
             <div class="blog-con">
-                <figure class="blog-img">
+                <div class="blog-img">
                     <img src="img/test1.jpg" alt="">
-                </figure>
+                </div>
                 <div class="blog-text">
                     <p class="blog-date">13 มิ.ย. 2566</p>
                     <a href="article-detail">Lorem ipsum dolor sit amet consectetur. Enim nibh est donec sit.</a>
@@ -109,6 +110,8 @@
                     </figure>
                 </div>
             </div>
+
+
             <div class="blog-con">
                 <figure class="blog-img">
                     <img src="img/test1.jpg" alt="">
@@ -233,5 +236,14 @@
             <div class="date"><span>19 พย.</span></div>
         </div>
     </div> -->
+    </div>
+    <div class="pagination">
+        <div class="wrapper">
+            <a href="" class="current">Previous</a>
+            <a href="" class="current">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">Next</a>
+        </div>
     </div>
 </div>

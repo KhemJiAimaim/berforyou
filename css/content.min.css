@@ -674,10 +674,23 @@
     font-size: 20px;
     font-weight: 500;
 }
+@media screen and (min-width: 320px) and (max-width: 1025px) {
+    .blog-con {
+        display: flex;
+        flex-direction: column;
+    }
+    .blog-contac{
+        display: flex;
+        justify-content: center; /* จัดให้เนื้อหาอยู่ตรงกลางในแนวนอน */
+        align-items: center; /* จัดให้เนื้อหาอยู่ตรงกลางในแนวตั้ง */
+        gap: 10px;
+    }
+    
+}
 
 .blog-con {
     width: 100%;
-    height: 230px;
+    /* height: 230px; */
     display: flex;
     align-items: center;
     gap: 13px;
@@ -708,6 +721,8 @@
 .blog-contac .blog-facebook {
     width: 46px;
     height: 46px;
+    border-radius: 10px;
+    border: none;
 }
 
 .blog-contac .blog-line {
@@ -801,6 +816,42 @@
 
 .ck {
     padding: 0px 15px 15px 15px;
+}
+
+.article-content .pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: end;
+    margin: 3% 0;
+}
+
+.article-content .pagination .wrapper {
+    border-radius: 4px;
+    border: 1px solid #DFDFDF;
+    background: #FFF;
+}
+
+.article-content .pagination a{
+    color: gray
+}
+.article-content .pagination a{
+    padding: 0 10px;
+}
+.article-content .pagination a:hover {
+    color: #FFFFFF;
+    border-radius: 4px;
+    background: #43251B;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.article-content .pagination .current{
+    color: #000
 }
 
 /*# sourceMappingURL=content.min.css.map */
