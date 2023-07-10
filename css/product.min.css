@@ -56,6 +56,100 @@
     margin-bottom: 10px;
 }
 
+/* @media screen and (max-width: 2000px) {
+    .fortube-ber .buttom-box .search-number .search-box-num {
+        width: 27px !important;
+        height: 27px !important;
+    }
+} */
+
+@media screen and (min-width: 500px) and (max-width: 1875px) {
+    .fortube-ber .fortune-box .buttom-box {
+        grid-template-columns: 1fr 1fr !important;
+    }
+    .fortube-ber .buttom-box .search-number{
+        grid-column: span 2;
+    }
+
+    .fortube-ber .buttom-box .search-number .search-box-num {
+        width: 30px !important;
+        height: 30px !important;
+        gap: 20px !important;
+    }
+
+    .fortube-ber .buttom-box .search-number .search-box-nums {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .fortube-ber .fortune-box {
+        padding: 10px;
+    }
+
+    .fortube-ber .buttom-box .auspicious-value,
+    .fortube-ber .buttom-box .auspicious-sim {
+        grid-template-columns: 1fr !important;
+        place-items: center;
+    }
+
+    .auspicious-sim .sim-color {
+        width: 200px;
+        height: 100px;
+        margin-bottom: 10px;
+        border-radius: 5px
+    }
+    .fortube-ber .buttom-box .search-number {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .fortube-ber .buttom-box .analyze-number{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .fortube-ber .fortune-box .buttom-box {
+        gap: 10px !important;
+    }
+    
+}
+@media screen and (max-width: 549px){
+    .fortube-ber .buttom-box .analyze-number button{
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 500px){
+    .fortube-ber .fortune-box .buttom-box {
+        grid-template-columns: 1fr !important;
+    }
+    .fortube-ber .fortune-box{
+        padding: 10px
+    }
+    .fortube-ber .fortune-box .buttom-box {
+        gap: 10px !important;
+    }
+    .fortube-ber .buttom-box .search-number .search-box-num {
+        width: 25px !important;
+        height: 25px !important;
+        gap: 10px !important;
+    }
+
+    .fortube-ber .buttom-box .search-number .search-box-nums {
+        width: 10px !important;
+        height: 10px !important;
+    }
+    
+}
+
+
+.search-number .analyze-number{
+    justify-content: center;
+    align-content: center;
+}
+
 .fortube-ber .fortune-box .buttom-box {
     display: grid;
     grid-template-columns: 1.5fr 1.2fr 1fr;
@@ -237,6 +331,7 @@
     box-shadow: none;
     text-align: center;
     color: #575555;
+    background-color: transparent;
 }
 
 .fortube-ber .buttom-box .auspicious-value {
@@ -380,16 +475,6 @@
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .fortube-ber .fortune-box {
         height: auto;
-    }
-
-    .fortube-ber .fortune-box .auspicious-value {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .fortube-ber .fortune-box .auspicious-sim {
-        display: flex;
-        flex-direction: column;
     }
 }
 
@@ -1444,13 +1529,13 @@
     display: -ms-grid;
     display: grid;
     /* -ms-grid-columns: 45% 52%; */
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 1%;
     padding: 10px;
 }
 
 @media screen and (max-width: 1500px) {
-    .cart-page .cart-box{
+    .cart-page .cart-box {
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -1532,7 +1617,7 @@
     margin-right: 15px */
     border: 2px solid #773A2C;
     background: #F5F5F5;
-    border-radius:8px;
+    border-radius: 8px;
 }
 
 .cart-page .cart-box .cart-list .list-item .box .box-header {
@@ -1580,6 +1665,7 @@
     gap: 10px;
     align-items: center;
 }
+
 /* end box product*/
 
 
@@ -1796,7 +1882,7 @@
     border-radius: 5px;
     border: 1px solid #C4C4C4;
     background: #FBFAFB;
-    padding: 10px ;
+    padding: 10px;
     width: 100%;
 }
 
@@ -1915,9 +2001,7 @@
 }
 
 /* Start Box-upload */
-.cart-page .upload-box {
-    
-}
+.cart-page .upload-box {}
 
 .cart-page .upload-box .upload-shadow {
     border-radius: 10px;
@@ -1949,7 +2033,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-} 
+}
 
 .cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-left .selection {
     padding: 0.5rem;
@@ -1989,7 +2073,7 @@
     background: #FFF;
     color: #000000;
     box-shadow: 2px 2px 5px 0px rgba(0, 58, 130, 0.50);
-  }
+}
 
 .cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-right .upload-file .upload-image {
     width: 196px;
@@ -2164,7 +2248,7 @@
 .cart-page .howtobuy .ck ol {
     margin-top: 20px;
     padding: 0 20px;
-    
+
 }
 
 .cart-page .howtobuy .ck ol li {
@@ -2182,15 +2266,13 @@
     background-color: #783A2D;
     background-image: url('../img/logo/Rectangle 893.png');
     background-repeat: no-repeat;
-<<<<<<< HEAD
-    background-size:100% 100%;
-    border-radius:10px;
-    
-=======
-    background-size: 100% 100%;
+    <<<<<<< HEAD background-size: 100% 100%;
+    border-radius: 10px;
+
+    =======background-size: 100% 100%;
     border-radius: 5px;
 
->>>>>>> 0fda5b066efbe5ea752513c2f96bfb717c0eb212
+    >>>>>>>0fda5b066efbe5ea752513c2f96bfb717c0eb212
 }
 
 .ber-meaningnumber .ber-text-sr {
@@ -2212,7 +2294,7 @@
 
     display: flex;
     align-items: center;
-    gap:0;
+    gap: 0;
 }
 
 .mean-box .box-big {
@@ -2292,34 +2374,38 @@
     border-radius: 5px;
     font-size: 16px;
     color: #343434;
-  }
-  @media screen and (max-width:1028px) and (min-width:700px){
-    .ber-meaningnumber{
-        width:100%;
-        height:100%;
-        padding:30px;
-        background-color: #783A2D ;
+}
+
+@media screen and (max-width:1028px) and (min-width:700px) {
+    .ber-meaningnumber {
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+        background-color: #783A2D;
         background-image: url('../img/logo/Rectangle 893.png');
         background-repeat: no-repeat;
-        background-size:100% 100%;
-        border-radius:5px;
-        
+        background-size: 100% 100%;
+        border-radius: 5px;
+
     }
-    .ber-meaningnumber .ber-text-sr{
-        
+
+    .ber-meaningnumber .ber-text-sr {
+
         color: white;
-        margin-left:12px;
+        margin-left: 12px;
     }
-    .ber-mean-wrap{
-        
+
+    .ber-mean-wrap {
+
         height: 100%;
-       
+
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap:10px;
+        gap: 10px;
     }
-    .mean-box{
+
+    .mean-box {
         /* width:65%;
         justify-content: center;
         display: flex;
@@ -2329,13 +2415,15 @@
         display: flex;
         align-items: center;
     }
-    .mean-box .box-big{
-        width:90%;
-        height:260px;
+
+    .mean-box .box-big {
+        width: 90%;
+        height: 260px;
         background-color: #fff;
-        border-radius:10px;
+        border-radius: 10px;
     }
-    .mean-box .box-mini{
+
+    .mean-box .box-mini {
         /* width:85px;
         height:100px;
         background-color: white;
@@ -2344,101 +2432,114 @@
         align-items: center; */
         display: none;
     }
-    
-    .mean-select{
-        width:50%;
-        height:93%;
-        
-        padding:5px;
+
+    .mean-select {
+        width: 50%;
+        height: 93%;
+
+        padding: 5px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap:23px;
-        
+        gap: 23px;
+
     }
-    .mean-select .mean-select-price{
-        width:100%;
+
+    .mean-select .mean-select-price {
+        width: 100%;
         height: 90px;
         background-color: #fff;
         display: flex;
         align-items: center;
-        padding:9px;
+        padding: 9px;
         justify-content: space-between;
-        border-radius:5px;
+        border-radius: 5px;
         gap: 10px;
     }
-    .mean-select .mean-select-price .mean-select-start{
-        width:50%;
+
+    .mean-select .mean-select-price .mean-select-start {
+        width: 50%;
     }
-    .mean-select .mean-select-price .mean-select-end{
-        width:50%;
+
+    .mean-select .mean-select-price .mean-select-end {
+        width: 50%;
     }
-    .mean-select .mean-select-price .mean-select-start p{
-      font-size:13px;
-      margin-left:12px;
-    
+
+    .mean-select .mean-select-price .mean-select-start p {
+        font-size: 13px;
+        margin-left: 12px;
+
     }
-    .mean-select .mean-select-price .mean-select-start select{
-        width:100%;
-        height:28px;
-        border-radius:3px;
+
+    .mean-select .mean-select-price .mean-select-start select {
+        width: 100%;
+        height: 28px;
+        border-radius: 3px;
     }
-    .mean-select .mean-select-price .mean-select-end p{
-        font-size:13px;
-        margin-left:12px;
-      
-      }
-      .mean-select .mean-select-price .mean-select-end select{
-          width:100%;
-          height:28px;
-          border-radius:3px;
-      }
-      .mean-select .mean-select-button{
+
+    .mean-select .mean-select-price .mean-select-end p {
+        font-size: 13px;
+        margin-left: 12px;
+
+    }
+
+    .mean-select .mean-select-price .mean-select-end select {
+        width: 100%;
+        height: 28px;
+        border-radius: 3px;
+    }
+
+    .mean-select .mean-select-button {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 29px;
 
-      }
-      .mean-select .mean-select-button button{
-        width:110px;
-        padding:2px;
+    }
+
+    .mean-select .mean-select-button button {
+        width: 110px;
+        padding: 2px;
         height: 29px;
-        background-color:#D6C3B2 ;
+        background-color: #D6C3B2;
         border: none;
-        border-radius:5px;
-        font-size:16px;
+        border-radius: 5px;
+        font-size: 16px;
         color: #343434;
-      }
-  }
-  @media screen and (max-width:700px) and (min-width:300px){
-    .ber-meaningnumber{
-        width:100%;
-        height:100%;
-        padding:30px;
+    }
+}
+
+@media screen and (max-width:700px) and (min-width:300px) {
+    .ber-meaningnumber {
+        width: 100%;
+        height: 100%;
+        padding: 30px;
         /* background-color: #783A2D ;
         background-image: url('../img/logo/Rectangle 893.png');
         background-repeat: no-repeat;
         background-size:100% 100%;
         border-radius:5px; */
-        
+
     }
-    .ber-meaningnumber .ber-text-sr{
-        
+
+    .ber-meaningnumber .ber-text-sr {
+
         color: white;
-        margin-left:12px;
+        margin-left: 12px;
     }
-    .ber-mean-wrap{
-        
+
+    .ber-mean-wrap {
+
         height: 100%;
-       
+
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap:10px;
+        gap: 10px;
     }
-    .mean-box{
+
+    .mean-box {
         /* width:65%;
         justify-content: center;
         display: flex;
@@ -2448,13 +2549,15 @@
         display: flex;
         align-items: center;
     }
-    .mean-box .box-big{
-        width:90%;
-        height:200px;
+
+    .mean-box .box-big {
+        width: 90%;
+        height: 200px;
         background-color: #fff;
-        border-radius:10px;
+        border-radius: 10px;
     }
-    .mean-box .box-mini{
+
+    .mean-box .box-mini {
         /* width:85px;
         height:100px;
         background-color: white;
@@ -2463,326 +2566,371 @@
         align-items: center; */
         display: none;
     }
-    
-    .mean-select{
-        width:90%;
-        height:40%;
-        
-        padding:5px;
+
+    .mean-select {
+        width: 90%;
+        height: 40%;
+
+        padding: 5px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap:23px;
-        
+        gap: 23px;
+
     }
-    .mean-select .mean-select-price{
-        width:100%;
+
+    .mean-select .mean-select-price {
+        width: 100%;
         height: 90px;
         background-color: #fff;
         display: flex;
         align-items: center;
-        padding:9px;
+        padding: 9px;
         justify-content: space-between;
-        border-radius:5px;
+        border-radius: 5px;
         gap: 10px;
     }
-    .mean-select .mean-select-price .mean-select-start{
-        width:50%;
+
+    .mean-select .mean-select-price .mean-select-start {
+        width: 50%;
     }
-    .mean-select .mean-select-price .mean-select-end{
-        width:50%;
+
+    .mean-select .mean-select-price .mean-select-end {
+        width: 50%;
     }
-    .mean-select .mean-select-price .mean-select-start p{
-      font-size:13px;
-      margin-left:12px;
-    
+
+    .mean-select .mean-select-price .mean-select-start p {
+        font-size: 13px;
+        margin-left: 12px;
+
     }
-    .mean-select .mean-select-price .mean-select-start select{
-        width:100%;
-        height:28px;
-        border-radius:3px;
+
+    .mean-select .mean-select-price .mean-select-start select {
+        width: 100%;
+        height: 28px;
+        border-radius: 3px;
     }
-    .mean-select .mean-select-price .mean-select-end p{
-        font-size:13px;
-        margin-left:12px;
-      
-      }
-      .mean-select .mean-select-price .mean-select-end select{
-          width:100%;
-          height:28px;
-          border-radius:3px;
-      }
-      .mean-select .mean-select-button{
+
+    .mean-select .mean-select-price .mean-select-end p {
+        font-size: 13px;
+        margin-left: 12px;
+
+    }
+
+    .mean-select .mean-select-price .mean-select-end select {
+        width: 100%;
+        height: 28px;
+        border-radius: 3px;
+    }
+
+    .mean-select .mean-select-button {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 29px;
 
-      }
-      .mean-select .mean-select-button button{
-        width:110px;
-        padding:2px;
+    }
+
+    .mean-select .mean-select-button button {
+        width: 110px;
+        padding: 2px;
         height: 29px;
-        background-color:#D6C3B2 ;
+        background-color: #D6C3B2;
         border: none;
-        border-radius:5px;
-        font-size:16px;
+        border-radius: 5px;
+        font-size: 16px;
         color: #343434;
-      }
-  }
-  .mean-prediction-finance{
-    width:100%;
-    margin-top: 30px;
-    border-radius:10px;
-    background-color: #f1f1f1;
-  }
-  .finance-text{
+    }
+}
+
+.mean-prediction-finance {
     width: 100%;
-    padding:8px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+.finance-text {
+    width: 100%;
+    padding: 8px;
     color: white;
-    background-color:#8D7045 ;
+    background-color: #8D7045;
     display: flex;
-    font-size:20px;
-    gap:10px;
-    border-radius:10px;
-  }
-  .finance-text img{
-    width:30px;
-    height:30px;
-  }
-  .finance-predic{
-    width:40%;
-    padding:10px;
+    font-size: 20px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.finance-text img {
+    width: 30px;
+    height: 30px;
+}
+
+.finance-predic {
+    width: 40%;
+    padding: 10px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
-    gap:10px;
-  }
-  .finance-predic .finance-predic-item{
-    width:110px;
-    height:110px;
-    border-radius:5px;
-    background-color:#532A09;
-  }
-  .finance-predic .finance-predic-item p{
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+
+.finance-predic .finance-predic-item {
+    width: 110px;
+    height: 110px;
+    border-radius: 5px;
+    background-color: #532A09;
+}
+
+.finance-predic .finance-predic-item p {
     text-align: center;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
-  .work-predic{
-    width:40%;
-    padding:10px;
+}
+
+.work-predic {
+    width: 40%;
+    padding: 10px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
-    gap:10px;
-  }
-  .work-predic .work-predic-item{
-    width:110px;
-    height:110px;
-    border-radius:5px;
-    background-color:#7B4618;
-  }
-  .work-predic .work-predic-item p{
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+
+.work-predic .work-predic-item {
+    width: 110px;
+    height: 110px;
+    border-radius: 5px;
+    background-color: #7B4618;
+}
+
+.work-predic .work-predic-item p {
     text-align: center;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
-  .luck-predic{
-    width:40%;
-    padding:10px;
+}
+
+.luck-predic {
+    width: 40%;
+    padding: 10px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
-    gap:10px;
-  }
-  .luck-predic .luck-predic-item{
-    width:110px;
-    height:110px;
-    border-radius:5px;
-    background-color:#915C27;
-  }
-  .luck-predic .luck-predic-item p{
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+
+.luck-predic .luck-predic-item {
+    width: 110px;
+    height: 110px;
+    border-radius: 5px;
+    background-color: #915C27;
+}
+
+.luck-predic .luck-predic-item p {
     text-align: center;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
-  .love-predic{
-    width:40%;
-    padding:10px;
+}
+
+.love-predic {
+    width: 40%;
+    padding: 10px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
-    gap:10px;
-  }
-  .love-predic .love-predic-item{
-    width:110px;
-    height:110px;
-    border-radius:5px;
-    background-color:#AD8042;
-  }
-  .love-predic .love-predic-item p{
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+
+.love-predic .love-predic-item {
+    width: 110px;
+    height: 110px;
+    border-radius: 5px;
+    background-color: #AD8042;
+}
+
+.love-predic .love-predic-item p {
     text-align: center;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
-  .health-predic{
-    width:40%;
-    padding:10px;
+}
+
+.health-predic {
+    width: 40%;
+    padding: 10px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
-    gap:10px;
-  }
-  .health-predic .health-predic-item{
-    width:110px;
-    height:110px;
-    border-radius:5px;
-    background-color:#BFAB67;
-  }
-  .health-predic .health-predic-item p{
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+
+.health-predic .health-predic-item {
+    width: 110px;
+    height: 110px;
+    border-radius: 5px;
+    background-color: #BFAB67;
+}
+
+.health-predic .health-predic-item p {
     text-align: center;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
-  .speech-predic{
-    width:40%;
-    padding:10px;
+}
+
+.speech-predic {
+    width: 40%;
+    padding: 10px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
-    gap:10px;
-  }
-  .speech-predic .speech-predic-item{
-    width:110px;
-    height:110px;
-    border-radius:5px;
-    background-color:#BFC882;
-  }
-  .speech-predic .speech-predic-item p{
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+
+.speech-predic .speech-predic-item {
+    width: 110px;
+    height: 110px;
+    border-radius: 5px;
+    background-color: #BFC882;
+}
+
+.speech-predic .speech-predic-item p {
     text-align: center;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
-  .mind-predic{
-    width:40%;
-    padding:10px;
+}
+
+.mind-predic {
+    width: 40%;
+    padding: 10px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
-    gap:10px;
-  }
-  .mind-predic .mind-predic-item{
-    width:110px;
-    height:110px;
-    border-radius:5px;
-    background-color:#A4B75C;
-  }
-  .mind-predic .mind-predic-item p{
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+
+.mind-predic .mind-predic-item {
+    width: 110px;
+    height: 110px;
+    border-radius: 5px;
+    background-color: #A4B75C;
+}
+
+.mind-predic .mind-predic-item p {
     text-align: center;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
-  .charm-predic{
-    width:40%;
-    padding:10px;
+}
+
+.charm-predic {
+    width: 40%;
+    padding: 10px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
-    gap:10px;
-  }
-  .charm-predic .charm-predic-item{
-    width:110px;
-    height:110px;
-    border-radius:5px;
-    background-color:#647332;
-  }
-  .charm-predic .charm-predic-item p{
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+
+.charm-predic .charm-predic-item {
+    width: 110px;
+    height: 110px;
+    border-radius: 5px;
+    background-color: #647332;
+}
+
+.charm-predic .charm-predic-item p {
     text-align: center;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
-  .personality-predic{
-    width:40%;
-    padding:10px;
+}
+
+.personality-predic {
+    width: 40%;
+    padding: 10px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
-    gap:10px;
-  }
-  .personality-predic .personality-predic-item{
-    width:110px;
-    height:110px;
-    border-radius:5px;
-    background-color:#3E4C22;
-  }
-  .personality-predic .personality-predic-item p{
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+
+.personality-predic .personality-predic-item {
+    width: 110px;
+    height: 110px;
+    border-radius: 5px;
+    background-color: #3E4C22;
+}
+
+.personality-predic .personality-predic-item p {
     text-align: center;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
-  .learn-predic{
-    width:40%;
-    padding:10px;
+}
+
+.learn-predic {
+    width: 40%;
+    padding: 10px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
-    gap:10px;
-  }
-  .learn-predic .learn-predic-item{
-    width:110px;
-    height:110px;
-    border-radius:5px;
-    background-color:#2E401C;
-  }
-  .learn-predic .learn-predic-item p{
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+
+.learn-predic .learn-predic-item {
+    width: 110px;
+    height: 110px;
+    border-radius: 5px;
+    background-color: #2E401C;
+}
+
+.learn-predic .learn-predic-item p {
     text-align: center;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
-  .kudog-predic{
-    width:40%;
-    padding:10px;
+}
+
+.kudog-predic {
+    width: 40%;
+    padding: 10px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
-    gap:10px;
-  }
-  .kudog-predic .kudog-predic-item{
-    width:110px;
-    height:110px;
-    border-radius:5px;
-    background-color:#0B2838;
-  }
-  .kudog-predic .kudog-predic-item p{
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+
+.kudog-predic .kudog-predic-item {
+    width: 110px;
+    height: 110px;
+    border-radius: 5px;
+    background-color: #0B2838;
+}
+
+.kudog-predic .kudog-predic-item p {
     text-align: center;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
-  
+}
+
 @media screen and (min-width: 769px) and (max-width: 1023px) {
     .ber-mean-page {
         grid-area: content
@@ -4331,16 +4479,17 @@ table {
     border-top-right-radius: 10px;
     text-align: center;
     /* border: 1px solid #aaa; */
-  
-    th, td {
+
+    th,
+    td {
         padding: 15px;
         text-align: center;
-  
-      &:last-child {
-        border-right: none;
-      }
+
+        &:last-child {
+            border-right: none;
+        }
     }
-} 
+}
 
 
 

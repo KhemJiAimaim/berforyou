@@ -90,10 +90,11 @@
         </div>
     </div> -->
         <section class="blog-blog">
+            
             <div class="blog-con">
-                <figure class="blog-img">
+                <div class="blog-img">
                     <img src="img/test1.jpg" alt="">
-                </figure>
+                </div>
                 <div class="blog-text">
                     <p class="blog-date">13 มิ.ย. 2566</p>
                     <a href="article-detail">Lorem ipsum dolor sit amet consectetur. Enim nibh est donec sit.</a>
@@ -109,6 +110,8 @@
                     </figure>
                 </div>
             </div>
+
+
             <div class="blog-con">
                 <figure class="blog-img">
                     <img src="img/test1.jpg" alt="">
