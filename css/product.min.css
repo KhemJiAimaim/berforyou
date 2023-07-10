@@ -2172,25 +2172,22 @@
 }
 
 .ber-mean-page {
-    margin: 0;
+    /* margin: 0; */
+    margin: 1px 1px 25px 1px;
+    width: 100%;
+    height: 100%;
 }
 
 .ber-meaningnumber {
     width: 100%;
-    height: 379px;
+    height: 500px;
     padding: 10px;
     background-color: #783A2D;
     background-image: url('../img/logo/Rectangle 893.png');
     background-repeat: no-repeat;
-<<<<<<< HEAD
     background-size:100% 100%;
     border-radius:10px;
     
-=======
-    background-size: 100% 100%;
-    border-radius: 5px;
-
->>>>>>> 0fda5b066efbe5ea752513c2f96bfb717c0eb212
 }
 
 .ber-meaningnumber .ber-text-sr {
@@ -2295,8 +2292,8 @@
   }
   @media screen and (max-width:1028px) and (min-width:700px){
     .ber-meaningnumber{
-        width:100%;
-        height:100%;
+        /* width:100%; */
+        /* height:100%; */
         padding:30px;
         background-color: #783A2D ;
         background-image: url('../img/logo/Rectangle 893.png');
@@ -2414,8 +2411,8 @@
   }
   @media screen and (max-width:700px) and (min-width:300px){
     .ber-meaningnumber{
-        width:100%;
-        height:100%;
+        /* width:100%;
+        height:100%; */
         padding:30px;
         /* background-color: #783A2D ;
         background-image: url('../img/logo/Rectangle 893.png');
@@ -2552,31 +2549,57 @@
     height:30px;
   }
   .finance-predic{
-    width:40%;
+    width:100%;
     padding:10px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+    display:flex;
+    flex-wrap: wrap;
     gap:10px;
+  }
+   .active-predic{
+   
+     color: rgb(0, 0, 0) !important;
+     background-color: #C4C4C4 !important;
+     /* position: relative !important; */
+   }
+   .mean-ch-active{
+   
+    display:block !important;
   }
   .finance-predic .finance-predic-item{
     width:110px;
     height:110px;
     border-radius:5px;
     background-color:#532A09;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
   }
-  .finance-predic .finance-predic-item p{
+  .mean-ch{
+    position: absolute;
+    left:90px;
+    top:0px;
+    display:none;
+  }
+
+  /* .finance-predic-item .check-icon{
+    position: absolute;
+  } */
+   
+  /* .finance-predic .finance-predic-item p{
     text-align: center;
     width:100%;
     height:100%;
     color: white;
     display: flex;
     align-items: center;
-  }
+  } */
   .work-predic{
-    width:40%;
+    width:100%;
     padding:10px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+    display:flex;
+    flex-wrap: wrap;
     gap:10px;
   }
   .work-predic .work-predic-item{
@@ -2594,10 +2617,10 @@
     align-items: center;
   }
   .luck-predic{
-    width:40%;
+    width:100%;
     padding:10px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+    display:flex;
+    flex-wrap: wrap;
     gap:10px;
   }
   .luck-predic .luck-predic-item{
@@ -2615,10 +2638,10 @@
     align-items: center;
   }
   .love-predic{
-    width:40%;
+    width:100%;
     padding:10px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+    display:flex;
+    flex-wrap: wrap;
     gap:10px;
   }
   .love-predic .love-predic-item{
@@ -2636,10 +2659,10 @@
     align-items: center;
   }
   .health-predic{
-    width:40%;
+    width:100%;
     padding:10px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+    display:flex;
+    flex-wrap: wrap;
     gap:10px;
   }
   .health-predic .health-predic-item{
@@ -2657,10 +2680,10 @@
     align-items: center;
   }
   .speech-predic{
-    width:40%;
+    width:100%;
     padding:10px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+    display:flex;
+    flex-wrap: wrap;
     gap:10px;
   }
   .speech-predic .speech-predic-item{
@@ -2678,10 +2701,10 @@
     align-items: center;
   }
   .mind-predic{
-    width:40%;
+    width:100%;
     padding:10px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+    display:flex;
+    flex-wrap: wrap;
     gap:10px;
   }
   .mind-predic .mind-predic-item{
@@ -2699,10 +2722,10 @@
     align-items: center;
   }
   .charm-predic{
-    width:40%;
+    width:100%;
     padding:10px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+    display:flex;
+    flex-wrap: wrap;
     gap:10px;
   }
   .charm-predic .charm-predic-item{
@@ -2720,10 +2743,10 @@
     align-items: center;
   }
   .personality-predic{
-    width:40%;
+    width:100%;
     padding:10px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+    display:flex;
+    flex-wrap: wrap;
     gap:10px;
   }
   .personality-predic .personality-predic-item{
@@ -2741,10 +2764,10 @@
     align-items: center;
   }
   .learn-predic{
-    width:40%;
+    width:100%;
     padding:10px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+    display:flex;
+    flex-wrap: wrap;
     gap:10px;
   }
   .learn-predic .learn-predic-item{
@@ -2762,10 +2785,10 @@
     align-items: center;
   }
   .kudog-predic{
-    width:40%;
+    width:100%;
     padding:10px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+    display:flex;
+    flex-wrap: wrap;
     gap:10px;
   }
   .kudog-predic .kudog-predic-item{

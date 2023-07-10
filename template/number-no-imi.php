@@ -43,56 +43,36 @@
             </div>
             <div class="finance-predic">
                 <div class="finance-predic-item">
+
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="finance-predic-item">
+
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="finance-predic-item">
+
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="finance-predic-item">
+
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="finance-predic-item">
+
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="finance-predic-item">
+
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
-                <div class="finance-predic-item">
-                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="finance-predic-item">
-                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="finance-predic-item">
-                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="finance-predic-item">
-                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="finance-predic-item">
-                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="finance-predic-item">
-                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="finance-predic-item">
-                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="finance-predic-item">
-                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="finance-predic-item">
-                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="finance-predic-item">
-                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="finance-predic-item">
-                    <p class="finance-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
+
 
             </div>
         </div>
@@ -961,3 +941,56 @@
         </div>
     </div> -->
 </div>
+
+
+<script>
+let Active = document.querySelectorAll('.finance-predic-item');
+let check = document.querySelectorAll('.mean-ch');
+Active.forEach(function(Act) {
+    Act.addEventListener('click', () => {
+
+        if (Act.classList.contains('active-predic')) {
+
+            check.forEach((chk) => {
+                Act.classList.remove('active-predic')
+                chk.querySelector('img').style.display = "none"
+            })
+        } else {
+
+            check.forEach((chk) => {
+                // Act.classList.remove('active-predic')
+                Act.classList.add('active-predic')
+                chk.querySelector('img').style.display = "block"
+            })
+        }
+        // check.forEach((chk) => {
+        //     if (Act.classList.contains('active-predic')) {
+        //         Act.classList.remove('active-predic')
+        //         chk.style.display = "";
+        //     } else {
+        //         Act.classList.add('active-predic')
+        //         chk.style.display = "block";
+        //     }
+        // });
+        // // Act.classList.toggle('active-predic');
+        // if (Act.classList.contains('active-predic')) {
+        //     Act.classList.remove('active-predic')
+        //     // check.classList.remove('mean-ch-active')
+        //     check.style.display = "none";
+        // } else {
+        //     Act.classList.add('active-predic')
+        //     // Act.classList.add('amean-ch-active')
+        //     check.style.display = "block";
+        // }
+
+
+    });
+});
+// check.forEach(function(chk) {
+//     chk.addEventListener('click', () => {
+
+//         chk.classList.toggle('mean-ch-active');
+
+//     });
+// });
+</script>
