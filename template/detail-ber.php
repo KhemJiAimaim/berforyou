@@ -1,6 +1,6 @@
 <div class="fortube-ber">
-    <div class="fortune-box">
-        <div class="top-box">
+    <div class="fortune-box-detail">
+        <div class="top-box-detail">
             <div class="fortune">
                 <span>รายละเอียดหมายเลข</span>
             </div>
@@ -10,7 +10,7 @@
             </div>
         </div>
 
-        <div class="buttom-box">
+        <div class="buttom-box-detail">
             <div class="search-number-detail">
                 <div class="ber-detail">
                     <label>หมายเลขโทรศัพท์</label>
@@ -26,7 +26,7 @@
                     <span>1,000</span>
                 </div>
                 <div class="auspicious-level">
-                    <div class="auspicious-level-color">
+                    <div class="auspicious-level-color-detail">
                         <div class="color-img" style="background-color: #F9C80E; width: 22px; height:22px">
                         </div>
                         <div class="color-img" style="background-color: #F99719; width: 22px; height:22px">
@@ -45,13 +45,13 @@
                         </div>
                     </div>
 
-                    <div class="center-auspicious">
-                        <img src="img/Polygon 2.png" class="center-tick" alt="">
+                    <div class="center-auspicious-detail">
+                        <img src="img/Polygon 2.png" class="center-tick-detail" alt="">
                         <div class="border-buttom">
                         </div>
                     </div>
 
-                    <div class="buttom-auspicious">
+                    <div class="buttom-auspicious-detail">
                         <div class="POOR">
                             <span>POOR</span>
                         </div>
@@ -65,12 +65,12 @@
             </div>
 
 
-            <div class="auspicious-sim">
-                <div class="text-auspicious">
+            <div class="auspicious-sim-detail">
+                <div class="text-auspicious-detail">
                     <label for="">เกรดเบอร์</label>
                     <span>A+</span>
                 </div>
-                <div class="sim-color">
+                <div class="sim-color-detail">
                     <img src="img/carbon_sim-card.png" class="sim-img" alt="">
                 </div>
 
