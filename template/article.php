@@ -237,4 +237,13 @@
         </div>
     </div> -->
     </div>
+    <div class="pagination">
+        <div class="wrapper">
+            <a href="" class="current">Previous</a>
+            <a href="" class="current">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">Next</a>
+        </div>
+    </div>
 </div>
