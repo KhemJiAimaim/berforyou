@@ -241,7 +241,7 @@ $slug = urldecode($url[2]);
                     </div>
                 </div>
                 <div class="foot-text">
-                    <a href="#"><button class="button-2" role="button">บทความทั้งหมด</button></a>
+                    <a href="article"><button class="button-2" role="button">บทความทั้งหมด</button></a>
                 </div>
             </div>
             <div class="show-review">
