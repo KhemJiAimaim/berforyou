@@ -132,6 +132,7 @@
         justify-content: center;
         align-content: center;
         flex-wrap: wrap;
+        gap: 5px;
     }
     .fortube-ber .fortune-box .buttom-box {
         gap: 10px !important;
