@@ -2670,6 +2670,38 @@
     display: flex;
     align-items: center;
 }
+
+.box-big-conten .predic-card:nth-child(1) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(231, 230, 230, 0.575)), url('../img/ber_mean/money.png');
+    filter: brightness(1.2);
+    filter: contrast(1.3);
+}
+
+.box-big-conten .predic-card:nth-child(2) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(231, 230, 230, 0.575)), url('../img/ber_mean/lucky.png');
+    filter: brightness(1.2);
+    filter: contrast(1.3);
+}
+
+.box-big-conten .predic-card:nth-child(3) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(231, 230, 230, 0.575)), url('../img/ber_mean/work.png');
+    filter: brightness(1.2);
+    filter: contrast(1.3);
+}
+
+.box-big-conten .predic-card:nth-child(4) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(231, 230, 230, 0.575)), url('../img/ber_mean/love.png');
+    filter: brightness(1.2);
+    filter: contrast(1.3);
+}
+
+.box-big-conten .predic-card:nth-child(5) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(231, 230, 230, 0.575)), url('../img/ber_mean/study.png');
+    filter: brightness(1.2);
+    filter: contrast(1.3);
+}
+
+
 .predic-card .predic-card-wrap{
     width:100%;
      display: flex;
