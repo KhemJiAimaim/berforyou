@@ -4,7 +4,51 @@
         <p class="ber-text-sr">ค้นหาเบอร์จากความหมาย</p>
         <div class="ber-mean-wrap">
             <div class="mean-box">
-                <div class="box-big"></div>
+                <div class="box-big">
+                    <div class="box-big-conten">
+                        <div class="predic-card">
+                            <div class="predic-card-wrap">
+                                <figure>
+                                    <img src="img/logo/finance.png" alt="">
+                                </figure>
+                                <p>เงินคล่องหมุนเงินเก่ง</p>
+                            </div>
+                        </div>
+                        <div class="predic-card">
+                            <div class="predic-card-wrap">
+                                <figure>
+                                    <img src="img/logo/luck.png" alt="">
+                                </figure>
+                                <p>เงินคล่องหมุนเงินเก่ง</p>
+                            </div>
+                        </div>
+                        <div class="predic-card">
+                            <div class="predic-card-wrap">
+                                <figure>
+                                    <img src="img/logo/work.png" alt="">
+                                </figure>
+                                <p>เงินคล่องหมุนเงินเก่ง</p>
+                            </div>
+                        </div>
+                        <div class="predic-card">
+                            <div class="predic-card-wrap">
+                                <figure>
+                                    <img src="img/logo/love.png" alt="">
+                                </figure>
+                                <p>เงินคล่องหมุนเงินเก่ง</p>
+                            </div>
+                        </div>
+                        <div class="predic-card">
+                            <div class="predic-card-wrap">
+                                <figure>
+                                    <img src="img/logo/learn.png" alt="">
+                                </figure>
+                                <p>เงินคล่องหมุนเงินเก่ง</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
                 <div class="box-mini">
                     <img src="img/icon/Group 557.png" alt="">
                 </div>
