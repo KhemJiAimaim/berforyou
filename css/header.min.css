@@ -11,8 +11,11 @@ nav .topnav{
         padding-top: 82px !important ; 
     }
 }
-@media screen and (min-width: 1301px) and (max-width: 1899px)  {
+@media screen and (min-width: 1300px) and (max-width: 1899px)  {
     .bandner-nav{
+        padding-top: 70px !important ; 
+    }
+    .owl-carousel .owl-item img{
         padding-top: 70px !important ; 
     }
 }
@@ -20,7 +23,11 @@ nav .topnav{
     .bandner-nav{
         padding-top: 65px !important ; 
     }
+    .owl-carousel .owl-item img{
+        padding-top: 65px !important ; 
+    }
 }
+
 
 
 /*@media screen and (min-width: 820px){ 

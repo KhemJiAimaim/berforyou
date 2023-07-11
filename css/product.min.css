@@ -132,6 +132,7 @@
         justify-content: center;
         align-content: center;
         flex-wrap: wrap;
+        gap: 5px;
     }
     .fortube-ber .fortune-box .buttom-box {
         gap: 10px !important;
@@ -2684,8 +2685,11 @@
     padding: 9px;
     justify-content: space-between;
     border-radius: 5px;
+    gap:10px;
 }
-
+.mean-select-price .mean-select-start{
+    width:50%;
+}
 .mean-select .mean-select-price .mean-select-start p {
     font-size: 13px;
     margin-left: 12px;
@@ -2693,11 +2697,13 @@
 }
 
 .mean-select .mean-select-price .mean-select-start select {
-    width: 130px;
+    width: 100%;
     height: 28px;
     border-radius: 3px;
 }
-
+.mean-select-price .mean-select-end{
+    width:50%;
+}
 .mean-select .mean-select-price .mean-select-end p {
     font-size: 13px;
     margin-left: 12px;
@@ -2705,7 +2711,7 @@
 }
 
 .mean-select .mean-select-price .mean-select-end select {
-    width: 130px;
+    width: 100%;
     height: 28px;
     border-radius: 3px;
 }
@@ -2720,7 +2726,7 @@
     font-size: 16px;
     color: #343434;
   }
-  @media screen and (max-width:1028px) and (min-width:700px){
+  @media screen and (max-width:1270px) and (min-width:700px){
     .ber-meaningnumber{
         /* width:100%; */
         /* height:100%; */
@@ -3021,28 +3027,41 @@
      background-color: #C4C4C4 !important;
      /* position: relative !important; */
    }
-   .mean-ch-active{
+   .mean-ch{
+    position: absolute;
+    left:90px;
+    top:0px;
+    display:none;
+  }
+  /* .finance-predic-item:hover{
+    
+     color: rgb(0, 0, 0) !important;
+     background-color: #C4C4C4 !important;
+  } */
+   /* .mean-ch-active{
    
     display:block !important;
-  }
+  } */
   .finance-predic .finance-predic-item{
     width:110px;
     height:110px;
     border-radius:5px;
     background-color:#532A09;
+    transition: transform .2s;
     color: white;
     text-align: center;
     position: relative;
     display: flex;
     align-items: center;
   }
-  .mean-ch{
-    position: absolute;
-    left:90px;
-    top:0px;
-    display:none;
+  .finance-predic-item:hover{
+    /* color: #000; */
+     opacity:0.5;
+    /* -ms-transform: scale(1.5); /* IE 9 */
+   
   }
-
+  
+ 
   /* .finance-predic-item .check-icon{
     position: absolute;
   } */
@@ -3067,15 +3086,25 @@
     height:110px;
     border-radius:5px;
     background-color:#7B4618;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    
   }
-  .work-predic .work-predic-item p{
+  .work-predic-item:hover{
+    opacity:.5;
+  }
+  /* .work-predic .work-predic-item p{
     text-align: center;
     width: 100%;
     height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
+  } */
   .luck-predic{
     width:100%;
     padding:10px;
@@ -3088,15 +3117,23 @@
     height:110px;
     border-radius:5px;
     background-color:#915C27;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
   }
-  .luck-predic .luck-predic-item p{
+  .luck-predic-item:hover{
+    opacity:.5;
+  }
+  /* .luck-predic .luck-predic-item p{
     text-align: center;
     width: 100%;
     height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
+  } */
   .love-predic{
     width:100%;
     padding:10px;
@@ -3109,15 +3146,23 @@
     height:110px;
     border-radius:5px;
     background-color:#AD8042;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
   }
-  .love-predic .love-predic-item p{
+  .love-predic-item:hover{
+    opacity:.5;
+  }
+  /* .love-predic .love-predic-item p{
     text-align: center;
     width: 100%;
     height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
+  } */
   .health-predic{
     width:100%;
     padding:10px;
@@ -3130,15 +3175,23 @@
     height:110px;
     border-radius:5px;
     background-color:#BFAB67;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
   }
-  .health-predic .health-predic-item p{
+  .health-predic-item:hover{
+    opacity:.5;
+  }
+  /* .health-predic .health-predic-item p{
     text-align: center;
     width: 100%;
     height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
+  } */
   .speech-predic{
     width:100%;
     padding:10px;
@@ -3151,15 +3204,23 @@
     height:110px;
     border-radius:5px;
     background-color:#BFC882;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
   }
-  .speech-predic .speech-predic-item p{
+  .speech-predic-item:hover{
+    opacity:.5;
+  }
+  /* .speech-predic .speech-predic-item p{
     text-align: center;
     width: 100%;
     height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
+  } */
   .mind-predic{
     width:100%;
     padding:10px;
@@ -3172,15 +3233,23 @@
     height:110px;
     border-radius:5px;
     background-color:#A4B75C;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
   }
-  .mind-predic .mind-predic-item p{
+  .mind-predic-item:hover{
+    opacity:.5;
+  }
+  /* .mind-predic .mind-predic-item p{
     text-align: center;
     width: 100%;
     height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
+  } */
   .charm-predic{
     width:100%;
     padding:10px;
@@ -3193,15 +3262,23 @@
     height:110px;
     border-radius:5px;
     background-color:#647332;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
   }
-  .charm-predic .charm-predic-item p{
+  .charm-predic-item:hover{
+    opacity:.5;
+  }
+  /* .charm-predic .charm-predic-item p{
     text-align: center;
     width: 100%;
     height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
+  } */
   .personality-predic{
     width:100%;
     padding:10px;
@@ -3214,15 +3291,23 @@
     height:110px;
     border-radius:5px;
     background-color:#3E4C22;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
   }
-  .personality-predic .personality-predic-item p{
+  .personality-predic-item:hover{
+    opacity:.5;
+  }
+  /* .personality-predic .personality-predic-item p{
     text-align: center;
     width: 100%;
     height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
+  } */
   .learn-predic{
     width:100%;
     padding:10px;
@@ -3235,15 +3320,23 @@
     height:110px;
     border-radius:5px;
     background-color:#2E401C;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
   }
-  .learn-predic .learn-predic-item p{
+  .learn-predic-item:hover{
+    opacity:.5;
+  }
+  /* .learn-predic .learn-predic-item p{
     text-align: center;
     width: 100%;
     height: 100%;
     color: white;
     display: flex;
     align-items: center;
-  }
+  } */
   .kudog-predic{
     width:100%;
     padding:10px;
@@ -3256,15 +3349,23 @@
     height:110px;
     border-radius:5px;
     background-color:#0B2838;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
   }
-  .kudog-predic .kudog-predic-item p{
+  .kudog-predic-item:hover{
+    opacity:.5;
+  }
+  /* .kudog-predic .kudog-predic-item p{
     text-align: center;
     width: 100%;
     height: 100%;
     color: white;
     display: flex;
     align-items: center;
-}
+} */
 
 @media screen and (min-width: 769px) and (max-width: 1023px) {
     .ber-mean-page {
