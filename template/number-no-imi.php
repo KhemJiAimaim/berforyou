@@ -57,13 +57,13 @@
                 <form action="" class="mean-select-price">
                     <div class="mean-select-start">
                         <p>ช่วงราคา(จาก)</p>
-                        <select name="" id="">
+                        <select name="" class="price-ber-mean">
                             <option value="">100 บาท</option>
                         </select>
                     </div>
                     <div class="mean-select-end">
                         <p>ช่วงราคา(ถึง)</p>
-                        <select name="" id="">
+                        <select name="" class="price-ber-mean">
                             <option value="">10000 บาท</option>
                         </select>
                     </div>
