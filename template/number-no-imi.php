@@ -84,14 +84,22 @@
             </div>
             <div class="work-predic">
                 <div class="work-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="work-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="work-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="work-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="work-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="work-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
+                <div class="work-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
+                    <p class="work-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+
 
             </div>
         </div>
@@ -102,17 +110,22 @@
             </div>
             <div class="luck-predic">
                 <div class="luck-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="luck-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="luck-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="luck-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="luck-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="luck-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="luck-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="luck-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
+
 
 
             </div>
@@ -125,18 +138,21 @@
             </div>
             <div class="love-predic">
                 <div class="love-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="love-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="love-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="love-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="love-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="love-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="love-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="love-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
-
 
             </div>
         </div>
@@ -148,18 +164,15 @@
             </div>
             <div class="health-predic">
                 <div class="health-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="health-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="health-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="health-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="health-predic-item">
-                    <p class="health-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="health-predic-item">
-                    <p class="health-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="health-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="health-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
 
@@ -173,21 +186,19 @@
             </div>
             <div class="speech-predic">
                 <div class="speech-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="speech-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="speech-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="speech-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="speech-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="speech-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="speech-predic-item">
-                    <p class="speech-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="speech-predic-item">
-                    <p class="speech-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="speech-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="speech-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
 
@@ -200,27 +211,15 @@
             </div>
             <div class="mind-predic">
                 <div class="mind-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="mind-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="mind-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="mind-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="mind-predic-item">
-                    <p class="mind-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="mind-predic-item">
-                    <p class="mind-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="mind-predic-item">
-                    <p class="mind-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="mind-predic-item">
-                    <p class="mind-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="mind-predic-item">
-                    <p class="mind-predic-text">เงินคล่องหมุนเงิน</p>
-                </div>
-                <div class="mind-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="mind-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
 
@@ -234,9 +233,11 @@
             </div>
             <div class="charm-predic">
                 <div class="charm-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="charm-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="charm-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="charm-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
 
@@ -251,12 +252,15 @@
             </div>
             <div class="personality-predic">
                 <div class="personality-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="personality-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="personality-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="personality-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="personality-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="personality-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
             </div>
@@ -268,9 +272,23 @@
             </div>
             <div class="learn-predic">
                 <div class="learn-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="learn-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
                 <div class="learn-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
+                    <p class="learn-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="learn-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
+                    <p class="learn-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="learn-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
+                    <p class="learn-predic-text">เงินคล่องหมุนเงิน</p>
+                </div>
+                <div class="learn-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="learn-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
 
@@ -283,6 +301,7 @@
             </div>
             <div class="kudog-predic">
                 <div class="kudog-predic-item">
+                    <img class="mean-ch" src="img/icon/icon-park-solid_check-one.png" alt="">
                     <p class="kudog-predic-text">เงินคล่องหมุนเงิน</p>
                 </div>
 
@@ -943,54 +962,4 @@
 </div>
 
 
-<script>
-let Active = document.querySelectorAll('.finance-predic-item');
-let check = document.querySelectorAll('.mean-ch');
-Active.forEach(function(Act) {
-    Act.addEventListener('click', () => {
-
-        if (Act.classList.contains('active-predic')) {
-
-            check.forEach((chk) => {
-                Act.classList.remove('active-predic')
-                chk.querySelector('img').style.display = "none"
-            })
-        } else {
-
-            check.forEach((chk) => {
-                // Act.classList.remove('active-predic')
-                Act.classList.add('active-predic')
-                chk.querySelector('img').style.display = "block"
-            })
-        }
-        // check.forEach((chk) => {
-        //     if (Act.classList.contains('active-predic')) {
-        //         Act.classList.remove('active-predic')
-        //         chk.style.display = "";
-        //     } else {
-        //         Act.classList.add('active-predic')
-        //         chk.style.display = "block";
-        //     }
-        // });
-        // // Act.classList.toggle('active-predic');
-        // if (Act.classList.contains('active-predic')) {
-        //     Act.classList.remove('active-predic')
-        //     // check.classList.remove('mean-ch-active')
-        //     check.style.display = "none";
-        // } else {
-        //     Act.classList.add('active-predic')
-        //     // Act.classList.add('amean-ch-active')
-        //     check.style.display = "block";
-        // }
-
-
-    });
-});
-// check.forEach(function(chk) {
-//     chk.addEventListener('click', () => {
-
-//         chk.classList.toggle('mean-ch-active');
-
-//     });
-// });
-</script>
+<script src="js/bermean.js"></script>
