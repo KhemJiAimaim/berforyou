@@ -2603,6 +2603,7 @@ nav .topnav .group-mobile-menu .hamberger i {
     list-style: none;
     margin-bottom: 10px;
     padding: 10px 10px;
+    font-family: 'Kanit', sans-serif;
 }
 
 
@@ -2627,7 +2628,8 @@ nav .topnav .group-mobile-menu .hamberger i {
 
 .review .review-box .head-text h2 {
     color: #000;
-    font-size: 20px;
+    font-size: 1.8rem;
+    font-weight: 500;
 }
 
 .review .review-box .head-text a {
