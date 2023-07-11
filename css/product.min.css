@@ -2728,6 +2728,7 @@
     border-radius: 5px;
     font-size: 16px;
     color: #343434;
+    cursor: pointer;
   }
   @media screen and (max-width:1270px) and (min-width:700px){
     .ber-meaningnumber{
@@ -3056,6 +3057,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
   .finance-predic-item:hover{
     /* color: #000; */
@@ -3094,7 +3096,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    
+    cursor: pointer;
     
   }
   .work-predic-item:hover{
@@ -3125,6 +3127,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
   .luck-predic-item:hover{
     opacity:.5;
@@ -3154,6 +3157,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
   .love-predic-item:hover{
     opacity:.5;
@@ -3183,6 +3187,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
   .health-predic-item:hover{
     opacity:.5;
@@ -3212,6 +3217,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
   .speech-predic-item:hover{
     opacity:.5;
@@ -3241,6 +3247,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
   .mind-predic-item:hover{
     opacity:.5;
@@ -3270,6 +3277,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
   .charm-predic-item:hover{
     opacity:.5;
@@ -3299,6 +3307,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
   .personality-predic-item:hover{
     opacity:.5;
@@ -3328,6 +3337,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
   .learn-predic-item:hover{
     opacity:.5;
@@ -3357,6 +3367,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
   .kudog-predic-item:hover{
     opacity:.5;
