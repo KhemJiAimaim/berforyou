@@ -1,7 +1,3 @@
-<!-- <?php
-        echo ($slug);
-        // exit();
-        ?> -->
 <header>
     <nav>
         <div class="topnav">
@@ -25,7 +21,7 @@
                         <div class="hide-button"><i class="fas fa-angle-double-left"></i></div>
                     </ul>
                 </li>
-                <li><a href="home">หน้าแรก</a></li>
+                <li><a href="home" >หน้าแรก</a></li>
                 <li><a href="fortune-ber">ทำนายเบอร์</a></li>
                 <li><a href="ber-mean">ค้นหาเบอร์จากความหมาย</a></li>
                 <li><a href="howtobuy">วิธีการสั่งซื้อ</a></li>
@@ -233,12 +229,8 @@
         </div>
     </nav>
 
-   
-    <!-- <?php if ($slug === 'index') { ?>
-        <div class="slider owl-carousel">
-            <figure><img src="img/Rectangle 7.png" alt=""></figure>
-        </div>
-        <?php } ?> -->
+
+    <!-- 
     <?php if ($slug === 'fortune-ber') { ?>
         <figure><img src="img/Rectangle 692.png" alt="" class="bandner-nav"></figure>
     <?php } ?>
@@ -281,7 +273,33 @@
         <div class="slider owl-carousel">
             <figure><img src="img/Rectangle 7.png" alt=""></figure>
         </div>
-    
+    <?php } ?> -->
+
+    <?php if ($slug === 'fortune-ber') : ?>
+        <figure><img src="img/Rectangle 692.png" alt="" class="bandner-nav"></figure>
+    <?php elseif ($slug === 'detail-ber') : ?>
+        <figure><img src="img/Rectangle 692.png" alt="" class="bandner-nav"></figure>
+    <?php elseif ($slug === 'ber-mean') : ?>
+        <figure><img src="img/Rectangle 6999.png" alt="" class="bandner-nav"></figure>
+    <?php elseif ($slug === 'howtobuy') : ?>
+        <figure><img src="img/Rectangle 69.png" alt="" class="bandner-nav"></figure>
+    <?php elseif ($slug === 'article-detail') : ?>
+        <figure><img alt="" class="bandner-nav"></figure>
+    <?php elseif ($slug === 'article') : ?>
+        <figure><img src="img/Rectangle 213.png" alt="" class="bandner-nav"></figure>
+    <?php elseif ($slug === 'about') : ?>
+        <figure><img src="img/Rectangle 6.png" alt="" class="bandner-nav"></figure>
+    <?php elseif ($slug === 'contact') : ?>
+        <figure><img src="img/Rectangle 2.png" alt="" class="bandner-nav"></figure>
+    <?php elseif ($slug === 'delivery-check') : ?>
+        <figure><img src="img/Rectangle 66.png" alt="" class="bandner-nav"></figure>
+    <?php elseif ($slug === 'cart') : ?>
+        <figure><img class="bandner-nav" style="margin-top: 20px;"></figure>
+    <?php else : ?>
+        <div class="slider owl-carousel">
+            <figure><img src="img/Rectangle 7.png" alt=""></figure>
+        </div>
+
 
         <div class="container">
             <div class="text-box">
@@ -832,7 +850,7 @@
 
             </section>
         </div>
-    <?php } ?>
+    <?php endif; ?>
 </header>
 
 <script>
@@ -869,4 +887,5 @@
             }
         });
     });
+
 </script>
