@@ -857,9 +857,14 @@ nav .topnav .group-mobile-menu .hamberger i {
     border: 1px solid #fff;
 }
 
-.luck-pic:hover {
-    opacity: 0.5;
+.luck-pic button img:hover {
+    background-color: #d79636 !important;
+    filter: invert(92%) sepia(92%) saturate(31%) hue-rotate(62deg) brightness(106%) contrast(109%);
 }
+.luck-pic button:hover {
+    background-color: #d79636 !important;
+}
+
 
 .luck-pic {
     opacity: 1;
@@ -1131,7 +1136,7 @@ nav .topnav .group-mobile-menu .hamberger i {
     border: 1px solid #FBFAFB;
     margin-top: 5px;
     cursor: pointer;
-    background-color: #00D222;
+    background-color: #aadf7c;
     /* color: #fff; */
 }
 
@@ -1178,7 +1183,7 @@ nav .topnav .group-mobile-menu .hamberger i {
     border: 1px solid #FBFAFB;
     margin-top: 5px;
     cursor: pointer;
-    background-color: #F83A3A;
+    background-color: #f54242;
     /* color: #fff; */
 
 }
@@ -1694,7 +1699,7 @@ nav .topnav .group-mobile-menu .hamberger i {
 }
 
 .search-box .button-form button:hover {
-    background: #bdab9b;
+    background: #8D7045;
     color: #ffffff;
     -webkit-transition: all .2s;
     transition: all .2s
@@ -2590,7 +2595,8 @@ nav .topnav .group-mobile-menu .hamberger i {
 }
 
 .button-2:hover {
-    background-color: #e9e8e8;
+    background-color: #8D7045;
+    color: #FFF;
 }
 
 .button-2 {

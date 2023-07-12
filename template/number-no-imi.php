@@ -10,6 +10,7 @@
                             <div class="predic-card-wrap">
                                 <figure class="predic-logo">
                                     <img src="img/logo/finance.png" alt="">
+                                    <p>การเงิน</p>
                                 </figure>
                                 <div class="box-predic">
                                     <p>เงินคล่องหมุนเงินเก่ง</p>
@@ -23,6 +24,7 @@
                             <div class="predic-card-wrap">
                                 <figure class="predic-logo">
                                     <img src="img/logo/luck.png" alt="">
+                                    <p>การเงิน</p>
                                 </figure>
                                 <div class="box-predic">
                                     <p>เงินคล่องหมุนเงินเก่ง</p>
@@ -36,6 +38,7 @@
                             <div class="predic-card-wrap">
                                 <figure class="predic-logo">
                                     <img src="img/logo/work.png" alt="">
+                                    <p>การเงิน</p>
                                 </figure>
                                 <div class="box-predic">
                                     <p>เงินคล่องหมุนเงินเก่ง</p>
@@ -49,6 +52,7 @@
                             <div class="predic-card-wrap">
                                 <figure class="predic-logo">
                                     <img src="img/logo/love.png" alt="">
+                                    <p>การเงิน</p>
                                 </figure>
                                 <div class="box-predic">
                                     <p>เงินคล่องหมุนเงินเก่ง</p>
@@ -62,6 +66,7 @@
                             <div class="predic-card-wrap">
                                 <figure class="predic-logo">
                                     <img src="img/logo/learn.png" alt="">
+                                    <p>การเงิน</p>
                                 </figure>
                                 <div class="box-predic">
                                     <p>เงินคล่องหมุนเงินเก่ง</p>

@@ -335,14 +335,14 @@
 .auspicious-value p {
     font-size: 2rem;
     color: #C4C4C4;
-    font-weight: 1000;
+    font-weight: 700;
     font-style: italic;
 }
 
 .auspicious-value span {
     font-size: 2rem;
     color: #000000;
-    font-weight: 1000;
+    font-weight: 700;
     font-style: italic;
 }
 
@@ -447,7 +447,7 @@
 
 .fortube-ber .buttom-box-detail .search-number-detail .ber-detail p {
     font-size: 2rem;
-    font-weight: 900;
+    font-weight: 700;
     font-style: italic;
 }
 
@@ -624,7 +624,7 @@
 .auspicious-sim p {
     font-size: 2rem;
     color: #C4C4C4;
-    font-weight: 1000;
+    font-weight: 700;
     font-style: italic;
     text-align: center;
 }
@@ -660,7 +660,7 @@
 .auspicious-sim-detail span {
     font-size: 2rem;
     color: #000000;
-    font-weight: 1000;
+    font-weight: 700;
     font-style: italic;
     text-align: center;
 }
@@ -1521,15 +1521,14 @@
     display: flex
 }
 
-@media screen and (min-width: 769px) {
-    .fortube-ber .box-content-fortune .box .head-detail h3 .kuunum {
-        width: 12%
-    }
-}
 
 .fortube-ber .box-content-fortune .box .head-detail h3 .kuunum {
     font-weight: 400;
     font-size: 1rem;
+}
+
+.fortube-ber .box-content-fortune .box .head-detail h3 .kuunum .couple-number {
+    width: 40px;
 }
 
 .fortube-ber .box-content-fortune .box .head-detail h3 .kuunum .no0,
@@ -2681,7 +2680,7 @@
 }
 
 .box-big-conten .predic-card:nth-child(1) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(231, 230, 230, 0.575)), url('../img/ber_mean/money.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(231, 230, 230, 0.575)), url('../img/ber_mean/money.png');
     background-size: 100% 100%; /* เปลี่ยนค่าเป็น 100% 100% */
     background-repeat: no-repeat;
     filter: brightness(1.2);
@@ -2689,7 +2688,7 @@
 }
 
 .box-big-conten .predic-card:nth-child(2) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(231, 230, 230, 0.575)), url('../img/ber_mean/lucky.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(231, 230, 230, 0.575)), url('../img/ber_mean/lucky.png');
     background-size: 100% 100%; /* เปลี่ยนค่าเป็น 100% 100% */
     background-repeat: no-repeat;
     filter: brightness(1.2);
@@ -2697,7 +2696,7 @@
 }
 
 .box-big-conten .predic-card:nth-child(3) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(231, 230, 230, 0.575)), url('../img/ber_mean/work.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(231, 230, 230, 0.575)), url('../img/ber_mean/work.png');
     background-size: 100% 100%; /* เปลี่ยนค่าเป็น 100% 100% */
     background-repeat: no-repeat;
     filter: brightness(1.2);
@@ -2705,7 +2704,7 @@
 }
 
 .box-big-conten .predic-card:nth-child(4) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(231, 230, 230, 0.575)), url('../img/ber_mean/love.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(231, 230, 230, 0.575)), url('../img/ber_mean/love.png');
     background-size: 100% 100%; /* เปลี่ยนค่าเป็น 100% 100% */
     background-repeat: no-repeat;
     filter: brightness(1.2);
@@ -2713,7 +2712,7 @@
 }
 
 .box-big-conten .predic-card:nth-child(5) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(231, 230, 230, 0.575)), url('../img/ber_mean/study.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(231, 230, 230, 0.575)), url('../img/ber_mean/study.png');
     background-size: 100% 100%; /* เปลี่ยนค่าเป็น 100% 100% */
     background-repeat: no-repeat;
     filter: brightness(1.2);
@@ -2731,6 +2730,13 @@
     align-items: center;
     justify-content: space-around;
 }
+
+.predic-card .predic-card-wrap .predic-logo p {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 300;
+}
+
 .predic-card-wrap .predic-logo img{
     width:38px;
     height:38px;
@@ -2746,7 +2752,8 @@
 .predic-card-wrap .box-predic p {
     text-align: center;
     color: #FFF;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .predic-card .predic-card-wrap .cancle-predic{ 
@@ -3130,9 +3137,7 @@
     cursor: pointer;
   }
   .finance-predic-item:hover{
-    /* color: #000; */
-     opacity:0.5;
-    /* -ms-transform: scale(1.5); /* IE 9 */
+    background-color: #8D7045;
    
   }
   
@@ -3170,7 +3175,7 @@
     
   }
   .work-predic-item:hover{
-    opacity:.5;
+    background-color: #8D7045;
   }
   /* .work-predic .work-predic-item p{
     text-align: center;
@@ -3200,7 +3205,7 @@
     cursor: pointer;
   }
   .luck-predic-item:hover{
-    opacity:.5;
+    background-color: #8D7045;
   }
   /* .luck-predic .luck-predic-item p{
     text-align: center;
@@ -3230,7 +3235,7 @@
     cursor: pointer;
   }
   .love-predic-item:hover{
-    opacity:.5;
+    background-color: #8D7045;
   }
   /* .love-predic .love-predic-item p{
     text-align: center;
@@ -3260,7 +3265,7 @@
     cursor: pointer;
   }
   .health-predic-item:hover{
-    opacity:.5;
+    background-color: #8D7045;
   }
   /* .health-predic .health-predic-item p{
     text-align: center;
@@ -3290,7 +3295,7 @@
     cursor: pointer;
   }
   .speech-predic-item:hover{
-    opacity:.5;
+    background-color: #8D7045;
   }
   /* .speech-predic .speech-predic-item p{
     text-align: center;
@@ -3320,7 +3325,7 @@
     cursor: pointer;
   }
   .mind-predic-item:hover{
-    opacity:.5;
+    background-color: #8D7045;
   }
   /* .mind-predic .mind-predic-item p{
     text-align: center;
@@ -3350,7 +3355,7 @@
     cursor: pointer;
   }
   .charm-predic-item:hover{
-    opacity:.5;
+    background-color: #8D7045;
   }
   /* .charm-predic .charm-predic-item p{
     text-align: center;
@@ -3380,7 +3385,7 @@
     cursor: pointer;
   }
   .personality-predic-item:hover{
-    opacity:.5;
+    background-color: #8D7045;
   }
   /* .personality-predic .personality-predic-item p{
     text-align: center;

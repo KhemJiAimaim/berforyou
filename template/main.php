@@ -30,7 +30,7 @@
             <div class="box">
                 <div class="box-header">
                     <div class="img"><img src="img/icon/Dtac-02.png" alt=""></div>
-                    <a href="detail-ber"><h2>089-682-6459</h2></a>
+                    <a style="width: 100%; text-align:center" href="detail-ber"><h2>089-682-6459</h2></a>
                 </div>
                 <div class="box-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nesciunt.</p>
@@ -48,9 +48,9 @@
                             <h4>9,000,000</h4>
                             <h4>THB</h4>
                         </div>
-                        <div>
-                            <img src="img/icon/cart.png" alt="">
-                            <img src="img/icon/LINE.png" alt="">
+                        <div class="icon-ber">
+                            <img src="img/icon/cart.png" style="width: 30px;height:30px" alt="">
+                            <img src="img/icon/LINE.png"  style="width: 30px;height:30px" alt="">
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
             <div class="box">
                 <div class="box-header">
                     <div class="img"><img src="img/icon/Dtac-02.png" alt=""></div>
-                    <a href="detail-ber"><h2>089-682-6459</h2></a>
+                    <a style="width: 100%; text-align:center" href="detail-ber"><h2>089-682-6459</h2></a>
                 </div>
                 <div class="box-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nesciunt.</p>
@@ -77,9 +77,9 @@
                             <h4>9,000,000</h4>
                             <h4>THB</h4>
                         </div>
-                        <div>
-                            <img src="img/icon/cart.png" alt="">
-                            <img src="img/icon/LINE.png" alt="">
+                        <div class="icon-ber">
+                            <img src="img/icon/cart.png" style="width: 30px;height:30px" alt="">
+                            <img src="img/icon/LINE.png"  style="width: 30px;height:30px" alt="">
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
             <div class="box">
                 <div class="box-header">
                     <div class="img"><img src="img/icon/Dtac-02.png" alt=""></div>
-                    <a href="detail-ber"><h2>089-682-6459</h2></a>
+                    <a style="width: 100%; text-align:center" href="detail-ber"><h2>089-682-6459</h2></a>
                 </div>
                 <div class="box-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nesciunt.</p>
@@ -106,9 +106,9 @@
                             <h4>9,000,000</h4>
                             <h4>THB</h4>
                         </div>
-                        <div>
-                            <img src="img/icon/cart.png" alt="">
-                            <img src="img/icon/LINE.png" alt="">
+                        <div class="icon-ber">
+                            <img src="img/icon/cart.png" style="width: 30px;height:30px" alt="">
+                            <img src="img/icon/LINE.png"  style="width: 30px;height:30px" alt="">
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
             <div class="box">
                 <div class="box-header">
                     <div class="img"><img src="img/icon/Dtac-02.png" alt=""></div>
-                    <a href="detail-ber"><h2>089-682-6459</h2></a>
+                    <a style="width: 100%; text-align:center" href="detail-ber"><h2>089-682-6459</h2></a>
                 </div>
                 <div class="box-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nesciunt.</p>
@@ -135,9 +135,9 @@
                             <h4>9,000,000</h4>
                             <h4>THB</h4>
                         </div>
-                        <div>
-                            <img src="img/icon/cart.png" alt="">
-                            <img src="img/icon/LINE.png" alt="">
+                        <div class="icon-ber">
+                            <img src="img/icon/cart.png" style="width: 30px;height:30px" alt="">
+                            <img src="img/icon/LINE.png"  style="width: 30px;height:30px" alt="">
                         </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
             <div class="box">
                 <div class="box-header">
                     <div class="img"><img src="img/icon/Dtac-02.png" alt=""></div>
-                    <a href="detail-ber"><h2>089-682-6459</h2></a>
+                    <a style="width: 100%; text-align:center" href="detail-ber"><h2>089-682-6459</h2></a>
                 </div>
                 <div class="box-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nesciunt.</p>
@@ -164,9 +164,9 @@
                             <h4>9,000,000</h4>
                             <h4>THB</h4>
                         </div>
-                        <div>
-                            <img src="img/icon/cart.png" alt="">
-                            <img src="img/icon/LINE.png" alt="">
+                        <div class="icon-ber">
+                            <img src="img/icon/cart.png" style="width: 30px;height:30px" alt="">
+                            <img src="img/icon/LINE.png"  style="width: 30px;height:30px" alt="">
                         </div>
                     </div>
                 </div>
@@ -175,7 +175,7 @@
             <div class="box">
                 <div class="box-header">
                     <div class="img"><img src="img/icon/Dtac-02.png" alt=""></div>
-                    <a href="detail-ber"><h2>089-682-6459</h2></a>
+                    <a style="width: 100%; text-align:center" href="detail-ber"><h2>089-682-6459</h2></a>
                 </div>
                 <div class="box-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nesciunt.</p>
@@ -193,9 +193,9 @@
                             <h4>9,000,000</h4>
                             <h4>THB</h4>
                         </div>
-                        <div>
-                            <img src="img/icon/cart.png" alt="">
-                            <img src="img/icon/LINE.png" alt="">
+                        <div class="icon-ber">
+                            <img src="img/icon/cart.png" style="width: 30px;height:30px" alt="">
+                            <img src="img/icon/LINE.png"  style="width: 30px;height:30px" alt="">
                         </div>
                     </div>
                 </div>
@@ -204,7 +204,7 @@
             <div class="box">
                 <div class="box-header">
                     <div class="img"><img src="img/icon/Dtac-02.png" alt=""></div>
-                    <a href="detail-ber"><h2>089-682-6459</h2></a>
+                    <a style="width: 100%; text-align:center" href="detail-ber"><h2>089-682-6459</h2></a>
                 </div>
                 <div class="box-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nesciunt.</p>
@@ -222,9 +222,9 @@
                             <h4>9,000,000</h4>
                             <h4>THB</h4>
                         </div>
-                        <div>
-                            <img src="img/icon/cart.png" alt="">
-                            <img src="img/icon/LINE.png" alt="">
+                        <div class="icon-ber">
+                            <img src="img/icon/cart.png" style="width: 30px;height:30px" alt="">
+                            <img src="img/icon/LINE.png"  style="width: 30px;height:30px" alt="">
                         </div>
                     </div>
                 </div>
@@ -233,7 +233,7 @@
             <!-- <div class="box">
                 <div class="logo"><figure><img src="img/logo/Artboard – 11.jpg" alt=""></figure></div>
                 <div class="number">
-                    <a href="detail-ber"><span>099999999</span></a>
+                    <a style="width: 100%; text-align:center" href="detail-ber"><span>099999999</span></a>
                     <span class="sum-num">ผลรวม 48</span>
                 </div>
                 <div class="detail">
@@ -252,7 +252,7 @@
                 <div class="box">
                     <div class="box-header">
                         <div class="img"><img src="img/icon/Dtac-02.png" alt=""></div>
-                        <a href="detail-ber"><h2>089-682-6459</h2></a>
+                        <a style="width: 100%; text-align:center" href="detail-ber"><h2>089-682-6459</h2></a>
                     </div>
                     <div class="box-body">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nesciunt.</p>
@@ -270,9 +270,9 @@
                                 <h4>9,000,000</h4>
                                 <h4>THB</h4>
                             </div>
-                            <div>
-                                <img src="img/icon/cart.png" alt="">
-                                <img src="img/icon/LINE.png" alt="">
+                            <div class="icon-ber">
+                                <img src="img/icon/cart.png" style="width: 30px;height:30px" alt="">
+                                <img src="img/icon/LINE.png"  style="width: 30px;height:30px" alt="">
                             </div>
                         </div>
                     </div>
