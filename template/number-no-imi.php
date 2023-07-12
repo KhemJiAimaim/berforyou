@@ -8,42 +8,67 @@
                     <div class="box-big-conten">
                         <div class="predic-card">
                             <div class="predic-card-wrap">
-                                <figure>
+                                <figure class="predic-logo">
                                     <img src="img/logo/finance.png" alt="">
                                 </figure>
-                                <p>เงินคล่องหมุนเงินเก่ง</p>
+                                <div class="box-predic">
+                                    <p>เงินคล่องหมุนเงินเก่ง</p>
+                                </div>
+                                <figure class="cancle-predic">
+                                    <img src="img/icon/Vector_cancle.png" alt="">
+                                </figure>
                             </div>
                         </div>
                         <div class="predic-card">
                             <div class="predic-card-wrap">
-                                <figure>
+                                <figure class="predic-logo">
                                     <img src="img/logo/luck.png" alt="">
                                 </figure>
-                                <p>เงินคล่องหมุนเงินเก่ง</p>
+                                <div class="box-predic">
+                                    <p>เงินคล่องหมุนเงินเก่ง</p>
+                                </div>
+                                <figure class="cancle-predic">
+                                    <img src="img/icon/Vector_cancle.png" alt="">
+                                </figure>
                             </div>
                         </div>
                         <div class="predic-card">
                             <div class="predic-card-wrap">
-                                <figure>
+                                <figure class="predic-logo">
                                     <img src="img/logo/work.png" alt="">
                                 </figure>
-                                <p>เงินคล่องหมุนเงินเก่ง</p>
+                                <div class="box-predic">
+                                    <p>เงินคล่องหมุนเงินเก่ง</p>
+                                </div>
+                                <figure class="cancle-predic">
+                                    <img src="img/icon/Vector_cancle.png" alt="">
+                                </figure>
                             </div>
                         </div>
                         <div class="predic-card">
                             <div class="predic-card-wrap">
-                                <figure>
+                                <figure class="predic-logo">
                                     <img src="img/logo/love.png" alt="">
                                 </figure>
-                                <p>เงินคล่องหมุนเงินเก่ง</p>
+                                <div class="box-predic">
+                                    <p>เงินคล่องหมุนเงินเก่ง</p>
+                                </div>
+                                <figure class="cancle-predic">
+                                    <img src="img/icon/Vector_cancle.png" alt="">
+                                </figure>
                             </div>
                         </div>
                         <div class="predic-card">
                             <div class="predic-card-wrap">
-                                <figure>
+                                <figure class="predic-logo">
                                     <img src="img/logo/learn.png" alt="">
                                 </figure>
-                                <p>เงินคล่องหมุนเงินเก่ง</p>
+                                <div class="box-predic">
+                                    <p>เงินคล่องหมุนเงินเก่ง</p>
+                                </div>
+                                <figure class="cancle-predic">
+                                    <img src="img/icon/Vector_cancle.png" alt="">
+                                </figure>
                             </div>
                         </div>
                     </div>
