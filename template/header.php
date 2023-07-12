@@ -879,10 +879,11 @@
     luckPics.forEach(function(pic) {
         pic.addEventListener('click', function() {
             if (this.classList.contains('active')) {
-                this.style.opacity = ""; // เอาค่า style opacity ออกเพื่อให้กลับมาใช้ค่าจาก CSS
+                // this.style.opacity = ""; // เอาค่า style opacity ออกเพื่อให้กลับมาใช้ค่าจาก CSS
                 this.classList.remove('active');
             } else {
-                this.style.opacity = "0.5";
+                // this.style.opacity = "0.5";
+                this.style.background.color= "#d79636";
                 this.classList.add('active');
             }
         });
