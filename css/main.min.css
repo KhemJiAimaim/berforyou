@@ -366,6 +366,7 @@
 
 .main-content .grid-content .box .box-header h2 {
     font-weight: 600;
+    font-size: 1.7rem;
 }
 
 .main-content .grid-content .box .box-header .img{
@@ -421,12 +422,19 @@
 .main-content .grid-content .box .box-body .price {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    margin-top: 0.5rem;
 }
 
 .main-content .grid-content .box .box-body .price .price-detail {
     display: flex;
     justify-content: start;
     gap: 10px;
+}
+
+.main-content .grid-content .box .box-body .price .icon-ber {
+    display: flex;
+    justify-content:end;
+    gap:0.5rem;
 }
 /* .main-content .grid-content .box,
 .sumber-content .grid-content .box {

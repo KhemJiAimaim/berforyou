@@ -140,8 +140,8 @@
 }
 
 .contact .contact-boxshadow .content-contact .box-content .box-facebook {
-    width: 46px;
-    height: 46px;
+    width: 35px;
+    height: 35px;
     border-radius: 5px;
     background: #0170FA;
     display: flex;
@@ -150,8 +150,8 @@
 }
 
 .contact .contact-boxshadow .content-contact .box-content .box-line {
-    width: 46px;
-    height: 46px;
+    width: 35px;
+    height: 35px;
     border-radius: 5px;
     background: #00D222;
     display: flex;
@@ -160,8 +160,8 @@
 }
 
 .contact .contact-boxshadow .content-contact .box-content .box-phone {
-    width: 46px;
-    height: 46px;
+    width: 35px;
+    height: 35px;
     border-radius: 5px;
     background: #E4B81B;
     display: flex;
@@ -718,19 +718,25 @@
 
 .blog-text .blog-doc {
     font-size: 16px;
+    font-weight: 300;
 
 }
 
+.blog-text .blog-contac {
+    display: flex;
+    gap: 0.8rem;
+}
+
 .blog-contac .blog-facebook {
-    width: 46px;
-    height: 46px;
+    width: 35px;
+    height: 35px;
     border-radius: 10px;
     border: none;
 }
 
 .blog-contac .blog-line {
-    width: 46px;
-    height: 46px;
+    width: 35px;
+    height: 35px;
 }
 
 .about-text {
