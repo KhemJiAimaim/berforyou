@@ -80,10 +80,11 @@ $slug = urldecode($url[2]);
 
 
 
-
-
-
-
+        <div class="back-to-top" >
+            <a href="#back-top" id="myP" >
+                <img src="img/7756294.png" alt="">
+            </a>
+        </div>
 
 
         <!-- รีวิว -->

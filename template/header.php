@@ -1,233 +1,235 @@
 <header>
-    <nav>
-        <div class="topnav">
-            <div class="logo-nav">
-                <figure><a href="home"><img src="img/logo/logo white-02.png" alt=""></a></figure>
-            </div>
+    <section id="back-top">
+        <nav>
+            <div class="topnav">
+                <div class="logo-nav">
+                    <figure><a href="home"><img src="img/logo/logo white-02.png" alt=""></a></figure>
+                </div>
 
-            <!-- เมนูปกติ -->
-            <ul class="nav-menu">
-                <li class="cate-mobile">
-                    <a href="#">เมนูหมวดหมู่เบอร์</a>
-                    <ul class="cateMobile">
-                        <?php for ($i = 1; $i <= 10; $i++) : ?>
-                            <li>
-                                <a href="">
-                                    <span>เบอร์มงคลมาใหม่</span>
-                                    <span>200</span>
-                                </a>
-                            </li>
-                        <?php endfor; ?>
-                        <div class="hide-button"><i class="fas fa-angle-double-left"></i></div>
-                    </ul>
-                </li>
-                <li><a href="home" >หน้าแรก</a></li>
-                <li><a href="fortune-ber">ทำนายเบอร์</a></li>
-                <li><a href="ber-mean">ค้นหาเบอร์จากความหมาย</a></li>
-                <li><a href="howtobuy">วิธีการสั่งซื้อ</a></li>
-                <li><a href="delivery-check">เช็คการจัดส่งสินค้า</a></li>
-                <li><a href="article">บทความ</a></li>
-                <li><a href="about">เกี่ยวกับเรา</a></li>
-                <li><a href="contact">ติดต่อเรา</a></li>
-                <li class="menu-cart">
-                    <a href="#" class="cart">
-                        <img src="img/logo/solar_cart.png" alt="">
-                        <div class="num-shop-cart">
-                            <span>99+</span>
+                <!-- เมนูปกติ -->
+                <ul class="nav-menu">
+                    <li class="cate-mobile">
+                        <a href="#">เมนูหมวดหมู่เบอร์</a>
+                        <ul class="cateMobile">
+                            <?php for ($i = 1; $i <= 10; $i++) : ?>
+                                <li>
+                                    <a href="">
+                                        <span>เบอร์มงคลมาใหม่</span>
+                                        <span>200</span>
+                                    </a>
+                                </li>
+                            <?php endfor; ?>
+                            <div class="hide-button"><i class="fas fa-angle-double-left"></i></div>
+                        </ul>
+                    </li>
+                    <li><a href="home">หน้าแรก</a></li>
+                    <li><a href="fortune-ber">ทำนายเบอร์</a></li>
+                    <li><a href="ber-mean">ค้นหาเบอร์จากความหมาย</a></li>
+                    <li><a href="howtobuy">วิธีการสั่งซื้อ</a></li>
+                    <li><a href="delivery-check">เช็คการจัดส่งสินค้า</a></li>
+                    <li><a href="article">บทความ</a></li>
+                    <li><a href="about">เกี่ยวกับเรา</a></li>
+                    <li><a href="contact">ติดต่อเรา</a></li>
+                    <li class="menu-cart">
+                        <a href="#" class="cart">
+                            <img src="img/logo/solar_cart.png" alt="">
+                            <div class="num-shop-cart">
+                                <span>99+</span>
+                            </div>
+                        </a>
+
+                        <div class="cart-hover">
+                            <ul>
+                                <li class="head-hover">
+                                    <p>
+                                        จำนวนสินค้า
+                                        <span>99</span>
+                                        เบอร์ /
+                                        <span>999999</span>
+                                        บาท
+                                    </p>
+                                </li>
+                                <div class="list-item">
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
+                                </div>
+                                <li class="total-cart"><a href="cart"><i class="fas fa-cart-arrow-down"></i><span>รายการทั้งหมด</span></a></li>
+                            </ul>
                         </div>
-                    </a>
+                    </li>
+                    <li class="buttonX"><i class="fas fa-times"></i></li>
+                </ul>
 
-                    <div class="cart-hover">
-                        <ul>
-                            <li class="head-hover">
-                                <p>
-                                    จำนวนสินค้า
-                                    <span>99</span>
-                                    เบอร์ /
-                                    <span>999999</span>
-                                    บาท
-                                </p>
-                            </li>
-                            <div class="list-item">
-                                <li>
-                                    <div class="top">
-                                        <img src="img/icon/ture move h-02.png" alt="">
-                                        <i class="fas fa-minus-circle"></i>
-                                    </div>
-                                    <div class="bottom">
-                                        <span class="sum">ผลรวม 68</span>
-                                        <span class="ber">0993216547</span>
-                                        <span class="price">999999.-</span>
-                                    </div>
+                <!-- ปุ่มเมนูตอน responsive -->
+                <div class="group-mobile-menu">
+                    <div class="cart-mobile">
+                        <li><img href="#" class="cart" src="img/logo/solar_cart.png" alt=""></li>
+                        <div class="cart-hover">
+                            <ul>
+                                <li class="head-hover">
+                                    <p>
+                                        จำนวนสินค้า
+                                        <span>99</span>
+                                        เบอร์ /
+                                        <span>999999</span>
+                                        บาท
+                                    </p>
                                 </li>
+                                <div class="list-item">
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
 
-                                <li>
-                                    <div class="top">
-                                        <img src="img/icon/ture move h-02.png" alt="">
-                                        <i class="fas fa-minus-circle"></i>
-                                    </div>
-                                    <div class="bottom">
-                                        <span class="sum">ผลรวม 68</span>
-                                        <span class="ber">0993216547</span>
-                                        <span class="price">999999.-</span>
-                                    </div>
-                                </li>
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
 
-                                <li>
-                                    <div class="top">
-                                        <img src="img/icon/ture move h-02.png" alt="">
-                                        <i class="fas fa-minus-circle"></i>
-                                    </div>
-                                    <div class="bottom">
-                                        <span class="sum">ผลรวม 68</span>
-                                        <span class="ber">0993216547</span>
-                                        <span class="price">999999.-</span>
-                                    </div>
-                                </li>
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
 
-                                <li>
-                                    <div class="top">
-                                        <img src="img/icon/ture move h-02.png" alt="">
-                                        <i class="fas fa-minus-circle"></i>
-                                    </div>
-                                    <div class="bottom">
-                                        <span class="sum">ผลรวม 68</span>
-                                        <span class="ber">0993216547</span>
-                                        <span class="price">999999.-</span>
-                                    </div>
-                                </li>
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
 
-                                <li>
-                                    <div class="top">
-                                        <img src="img/icon/ture move h-02.png" alt="">
-                                        <i class="fas fa-minus-circle"></i>
-                                    </div>
-                                    <div class="bottom">
-                                        <span class="sum">ผลรวม 68</span>
-                                        <span class="ber">0993216547</span>
-                                        <span class="price">999999.-</span>
-                                    </div>
-                                </li>
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
 
-                                <li>
-                                    <div class="top">
-                                        <img src="img/icon/ture move h-02.png" alt="">
-                                        <i class="fas fa-minus-circle"></i>
-                                    </div>
-                                    <div class="bottom">
-                                        <span class="sum">ผลรวม 68</span>
-                                        <span class="ber">0993216547</span>
-                                        <span class="price">999999.-</span>
-                                    </div>
-                                </li>
-                            </div>
-                            <li class="total-cart"><a href="cart"><i class="fas fa-cart-arrow-down"></i><span>รายการทั้งหมด</span></a></li>
-                        </ul>
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
+                                </div>
+                                <li class="total-cart"><a href="cart"><i class="fas fa-cart-arrow-down"></i><span>รายการทั้งหมด</span></a></li>
+                            </ul>
+                        </div>
                     </div>
-                </li>
-                <li class="buttonX"><i class="fas fa-times"></i></li>
-            </ul>
 
-            <!-- ปุ่มเมนูตอน responsive -->
-            <div class="group-mobile-menu">
-                <div class="cart-mobile">
-                    <li><img href="#" class="cart" src="img/logo/solar_cart.png" alt=""></li>
-                    <div class="cart-hover">
-                        <ul>
-                            <li class="head-hover">
-                                <p>
-                                    จำนวนสินค้า
-                                    <span>99</span>
-                                    เบอร์ /
-                                    <span>999999</span>
-                                    บาท
-                                </p>
-                            </li>
-                            <div class="list-item">
-                                <li>
-                                    <div class="top">
-                                        <img src="img/icon/ture move h-02.png" alt="">
-                                        <i class="fas fa-minus-circle"></i>
-                                    </div>
-                                    <div class="bottom">
-                                        <span class="sum">ผลรวม 68</span>
-                                        <span class="ber">0993216547</span>
-                                        <span class="price">999999.-</span>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="top">
-                                        <img src="img/icon/ture move h-02.png" alt="">
-                                        <i class="fas fa-minus-circle"></i>
-                                    </div>
-                                    <div class="bottom">
-                                        <span class="sum">ผลรวม 68</span>
-                                        <span class="ber">0993216547</span>
-                                        <span class="price">999999.-</span>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="top">
-                                        <img src="img/icon/ture move h-02.png" alt="">
-                                        <i class="fas fa-minus-circle"></i>
-                                    </div>
-                                    <div class="bottom">
-                                        <span class="sum">ผลรวม 68</span>
-                                        <span class="ber">0993216547</span>
-                                        <span class="price">999999.-</span>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="top">
-                                        <img src="img/icon/ture move h-02.png" alt="">
-                                        <i class="fas fa-minus-circle"></i>
-                                    </div>
-                                    <div class="bottom">
-                                        <span class="sum">ผลรวม 68</span>
-                                        <span class="ber">0993216547</span>
-                                        <span class="price">999999.-</span>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="top">
-                                        <img src="img/icon/ture move h-02.png" alt="">
-                                        <i class="fas fa-minus-circle"></i>
-                                    </div>
-                                    <div class="bottom">
-                                        <span class="sum">ผลรวม 68</span>
-                                        <span class="ber">0993216547</span>
-                                        <span class="price">999999.-</span>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="top">
-                                        <img src="img/icon/ture move h-02.png" alt="">
-                                        <i class="fas fa-minus-circle"></i>
-                                    </div>
-                                    <div class="bottom">
-                                        <span class="sum">ผลรวม 68</span>
-                                        <span class="ber">0993216547</span>
-                                        <span class="price">999999.-</span>
-                                    </div>
-                                </li>
-                            </div>
-                            <li class="total-cart"><a href="cart"><i class="fas fa-cart-arrow-down"></i><span>รายการทั้งหมด</span></a></li>
-                        </ul>
+                    <div class="hamberger">
+                        <i class="fas fa-bars"></i>
                     </div>
                 </div>
 
-                <div class="hamberger">
-                    <i class="fas fa-bars"></i>
-                </div>
             </div>
-
-        </div>
-    </nav>
+        </nav>
+    </section>
 
 
     <!-- 
@@ -887,5 +889,4 @@
             }
         });
     });
-
 </script>
