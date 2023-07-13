@@ -185,6 +185,13 @@ nav .topnav .nav-menu li a:hover {
     /* padding: 5px 15px; */
 }
 
+.nav-active-menu{
+    color: #ffffff !important;
+    -webkit-transition: all .2s !important;
+    transition: all .2s !important;
+    border-top-style: solid !important;
+    border-bottom-style: solid !important;
+}
 nav .topnav .nav-menu li img {
     margin-top: 5px;
 }
