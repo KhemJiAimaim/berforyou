@@ -25,8 +25,7 @@
                             <div class="hide-button"><i class="fas fa-angle-double-left"></i></div>
                         </ul>
                     </li>
-                    <li><a href="home" class="<?php print ($slug === 'home') ? "nav-active-menu" : ""; ?>">หน้าแรก</a>
-                    </li>
+                    <li><a href="home" class="<?php print ($slug === 'home') ? "nav-active-menu" : ""; ?>">หน้าแรก</a></li>
                     <li><a href="fortune-ber" class="<?php print ($slug === 'fortune-ber') ? "nav-active-menu" : ""; ?>">ทำนายเบอร์</a>
                     <li><a href="ber-mean" class="<?php print ($slug === 'ber-mean') ? "nav-active-menu" : ""; ?>">ค้นหาเบอร์จากความหมาย</a>
                     <li><a href="howtobuy" class="<?php print ($slug === 'howtobuy') ? "nav-active-menu" : ""; ?>">วิธีการสั่งซื้อ</a>

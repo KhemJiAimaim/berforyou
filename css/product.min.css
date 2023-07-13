@@ -3140,13 +3140,50 @@
     background-color: #8D7045;
   }
 
-  @media screen and (max-width: 370px) {
+  @media screen and (max-width: 400px) {
     .finance-predic .finance-predic-item {
         width:100px;
         height:100px;
     }
     .work-predic .work-predic-item {
-        
+        width:100px !important;
+        height:100px !important;
+    }
+    .luck-predic .luck-predic-item {
+        width:100px !important;
+        height:100px !important;
+    }
+    .love-predic .love-predic-item {
+        width:100px !important;
+        height:100px !important;
+    }
+    .health-predic .health-predic-item {
+        width:100px !important;
+        height:100px !important;
+    }
+    .speech-predic .speech-predic-item {
+        width:100px !important;
+        height:100px !important;
+    }
+    .mind-predic .mind-predic-item {
+        width:100px !important;
+        height:100px !important;
+    }
+    .charm-predic .charm-predic-item {
+        width:100px !important;
+        height:100px !important;
+    }
+    .personality-predic .personality-predic-item {
+        width:100px !important;
+        height:100px !important;
+    }
+    .learn-predic .learn-predic-item {
+        width:100px !important;
+        height:100px !important;
+    }
+    .kudog-predic .kudog-predic-item {
+        width:100px !important;
+        height:100px !important;
     }
   }
   
