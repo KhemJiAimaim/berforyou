@@ -1,6 +1,6 @@
 <!-- <?php echo $slug
 
-        ?>  -->
+?>  -->
 <header>
     <section id="back-top">
         <nav>
@@ -28,15 +28,10 @@
                     <li><a href="home" class="<?php print ($slug === 'home') ? "nav-active-menu" : ""; ?>">หน้าแรก</a>
                     </li>
                     <li><a href="fortune-ber" class="<?php print ($slug === 'fortune-ber') ? "nav-active-menu" : ""; ?>">ทำนายเบอร์</a>
-                    </li>
                     <li><a href="ber-mean" class="<?php print ($slug === 'ber-mean') ? "nav-active-menu" : ""; ?>">ค้นหาเบอร์จากความหมาย</a>
-                    </li>
                     <li><a href="howtobuy" class="<?php print ($slug === 'howtobuy') ? "nav-active-menu" : ""; ?>">วิธีการสั่งซื้อ</a>
-                    </li>
                     <li><a href="delivery-check" class="<?php print ($slug === 'delivery-check') ? "nav-active-menu" : ""; ?>">เช็คการจัดส่งสินค้า</a>
-                    </li>
                     <li><a href="article" class="<?php print ($slug === 'article') ? "nav-active-menu" : ""; ?>">บทความ</a>
-                    </li>
                     <li><a href="about" class="<?php print ($slug === 'about') ? "nav-active-menu" : ""; ?>">เกี่ยวกับเรา</a></li>
                     <li><a href="contact" class="<?php print ($slug === 'contact') ? "nav-active-menu" : ""; ?>">ติดต่อเรา</a></li>
                     <li class="menu-cart">
@@ -45,6 +40,95 @@
                             <div class="num-shop-cart">
                                 <span>99+</span>
                             </div>
+                        </a>
+
+                        <div class="cart-hover">
+                            <ul>
+                                <li class="head-hover">
+                                    <p>
+                                        จำนวนสินค้า
+                                        <span>99</span>
+                                        เบอร์ /
+                                        <span>999999</span>
+                                        บาท
+                                    </p>
+                                </li>
+                                <div class="list-item">
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="top">
+                                            <img src="img/icon/ture move h-02.png" alt="">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="sum">ผลรวม 68</span>
+                                            <span class="ber">0993216547</span>
+                                            <span class="price">999999.-</span>
+                                        </div>
+                                    </li>
+                                </div>
+                                <li class="total-cart"><a href="cart"><i class="fas fa-cart-arrow-down"></i><span>รายการทั้งหมด</span></a></li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="buttonX"><i class="fas fa-times"></i></li>
                 </ul>
@@ -139,123 +223,15 @@
                                 </div>
                                 <li class="total-cart"><a href="cart"><i class="fas fa-cart-arrow-down"></i><span>รายการทั้งหมด</span></a></li>
                             </ul>
-
-                            <li>
-                                <div class="top">
-                                    <img src="img/icon/ture move h-02.png" alt="">
-                                    <i class="fas fa-minus-circle"></i>
-                                </div>
-                                <div class="bottom">
-                                    <span class="sum">ผลรวม 68</span>
-                                    <span class="ber">0993216547</span>
-                                    <span class="price">999999.-</span>
-                                </div>
-                            </li>
                         </div>
-                        <li class="total-cart"><a href="cart"><i class="fas fa-cart-arrow-down"></i><span>รายการทั้งหมด</span></a></li>
-                        </ul>
                     </div>
 
+                    <div class="hamberger">
+                        <i class="fas fa-bars"></i>
+                    </div>
                 </div>
 
-                <!-- ปุ่มเมนูตอน responsive -->
-                <div class="group-mobile-menu">
-                    <div class="cart-mobile">
-                        <li><img href="#" class="cart" src="img/logo/solar_cart.png" alt=""></li>
-                        <div class="cart-hover">
-                            <ul>
-                                <li class="head-hover">
-                                    <p>
-                                        จำนวนสินค้า
-                                        <span>99</span>
-                                        เบอร์ /
-                                        <span>999999</span>
-                                        บาท
-                                    </p>
-                                </li>
-                                <div class="list-item">
-                                    <li>
-                                        <div class="top">
-                                            <img src="img/icon/ture move h-02.png" alt="">
-                                            <i class="fas fa-minus-circle"></i>
-                                        </div>
-                                        <div class="bottom">
-                                            <span class="sum">ผลรวม 68</span>
-                                            <span class="ber">0993216547</span>
-                                            <span class="price">999999.-</span>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="top">
-                                            <img src="img/icon/ture move h-02.png" alt="">
-                                            <i class="fas fa-minus-circle"></i>
-                                        </div>
-                                        <div class="bottom">
-                                            <span class="sum">ผลรวม 68</span>
-                                            <span class="ber">0993216547</span>
-                                            <span class="price">999999.-</span>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="top">
-                                            <img src="img/icon/ture move h-02.png" alt="">
-                                            <i class="fas fa-minus-circle"></i>
-                                        </div>
-                                        <div class="bottom">
-                                            <span class="sum">ผลรวม 68</span>
-                                            <span class="ber">0993216547</span>
-                                            <span class="price">999999.-</span>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="top">
-                                            <img src="img/icon/ture move h-02.png" alt="">
-                                            <i class="fas fa-minus-circle"></i>
-                                        </div>
-                                        <div class="bottom">
-                                            <span class="sum">ผลรวม 68</span>
-                                            <span class="ber">0993216547</span>
-                                            <span class="price">999999.-</span>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="top">
-                                            <img src="img/icon/ture move h-02.png" alt="">
-                                            <i class="fas fa-minus-circle"></i>
-                                        </div>
-                                        <div class="bottom">
-                                            <span class="sum">ผลรวม 68</span>
-                                            <span class="ber">0993216547</span>
-                                            <span class="price">999999.-</span>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="top">
-                                            <img src="img/icon/ture move h-02.png" alt="">
-                                            <i class="fas fa-minus-circle"></i>
-                                        </div>
-                                        <div class="bottom">
-                                            <span class="sum">ผลรวม 68</span>
-                                            <span class="ber">0993216547</span>
-                                            <span class="price">999999.-</span>
-                                        </div>
-                                    </li>
-                                </div>
-                                <li class="total-cart"><a href="cart"><i class="fas fa-cart-arrow-down"></i><span>รายการทั้งหมด</span></a></li>
-                            </ul>
-
-                            <div class="hamberger">
-                                <i class="fas fa-bars"></i>
-
-                            </div>
-                        </div>
-
-                    </div>
+            </div>
         </nav>
     </section>
 
@@ -324,10 +300,7 @@
     <?php elseif ($slug === 'delivery-check') : ?>
         <figure><img src="img/Rectangle 66.png" alt="" class="bandner-nav"></figure>
     <?php elseif ($slug === 'cart') : ?>
-        <figure><img class="bandner-nav" style="margin-top: 20px;"></figure>
-
         <figure><img class="bandner-nav" style="height:0px"></figure>
-
     <?php else : ?>
         <div class="slider owl-carousel">
             <figure><img src="img/Rectangle 7.png" alt=""></figure>
@@ -336,14 +309,8 @@
 
         <div class="container">
             <div class="text-box">
-                <span>ยินดีต้อนรับเข้าสู่ Berforyou.com ศูนย์รวมจำหน่ายเบอร์สวย เบอร์มงคล เบอร์เสริมดวง
-                    บริการครบเครื่องเรื่องเบอร์ ระบบทำนายเบอร์อัตโนมัติ ระบบค้นหาเบอร์ที่ต้องการ ตรงจุด
-                    ทุกความต้องการ<br />
-                    เสริมการเงิน การงาน ความรัก สุขภาพ โชคลาภ
-                    สะดวกสบายโดยการเลือกซื้อและชำระเงินผ่านหน้าเว็บไซต์ได้ทันที
-                    จัดส่งวันต่อวัน รวดเร็วทันใจ เบอร์ทุกเบอร์คุณภาพคัดเกรด มงคลทั้งเว็บ <br />ด้วยประสบการณ์ขายมากกว่า
-                    10
-                    ปี</span>
+                <span>ยินดีต้อนรับเข้าสู่ Berforyou.com ศูนย์รวมจำหน่ายเบอร์สวย เบอร์มงคล เบอร์เสริมดวง บริการครบเครื่องเรื่องเบอร์ ระบบทำนายเบอร์อัตโนมัติ ระบบค้นหาเบอร์ที่ต้องการ ตรงจุด ทุกความต้องการ<br />
+                    เสริมการเงิน การงาน ความรัก สุขภาพ โชคลาภ สะดวกสบายโดยการเลือกซื้อและชำระเงินผ่านหน้าเว็บไซต์ได้ทันที จัดส่งวันต่อวัน รวดเร็วทันใจ เบอร์ทุกเบอร์คุณภาพคัดเกรด มงคลทั้งเว็บ <br />ด้วยประสบการณ์ขายมากกว่า 10 ปี</span>
             </div>
             <!-- ค้นหาเบอร์ -->
             <!-- <section>
@@ -677,361 +644,148 @@
                             <div class="pic">
                                 <span>เสริมดวงด้าน</span>
                                 <div class="box-luck">
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/1.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/2.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/3.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/4.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/5.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/6.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/7.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/8.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/9.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/10.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/1.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/2.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/3.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/4.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/5.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/6.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/7.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/8.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/9.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/10.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
                                 </div>
                             </div>
 
                             <div class="pic-category">
                                 <span>หมวดหมู่เบอร์</span>
                                 <div class="box-luck-category">
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/1.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/2.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/3.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/4.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/5.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/6.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/7.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/8.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/9.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/10.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/6.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/7.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/8.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/9.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/1.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/2.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/3.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/4.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/5.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/6.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/7.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/8.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                </div>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/1.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/2.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/3.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/4.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic" class="luck-pic">
+                                        <figure><img src="img/luck/5.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic" class="luck-pic">
+                                        <figure><img src="img/luck/6.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic" class="luck-pic">
+                                        <figure><img src="img/luck/7.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic" class="luck-pic">
+                                        <figure><img src="img/luck/8.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic" class="luck-pic">
+                                        <figure><img src="img/luck/9.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/10.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/6.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/7.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/8.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/9.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/1.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/2.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/3.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/4.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/5.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/6.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/7.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/8.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
                             </div>
-
-                            <div class="buttom-box">
-                                <div class="pic">
-                                    <span>เสริมดวงด้าน</span>
-                                    <div class="box-luck">
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/1.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/2.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/3.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/4.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/5.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/6.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/7.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/8.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/9.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/10.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <div class="pic-category">
-                                    <span>หมวดหมู่เบอร์</span>
-                                    <div class="box-luck-category">
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/1.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/2.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/3.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/4.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic" class="luck-pic">
-                                            <figure><img src="img/luck/5.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic" class="luck-pic">
-                                            <figure><img src="img/luck/6.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic" class="luck-pic">
-                                            <figure><img src="img/luck/7.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic" class="luck-pic">
-                                            <figure><img src="img/luck/8.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic" class="luck-pic">
-                                            <figure><img src="img/luck/9.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/10.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/6.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/7.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/8.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/9.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/1.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/2.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/3.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/4.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/5.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/6.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/7.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                        <button class="luck-pic">
-                                            <figure><img src="img/luck/8.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="button-form">
-                                <button class="reset">ล้างข้อมูล</button>
-                                <button>ค้นหา</button>
-
-                            </div>
-                        </div>
-                        <div class="button-form">
-                            <button class="reset">ล้างข้อมูล</button>
-                            <button>ค้นหา</button>
-
                         </div>
                     </div>
+                    <div class="button-form">
+                        <button class="reset">ล้างข้อมูล</button>
+                        <button>ค้นหา</button>
+                    </div>
+                </div>
 
             </section>
         </div>
@@ -1061,33 +815,17 @@
 
     var luckPics = document.querySelectorAll('.luck-pic');
 
-
-    luckPics.forEach(function(pic) {
-        pic.addEventListener('click', function() {
-            if (this.classList.contains('active')) {
-                // this.style.opacity = ""; // เอาค่า style opacity ออกเพื่อให้กลับมาใช้ค่าจาก CSS
-                this.classList.remove('active');
-            } else {
-                // this.style.opacity = "0.5";
-                this.style.background.color = "#d79636";
-                this.classList.add('active');
-            }
-        });
+    luckPics.forEach(function (pic) {
+    pic.addEventListener('click', function () {
+        if (this.classList.contains('active')) {
+        this.style.backgroundColor = "#FFF";
+        this.classList.remove('active');
+        this.querySelector('img').style.filter = ""; // เอาค่า style filter ออกเพื่อให้กลับมาใช้ค่าจาก CSS
+        } else {
+        this.classList.add('active');
+        this.style.backgroundColor = "#d79636";
+        this.querySelector('img').style.filter = "invert(92%) sepia(92%) saturate(31%) hue-rotate(62deg) brightness(106%) contrast(109%)";
+        }
     });
-
-    luckPics.forEach(function(pic) {
-        pic.addEventListener('click', function() {
-            if (this.classList.contains('active')) {
-                this.style.backgroundColor = "#FFF";
-                this.classList.remove('active');
-                this.querySelector('img').style.filter =
-                    ""; // เอาค่า style filter ออกเพื่อให้กลับมาใช้ค่าจาก CSS
-            } else {
-                this.classList.add('active');
-                this.style.backgroundColor = "#d79636";
-                this.querySelector('img').style.filter =
-                    "invert(92%) sepia(92%) saturate(31%) hue-rotate(62deg) brightness(106%) contrast(109%)";
-            }
-        });
     });
 </script>
