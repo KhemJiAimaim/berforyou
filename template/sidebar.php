@@ -436,7 +436,7 @@
             <ul>
                 <div class="head-text">
                     <h2>จัดส่งสินค้าล่าสุด</h2>
-                    <a href="">ทั้งหมด</a>
+                    <a href="delivery-check">ทั้งหมด</a>
                 </div>
                 <li>
                     <a href="">

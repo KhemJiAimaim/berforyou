@@ -20,8 +20,6 @@
             <li><a href="">วิธีการสั่งซื้อ</a></li>
             <li><a href="">เช็คการจัดส่ง</a></li>
             <li><a href="">แจ้งชำระเงิน</a></li>
-
-
         </ul>
     </div>
 
@@ -29,12 +27,9 @@
         <h3>นโยบายต่างๆ</h3>
         <ul>
             <li><a href="">การรับประกัน</a></li>
-            <li><a href="">นดยบายความปลอดภัย</a></li>
+            <li><a href="">นโยบายความปลอดภัย</a></li>
             <li><a href="">นโยบายความเป้นส่วนตัว</a></li>
             <li><a href="">นโนบายปัญหาข้อเรียกร้อง</a></li>
-
-
-
         </ul>
     </div>
 
@@ -48,12 +43,12 @@
     </div>
 
     <div class="social-footer">
-        <h3 style="text-align: center;">Social Media</h3>
-        <div class="flex-container">
-            <div class="social" style="background-color:#0170FA; border-radius:10px; width: 50px; height: 50px; text-align: center; margin-right: 5px; padding-top:5px;"><img src="img/mdi_Facebook.png" alt="" ></div>
-            <div class="social" style="background-color:#F83A3A; border-radius:10px;  width: 50px; height: 50px; text-align: center; margin-right: 5px; padding-top:5px;"><img src="img/gis_poi-map.png" alt=""></div>
-            <div class="social" style="background-color:#E4B81B; border-radius:10px;  width: 50px; height: 50px; text-align: center; margin-right: 5px; padding-top:5px;"><img src="img/eva_phone-call-fill.png" alt=""></div>
-            <div class="social" style="background-color:#00D222; border-radius:10px;  width: 50px; height: 50px; text-align: center; margin-right: 5px; padding-top:5px;" ><img src="img/line 1.png" alt=""></div>
+        <h3>Social Media</h3>
+        <div class="social-content">
+            <div class="social"><img src="img/mdi_Facebook.png" alt="" ></div>
+            <div class="social"><img src="img/gis_poi-map.png" alt=""></div>
+            <div class="social"><img src="img/eva_phone-call-fill.png" alt=""></div>
+            <div class="social"><img src="img/line 1.png" alt=""></div>
         </div>
 
 

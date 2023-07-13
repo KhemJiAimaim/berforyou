@@ -827,20 +827,4 @@
         }
     });
     });
-
-
-    let isHovered = false;
-
-    // ตรวจสอบเหตุการณ์ hover
-    document.addEventListener('touchstart', function() {
-    isHovered = true;
-    });
-
-    // ตรวจสอบเหตุการณ์แตะหรือเลื่อน
-    document.addEventListener('touchend', function() {
-    if (isHovered) {
-        // รีเซ็ต hover ที่นี่
-        isHovered = false;
-    }
-    });
 </script>
