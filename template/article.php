@@ -90,7 +90,7 @@
         </div>
     </div> -->
         <section class="blog-blog">
-            
+
             <div class="blog-con">
                 <div class="blog-img">
                     <img src="img/test1.jpg" alt="">
@@ -104,10 +104,16 @@
                         Elementum aliquam ac sit viverra diam viverra ultricies non. Non eu scelerisque nisl tempus
                         venenatis
                         molestie tincidunt diam tempus. Odio et vitae nisl mauris turpis.</p>
-                    <figure class="blog-contac" style="margin-top:10px;">
-                        <img class="blog-facebook" src="img/facebook.png" alt="">
-                        <img class="blog-line" src="img/line 1.png" alt="">
-                    </figure>
+
+                    <div class="blog-contac-flex">
+                        <p style="color:#8D918D;">แบ่งปัน:</p>
+                        <figure class="blog-contac" style="margin-top:10px;">
+
+                            <img class="blog-facebook" src="img/facebook.png" alt="">
+                            <img class="blog-line" src="img/line 1.png" alt="">
+                            <img class="blog-line" src="img/1234.png" alt="">
+                        </figure>
+                    </div>
                 </div>
             </div>
 
@@ -126,10 +132,15 @@
                         Elementum aliquam ac sit viverra diam viverra ultricies non. Non eu scelerisque nisl tempus
                         venenatis
                         molestie tincidunt diam tempus. Odio et vitae nisl mauris turpis.</p>
-                    <figure class="blog-contac" style="margin-top:10px;">
-                        <img class="blog-facebook" src="img/facebook.png" alt="">
-                        <img class="blog-line" src="img/line 1.png" alt="">
-                    </figure>
+                        <div class="blog-contac-flex">
+                        <p style="color:#8D918D;">แบ่งปัน:</p>
+                        <figure class="blog-contac" style="margin-top:10px;">
+
+                            <img class="blog-facebook" src="img/facebook.png" alt="">
+                            <img class="blog-line" src="img/line 1.png" alt="">
+                            <img class="blog-line" src="img/1234.png" alt="">
+                        </figure>
+                    </div>
                 </div>
             </div>
             <div class="blog-con">
@@ -146,10 +157,15 @@
                         Elementum aliquam ac sit viverra diam viverra ultricies non. Non eu scelerisque nisl tempus
                         venenatis
                         molestie tincidunt diam tempus. Odio et vitae nisl mauris turpis.</p>
-                    <figure class="blog-contac" style="margin-top:10px;">
-                        <img class="blog-facebook" src="img/facebook.png" alt="">
-                        <img class="blog-line" src="img/line 1.png" alt="">
-                    </figure>
+                        <div class="blog-contac-flex">
+                        <p style="color:#8D918D;">แบ่งปัน:</p>
+                        <figure class="blog-contac" style="margin-top:10px;">
+
+                            <img class="blog-facebook" src="img/facebook.png" alt="">
+                            <img class="blog-line" src="img/line 1.png" alt="">
+                            <img class="blog-line" src="img/1234.png" alt="">
+                        </figure>
+                    </div>
                 </div>
             </div>
             <div class="blog-con">
@@ -166,10 +182,15 @@
                         Elementum aliquam ac sit viverra diam viverra ultricies non. Non eu scelerisque nisl tempus
                         venenatis
                         molestie tincidunt diam tempus. Odio et vitae nisl mauris turpis.</p>
-                    <figure class="blog-contac" style="margin-top:10px;">
-                        <img class="blog-facebook" src="img/facebook.png" alt="">
-                        <img class="blog-line" src="img/line 1.png" alt="">
-                    </figure>
+                        <div class="blog-contac-flex">
+                        <p style="color:#8D918D;">แบ่งปัน:</p>
+                        <figure class="blog-contac" style="margin-top:10px;">
+
+                            <img class="blog-facebook" src="img/facebook.png" alt="">
+                            <img class="blog-line" src="img/line 1.png" alt="">
+                            <img class="blog-line" src="img/1234.png" alt="">
+                        </figure>
+                    </div>
                 </div>
             </div>
         </section>

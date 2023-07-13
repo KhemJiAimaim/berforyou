@@ -682,22 +682,26 @@
     font-weight: 500;
 }
 @media screen and (min-width: 320px) and (max-width: 1025px) {
-    .blog-con {
-    }
     .blog-contac{
-        display: flex;
-        justify-content: center; /* จัดให้เนื้อหาอยู่ตรงกลางในแนวนอน */
-        align-items: center; /* จัดให้เนื้อหาอยู่ตรงกลางในแนวตั้ง */
         gap: 10px;
     }
     
 }
 
+@media screen  and (max-width: 2000px) {
+    .blog-contac-flex{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        
+    }
+}
 .blog-con {
     width: 100%;
     /* height: 230px; */
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 13px;
     /* border: 1px solid black; */
     padding: 12px;
@@ -721,18 +725,38 @@
 .blog-text .blog-doc {
     font-size: 16px;
     font-weight: 300;
-
 }
-
-.blog-text .blog-contac {
-    display: flex;
-    gap: 0.8rem;
+@media screen and (max-width: 700px) {
+    .blog-text .blog-doc , .blog-date {
+        display: none;
+    }
+    .blog-img img {
+        width: 150px;
+        height: 150px;
+    }
+    
+}
+@media screen and (min-width: 360px) and (max-width: 700px) {
+    .blog-text .blog-doc , .blog-date {
+        display: none;
+    }
+    .blog-img img {
+        width: 150px;
+        height: 150px;
+    }
+    .blog-contac-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        /* justify-content: center; */
+        align-items: start;
+    }
 }
 
 .blog-contac .blog-facebook {
     width: 35px;
     height: 35px;
-    border-radius: 10px;
+    border-radius: 7px;
     border: none;
 }
 
