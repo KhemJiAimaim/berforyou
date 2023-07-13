@@ -80,11 +80,11 @@ $slug = urldecode($url[2]);
 
 
 
-        
-            <a href="#back-top" id="myP" class="back-to-top" >
-                <img src="img/7756294.png" alt="" class="img-backtop">
-            </a>
-        
+
+        <a href="#back-top" id="myP" class="back-to-top">
+            <img src="img/7756294.png" alt="" class="img-backtop">
+        </a>
+
 
 
         <!-- รีวิว -->
@@ -258,5 +258,17 @@ $slug = urldecode($url[2]);
 
     <?php include('template/footer.php') ?>
 </body>
+<script>
+    window.addEventListener('scroll', function() {
+        var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+        var backToTop = document.getElementById('myP');
+
+        if (scrollPosition >= 500) {
+            backToTop.classList.add('show');
+        } else {
+            backToTop.classList.remove('show');
+        }
+    });
+</script>
 
 </html>

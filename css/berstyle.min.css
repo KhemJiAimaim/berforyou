@@ -27,19 +27,30 @@ a {
 }
 
 .back-to-top{
+    display: block; /* แสดงองค์ประกอบเมื่อมีการเลื่อน scroll 150px */
+}
+.img-backtop{
+height: 160%;
+}
+.back-to-top.show {
+   
     position: fixed;
     width: 50px;
     height: 50px;
-    bottom: 140px;
-    right: 60px;
-}
-.img-backtop{
-height: 180%;
+    bottom:40px;
+    right: 40px;
+  }
+
+@media screen and (max-width: 700px) {
+    .img-backtop{
+        height: 130% !important;
+    }
+    .back-to-top.show {
+        bottom:40px !important;
+        right: 20px !important;
+      }
 }
 
-@media screen and (max-width: 1024px) {
-    
-}
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
