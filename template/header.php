@@ -885,9 +885,10 @@
                 this.classList.remove('active');
             } else {
                 // this.style.opacity = "0.5";
-                this.style.background.color= "#d79636";
                 this.classList.add('active');
+                this.style.background.color= "#d79636";
             }
         });
     });
+
 </script>
