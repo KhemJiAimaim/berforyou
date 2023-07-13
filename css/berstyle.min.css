@@ -139,7 +139,9 @@ nav .topnav .nav-menu {
     }
 
     nav .topnav .nav-menu a {
-        font-size: 1rem
+        font-size: 1rem;
+        font-weight: 300;
+        letter-spacing: 1px;
     }
 }
 
@@ -158,7 +160,9 @@ nav .topnav .nav-menu {
     }
 
     nav .topnav .nav-menu a {
-        font-size: 1rem
+        font-size: 1rem;
+        font-weight: 300;
+        letter-spacing: 1px;
     }
 }
 
@@ -675,14 +679,37 @@ nav .topnav .group-mobile-menu .hamberger i {
 
 @media screen and (max-width: 599px) {
     .search-box .grid-container .center-box {
-        grid-template-columns: 1fr ; 
+        grid-template-columns: 1fr 1fr; 
     }
     .center-box .price {
-        grid-column: span 1;
+        grid-column: span 2;
+        gap: 0.5rem !important;
+        flex-wrap: nowrap !important;
+
+    }
+    .center-box .price .left-select {
+        width: 150px !important;
+    }
+    .center-box .price .right-select {
+        width: 150px !important;
     }
     .center-box .favorite-d {
-        grid-column: span 1;
+        grid-column: span 2;
     }
+    .center-box .sort-from .sort-select {
+        width: 150px !important;
+    }
+    .center-box .category-from .category-select {
+        width: 150px !important;
+    }
+    .center-box .sum-from .sum-select {
+        width: 150px !important;
+    }
+    .center-box .network-from .network-select {
+        width: 150px !important;
+    }
+
+
 }
 
 @media screen and (max-width: 1522px) {
