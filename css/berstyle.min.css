@@ -27,13 +27,15 @@ a {
 }
 
 .back-to-top{
-    display: block; /* แสดงองค์ประกอบเมื่อมีการเลื่อน scroll 150px */
+    display: block; 
+    /* แสดงองค์ประกอบเมื่อมีการเลื่อน scroll 150px */
 }
+
 .img-backtop{
-height: 160%;
+    width: 100%;
 }
+
 .back-to-top.show {
-   
     position: fixed;
     width: 50px;
     height: 50px;
@@ -43,12 +45,12 @@ height: 160%;
 
 @media screen and (max-width: 700px) {
     .img-backtop{
-        height: 130% !important;
+        width: 100% !important;
     }
     .back-to-top.show {
         bottom:40px !important;
         right: 20px !important;
-      }
+    }
 }
 
 input::-webkit-outer-spin-button,
@@ -92,7 +94,7 @@ nav .topnav {
 
 @media screen and (max-width: 1024px) {
     nav .topnav {
-        padding: 0.5rem;
+        padding: 0.3rem 0 0 0.5rem
     }
     nav .topnav .group-mobile-menu {
         align-items: center;
@@ -705,33 +707,35 @@ nav .topnav .group-mobile-menu .hamberger i {
 @media screen and (max-width: 599px) {
     .search-box .grid-container .center-box {
         grid-template-columns: 1fr 1fr; 
+        gap: 0.5rem !important;
     }
     .center-box .price {
         grid-column: span 2;
         gap: 0.5rem !important;
         flex-wrap: nowrap !important;
+        padding: 0.5rem !important;
 
     }
     .center-box .price .left-select {
-        width: 150px !important;
+        width: 160px !important;
     }
     .center-box .price .right-select {
-        width: 150px !important;
+        width: 160px !important;
     }
     .center-box .favorite-d {
         grid-column: span 2;
     }
     .center-box .sort-from .sort-select {
-        width: 150px !important;
+        width: 160px !important;
     }
     .center-box .category-from .category-select {
-        width: 150px !important;
+        width: 160px !important;
     }
     .center-box .sum-from .sum-select {
-        width: 150px !important;
+        width: 160px !important;
     }
     .center-box .network-from .network-select {
-        width: 150px !important;
+        width: 160px !important;
     }
 
 
@@ -914,7 +918,7 @@ nav .topnav .group-mobile-menu .hamberger i {
     font-size: 16px;
 }
 
-.buttom-box .box-luck .luck-pic button {
+.buttom-box .box-luck .luck-pic {
     width: 45px;
     height: 45px;
     background-color: #fff;
@@ -926,16 +930,16 @@ nav .topnav .group-mobile-menu .hamberger i {
 }
 
 
-.buttom-box .box-luck .luck-pic button:hover {
+.buttom-box .box-luck .luck-pic:hover {
     background-color: #d79636 !important;
 }
 
-.luck-pic button:hover img {
+.luck-pic:hover img {
     filter: invert(92%) sepia(92%) saturate(31%) hue-rotate(62deg) brightness(106%) contrast(109%);
 }
 
 
-.buttom-box .box-luck-category .luck-pic button {
+.buttom-box .box-luck-category .luck-pic {
     width: 45px;
     height: 45px;
     background-color: #fff;
@@ -946,8 +950,8 @@ nav .topnav .group-mobile-menu .hamberger i {
     border: 1px solid #fff;
 }
 
-.buttom-box .box-luck-category .luck-pic button:hover {
-    background-color: #d79636;
+.buttom-box .box-luck-category .luck-pic:hover {
+    background-color: #d79636 !important;
 }
 
 .search-box .grid-container .top-box {
@@ -1113,11 +1117,12 @@ nav .topnav .group-mobile-menu .hamberger i {
     }
 
     .search-box .top-box .search-number label {
-        margin-bottom: 10px;
+        margin-bottom: 0.5rem;
     }
 
     .search-box .grid-container .top-box {
         gap: 0.5rem;
+        padding: 0.5rem;
     }
 
     .search-box .grid-container .top-box .search-number {
@@ -1131,6 +1136,11 @@ nav .topnav .group-mobile-menu .hamberger i {
 
     .search-box .top-box .search-num .search-box-nums {
         width: 11px !important;
+    }
+
+    .search-box .grid-container .center-box {
+        gap: 0.5rem;
+        padding: 0.5rem;
     }
 
     .search-box .grid-container .grid-top .center-box .price {
@@ -1158,6 +1168,16 @@ nav .topnav .group-mobile-menu .hamberger i {
     }
     .center-box .network-from .network-select {
         width: 130px !important;
+    }
+    .search-box .grid-container .buttom-box {
+        padding: 0.5rem;
+        gap: 0.5rem;
+    }
+    .buttom-box .pic .box-luck {
+        justify-content: center;
+    }
+    .buttom-box .pic-category .box-luck-category{
+        justify-content: center;
     }
 
 }

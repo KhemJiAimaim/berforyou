@@ -436,6 +436,12 @@
     justify-content:end;
     gap:0.5rem;
 }
+
+@media screen and (max-width: 1000px) {
+    .main-content .grid-content .box .box-body {
+        padding: 0.5rem;
+    }
+}
 /* .main-content .grid-content .box,
 .sumber-content .grid-content .box {
     display: -ms-grid;

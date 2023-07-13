@@ -453,6 +453,10 @@
 
 }
 
+.article-detail .article-shadow .ck .img-article-detail img {
+    width: 100%;
+}
+
 .article-content .article-shadow {
     border-radius: 5px;
     /* background: #FFF; */
@@ -790,8 +794,8 @@
 .date-share .date-text {
     font-size: 16px;
     color: #494949;
-    width: 30%;
-    margin-left: 12px;
+    width: 100%;
+    text-align: left;
 }
 
 .date-share .share {
@@ -816,7 +820,7 @@
 
 .ck p {
     font-size: 16px;
-    text-indent: 50px;
+    margin-top: 0.5rem;
 }
 
 .article-detail {

@@ -1,3 +1,6 @@
+<!-- <?php echo $slug
+
+?>  -->
 <header>
     <section id="back-top">
         <nav>
@@ -296,7 +299,7 @@
     <?php elseif ($slug === 'delivery-check') : ?>
         <figure><img src="img/Rectangle 66.png" alt="" class="bandner-nav"></figure>
     <?php elseif ($slug === 'cart') : ?>
-        <figure><img class="bandner-nav" style="margin-top: 20px;"></figure>
+        <figure><img class="bandner-nav" style="height:0px"></figure>
     <?php else : ?>
         <div class="slider owl-carousel">
             <figure><img src="img/Rectangle 7.png" alt=""></figure>
@@ -640,213 +643,146 @@
                             <div class="pic">
                                 <span>เสริมดวงด้าน</span>
                                 <div class="box-luck">
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/1.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/2.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/3.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/4.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/5.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/6.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/7.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/8.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/9.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/10.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/1.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/2.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/3.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/4.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/5.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/6.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/7.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/8.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/9.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/10.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
                                 </div>
                             </div>
 
                             <div class="pic-category">
                                 <span>หมวดหมู่เบอร์</span>
                                 <div class="box-luck-category">
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/1.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/2.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/3.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/4.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/5.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/6.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/7.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/8.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/9.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/10.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/6.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/7.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/8.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/9.png" alt=""></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/1.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/2.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/3.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/4.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/5.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/6.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/7.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                    <div class="luck-pic">
-                                        <button>
-                                            <figure><img src="img/luck/8.png" alt="" class="pic-img"></figure>
-                                            <span class="check-icon"></span>
-                                        </button>
-                                    </div>
-                                </div>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/1.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/2.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/3.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/4.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic" class="luck-pic">
+                                        <figure><img src="img/luck/5.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic" class="luck-pic">
+                                        <figure><img src="img/luck/6.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic" class="luck-pic">
+                                        <figure><img src="img/luck/7.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic" class="luck-pic">
+                                        <figure><img src="img/luck/8.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic" class="luck-pic">
+                                        <figure><img src="img/luck/9.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/10.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/6.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/7.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/8.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/9.png" alt=""></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/1.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/2.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/3.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/4.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/5.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/6.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/7.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
+                                    <button class="luck-pic">
+                                        <figure><img src="img/luck/8.png" alt="" class="pic-img"></figure>
+                                        <span class="check-icon"></span>
+                                    </button>
                             </div>
                         </div>
                     </div>
                     <div class="button-form">
                         <button class="reset">ล้างข้อมูล</button>
                         <button>ค้นหา</button>
-
                     </div>
                 </div>
 
@@ -878,17 +814,33 @@
 
     var luckPics = document.querySelectorAll('.luck-pic');
 
-    luckPics.forEach(function(pic) {
-        pic.addEventListener('click', function() {
-            if (this.classList.contains('active')) {
-                // this.style.opacity = ""; // เอาค่า style opacity ออกเพื่อให้กลับมาใช้ค่าจาก CSS
-                this.classList.remove('active');
-            } else {
-                // this.style.opacity = "0.5";
-                this.classList.add('active');
-                this.style.background.color= "#d79636";
-            }
-        });
+    luckPics.forEach(function (pic) {
+    pic.addEventListener('click', function () {
+        if (this.classList.contains('active')) {
+        this.style.backgroundColor = "#FFF";
+        this.classList.remove('active');
+        this.querySelector('img').style.filter = ""; // เอาค่า style filter ออกเพื่อให้กลับมาใช้ค่าจาก CSS
+        } else {
+        this.classList.add('active');
+        this.style.backgroundColor = "#d79636";
+        this.querySelector('img').style.filter = "invert(92%) sepia(92%) saturate(31%) hue-rotate(62deg) brightness(106%) contrast(109%)";
+        }
+    });
     });
 
+
+    let isHovered = false;
+
+    // ตรวจสอบเหตุการณ์ hover
+    document.addEventListener('touchstart', function() {
+    isHovered = true;
+    });
+
+    // ตรวจสอบเหตุการณ์แตะหรือเลื่อน
+    document.addEventListener('touchend', function() {
+    if (isHovered) {
+        // รีเซ็ต hover ที่นี่
+        isHovered = false;
+    }
+    });
 </script>
