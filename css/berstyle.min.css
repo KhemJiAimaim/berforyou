@@ -3118,6 +3118,10 @@ footer .other-text h3 {
         height: 40px;
         width: 40px;
     }
+    footer .social-footer .social-content .social img {
+        height: 35px;
+        width: 35px;
+    }
 }
 
 

@@ -135,7 +135,7 @@
                 <!-- ปุ่มเมนูตอน responsive -->
                 <div class="group-mobile-menu">
                     <div class="cart-mobile">
-                        <li><img href="#" class="cart" src="img/logo/solar_cart.png" alt=""></li>
+                        <li class=""><img href="#" class="cart" src="img/logo/solar_cart.png" alt=""></li>
                         <div class="cart-hover">
                             <ul>
                                 <li class="head-hover">

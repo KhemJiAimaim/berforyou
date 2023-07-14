@@ -48,7 +48,7 @@
             <div class="social"><img src="img/mdi_Facebook.png" alt="" ></div>
             <div class="social"><img src="img/gis_poi-map.png" alt=""></div>
             <div class="social"><img src="img/eva_phone-call-fill.png" alt=""></div>
-            <div class="social"><img src="img/line 1.png" alt=""></div>
+            <div class="social"><img style="width: 100%; height:100%" src="img/line 1.png" alt=""></div>
         </div>
 
 
