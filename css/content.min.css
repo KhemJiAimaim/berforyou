@@ -746,6 +746,16 @@
     }
     .blog-contac-flex{
         display: flex;
+        /* flex-direction: column; */
+        gap: 5px;
+        /* justify-content: center; */
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .blog-contac-flex{
+        display: flex;
         flex-direction: column;
         gap: 5px;
         /* justify-content: center; */
