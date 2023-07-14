@@ -2003,10 +2003,16 @@
     align-items: center;
 }
 
+.cart-page .cart-box .cart-list .list-item .box .box-body .price .icon:hover {
+    cursor: pointer;
+    color: #e30000;
+}
+
 .cart-page .cart-box .cart-list .list-item .box .box-body .price .icon {
     display: flex;
     justify-content: end;
     align-items: center;
+    cursor: pointer;
 }
 
 /* end box product*/
@@ -2258,6 +2264,15 @@
     background: #c6a150
 }
 
+.cart-page .cart-shadow .cart-box .address-box .button-checkout .buy:hover,
+.cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-submit button:hover {
+
+    background: #8D7045;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
 .cart-page .cart-shadow .cart-box .address-box .button-checkout .buy {
     border-radius: 10px;
     background: #D6C3B2;
@@ -2265,7 +2280,7 @@
     height: 38px;
     border: unset;
     cursor: pointer;
-    color: #43251B;
+    color: #000000;
     font-size: 1rem;
 }
 
@@ -2449,6 +2464,7 @@
     background: #FFF;
     color: #000000;
     box-shadow: 2px 2px 5px 0px rgba(0, 58, 130, 0.50);
+    cursor: pointer;
 }
 
 .cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-right .upload-file .upload-image {
@@ -2470,7 +2486,7 @@
     height: 38px;
     border: unset;
     cursor: pointer;
-    color: #43251B;
+    color: #000000;
     font-size: 1rem;
     margin-top: 20px;
 }
@@ -2874,6 +2890,13 @@
 
 .price-ber-mean {
     font-family: 'Kanit', sans-serif;
+}
+
+.mean-select .mean-select-button button:hover {
+
+    background-color: #8D7045;
+    color: #ffffff;
+
 }
 
 .mean-select .mean-select-button button {
@@ -5073,17 +5096,37 @@
 
     .table-delivery {
         width: 100%;
-        overflow-x: scroll;
+        /* overflow-x: scroll; */
         overflow-y: scroll;
     }
-    .table-delivery table{
+
+    .table-delivery::-webkit-scrollbar {
+        height: 2px;
+        width: 2px;
+    }
+
+    .table-delivery::-webkit-scrollbar-track {
+        background: #f3f3f3
+    }
+
+    .table-delivery::-webkit-scrollbar-thumb {
+        background: -webkit-gradient(linear, left top, left bottom, from(#c5a04f), to(#8e5415));
+        background: linear-gradient(#c5a04f, #8e5415)
+    }
+
+    .table-delivery::-webkit-scrollbar-thumb:hover {
+        background: #c19a4b
+    }
+
+    .table-delivery table {
         width: 150%;
     }
+
     .table-delivery table th,
     td {
         padding: 3px !important;
         font-size: 15px !important;
-        
+
     }
 }
 
