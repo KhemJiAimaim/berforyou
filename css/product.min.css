@@ -1944,6 +1944,8 @@
 
 .cart-page .cart-box .cart-list .list-item .box .box-header h2 {
     color: #FFF;
+    text-align: center;
+    width: 100%;
 }
 
 .cart-page .cart-box .cart-list .list-item .box .box-body {
@@ -3199,7 +3201,7 @@
 
 .mean-ch {
     position: absolute;
-    left: 88px;
+    right: 2px;
     top: 2px;
     display: none;
 }

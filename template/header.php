@@ -135,7 +135,9 @@
                 <!-- ปุ่มเมนูตอน responsive -->
                 <div class="group-mobile-menu">
                     <div class="cart-mobile">
-                        <li class=""><img href="#" class="cart" src="img/logo/solar_cart.png" alt=""></li>
+                        <li style="display: flex;align-items:center" class="">
+                            <img href="#" class="cart" src="img/logo/solar_cart.png" alt="">
+                        </li>
                         <div class="cart-hover">
                             <ul>
                                 <li class="head-hover">
@@ -289,7 +291,7 @@
     <?php elseif ($slug === 'howtobuy') : ?>
         <figure><img src="img/Rectangle 69.png" alt="" class="bandner-nav"></figure>
     <?php elseif ($slug === 'article-detail') : ?>
-        <figure><img alt="" class="bandner-nav"></figure>
+        <figure><img class="bandner-nav" style="height:0px"></figure>
     <?php elseif ($slug === 'article') : ?>
         <figure><img src="img/Rectangle 213.png" alt="" class="bandner-nav"></figure>
     <?php elseif ($slug === 'about') : ?>
@@ -395,7 +397,7 @@
                         <div class="favorite-num">
                             <div class="favorite">
                                 <label>ตัวเลขที่ชอบ</label>
-                                <div class="button-num">
+                                    <div class="button-num">
                                     <button data-favnum="0">0</button>
                                     <button data-favnum="1">1</button>
                                     <button data-favnum="2">2</button>
@@ -623,7 +625,7 @@
                                     </div>
                                 </div>
                                 <div class="favorite-d">
-                                    <label>ตัวเลขที่ไม่ชอบ</label><br />
+                                    <label>ตัวเลขที่ไม่ชอบ</label><br/>
                                     <div class="button-num">
                                         <button id="button-0" data-favnum="0" class="btn">0</button>
                                         <button id="button-1" data-favnum="1" class="btn">1</button>

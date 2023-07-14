@@ -1,10 +1,7 @@
 <footer class="footer">
     <div class="logo">
         <figure><img src="img/logo/Group 150.png" alt=""></figure>
-        <span>Wynnsoft Solution Co., Ltd.
-            120/34-35 หมู่ 24 ตำบลศิลา
-            อำเภอเมืองขอนแก่น
-            จังหวัดขอนแก่น 40000</span>
+        <span>120/34-35 Moo 24 Mueang Khon Kaen District, Khon Kaen 40000 <br>Tell : 089-898-9898 <br>Email : Berforyou@mail.com</span>
     </div>
 
     <!-- <div class="certificate">
@@ -28,7 +25,7 @@
         <ul>
             <li><a href="">การรับประกัน</a></li>
             <li><a href="">นโยบายความปลอดภัย</a></li>
-            <li><a href="">นโยบายความเป้นส่วนตัว</a></li>
+            <li><a href="">นโยบายความเป็นส่วนตัว</a></li>
             <li><a href="">นโนบายปัญหาข้อเรียกร้อง</a></li>
         </ul>
     </div>
@@ -48,7 +45,7 @@
             <div class="social"><img src="img/mdi_Facebook.png" alt="" ></div>
             <div class="social"><img src="img/gis_poi-map.png" alt=""></div>
             <div class="social"><img src="img/eva_phone-call-fill.png" alt=""></div>
-            <div class="social"><img style="width: 100%; height:100%" src="img/line 1.png" alt=""></div>
+            <div class="social"><img style="width: 100%; height:100%" src="img/icon/line.png" alt=""></div>
         </div>
 
 
