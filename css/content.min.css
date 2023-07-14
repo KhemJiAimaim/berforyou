@@ -736,7 +736,7 @@
     }
     
 }
-@media screen and (min-width: 350px) and (max-width: 700px) {
+@media screen and (min-width: 360px) and (max-width: 700px) {
     .blog-text .blog-doc , .blog-date {
         display: none;
     }
@@ -750,6 +750,16 @@
         gap: 5px;
         /* justify-content: center; */
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .blog-contac-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        /* justify-content: center; */
+        align-items: start;
     }
 }
 
