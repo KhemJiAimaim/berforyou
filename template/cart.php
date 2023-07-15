@@ -107,8 +107,8 @@
                     <input type="text" maxlength="32" placeholder="กรุณากรอกชื่อ">
                     <div class="box-email-tel">
                         <div class="detail-box">
-                            <label for="email">อีเมล์</label>
-                            <input type="email" maxlength="32" placeholder="อีเมล์">
+                            <label for="email">อีเมล</label>
+                            <input type="email" maxlength="32" placeholder="อีเมล">
                         </div>
                         <div class="detail-box">
                             <label for="tel">เบอร์โทร</label>

@@ -97,7 +97,7 @@ nav .topnav {
 
 @media screen and (max-width: 1024px) {
     nav .topnav {
-        padding: 0.3rem 0 0 0.5rem
+        padding: 0.3rem 0.5rem 0 0.5rem
     }
     nav .topnav .group-mobile-menu {
         align-items: center;
@@ -425,13 +425,14 @@ nav .topnav .nav-menu .cart-hover ul .total-cart a i {
 }
 
 nav .topnav .group-mobile-menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    /* display: -webkit-box; */
+    /* display: -ms-flexbox; */
     display: flex;
     width: 30%;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly
+    /* -webkit-box-pack: space-evenly; */
+    /* -ms-flex-pack: space-evenly; */
+    justify-content: end;
+    gap: 1rem;
 }
 
 @media screen and (min-width: 1025px) {
@@ -576,7 +577,7 @@ nav .topnav .group-mobile-menu .hamberger i {
 
 @media screen and (max-width: 1024px) {
     .owl-carousel .owl-item img {
-        padding-top: 40px;
+        padding-top: 47px;
     }
 }
 
@@ -3113,6 +3114,10 @@ footer .other-text h3 {
     footer .social-footer .social-content .social {
         height: 40px;
         width: 40px;
+    }
+    footer .social-footer .social-content .social img {
+        height: 35px;
+        width: 35px;
     }
 }
 

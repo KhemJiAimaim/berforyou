@@ -16,7 +16,7 @@
                 <!-- ที่อยู่ -->
                 <div class="contact-address">
                     <img src="img/logo/berforyoulogo.png" alt="">
-                    <p>120/34-35 Moo 24 Mueang Khon Kaen District, Khon Kaen 40000 Tell: 089-898-9898 Email: Berforyou@mail.com</p>
+                    <p>120/34-35 Moo 24 Mueang Khon Kaen District, Khon Kaen 40000 <br>Tell: 089-898-9898 <br>Email: Berforyou@mail.com</p>
                         <div class="social-facebook">
                             <div class="box-facebook"><img src="img/icon/facebook.png" alt=""></div>
                             <p>Facebook : Berforyou</p>
@@ -41,8 +41,8 @@
 
                             <div class="box-email-tel">
                                 <div class="detail-box">
-                                    <label for="email">อีเมล์</label>
-                                    <input type="email" maxlength="32" placeholder="อีเมล์">
+                                    <label for="email">อีเมล</label>
+                                    <input type="email" maxlength="32" placeholder="อีเมล">
                                 </div>
                                 <div class="detail-box">
                                     <label for="tel">เบอร์โทร</label>
@@ -52,7 +52,7 @@
                         </div>
 
                         <div class="detail">
-                            <label for="detail">ลายละเอียด</label>
+                            <label for="detail">รายละเอียด</label>
                             <textarea name="" id="" cols="30" rows="6" placeholder="รายละเอียด"></textarea>
                         </div>
 

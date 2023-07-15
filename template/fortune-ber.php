@@ -6,8 +6,9 @@
                 <span>ทำนายเบอร์</span>
             </div>
             <div class="manual">
-                <a href=""> <span>คู่มือคู่เลข</span>
-                    <i class="fas fa-book"></i></a>
+                <a href="">
+                    <span>คู่มือคู่เลข</span><i class="fas fa-book"></i>
+                </a>
             </div>
         </div>
 
