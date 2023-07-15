@@ -5,7 +5,8 @@
 
 .fortube-ber .fortube-shadow {
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
-    border-radius: 10px;
+
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1023px) {
@@ -1514,6 +1515,11 @@
     color: #94773b
 }
 
+@media screen and (max-width: 480px) {
+    .fortube-ber .box {
+        margin: 5% 0
+    }
+}
 
 .fortube-ber .box-content-fortune .box {
     padding: 0 2% 2% 2%;
@@ -1944,8 +1950,6 @@
 
 .cart-page .cart-box .cart-list .list-item .box .box-header h2 {
     color: #FFF;
-    text-align: center;
-    width: 100%;
 }
 
 .cart-page .cart-box .cart-list .list-item .box .box-body {
@@ -2399,6 +2403,7 @@
     background: #FBFAFB;
     width: 100%;
     margin-bottom: 10px;
+    font-family: 'Kanit', sans-serif;
 }
 
 .cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-left .inp {
@@ -2407,6 +2412,7 @@
     border: 1px solid #C4C4C4;
     background: #FBFAFB;
     margin-bottom: 10px;
+    font-family: 'Kanit', sans-serif;
 }
 
 .cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-left .form-group {
@@ -2489,6 +2495,7 @@
     color: #000000;
     font-size: 1rem;
     margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
 }
 
 /* end Box-upload */
@@ -2616,6 +2623,7 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    font-family: 'Kanit', sans-serif;
 }
 
 .cart-page .howtobuy .payby .paybybank .box-bank .item .text span {
@@ -2623,6 +2631,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
+    font-family: 'Kanit', sans-serif;
 }
 
 .cart-page .howtobuy .payby .paybycredit h3 {
@@ -2657,7 +2666,8 @@
 }
 
 .ber-mean-page {
-    /* margin: 1px 1px 25px 1px; */
+    /* margin: 0; */
+    margin: 1px 1px 25px 1px;
     width: 100%;
     height: 100%;
 }
@@ -3205,7 +3215,7 @@
 
 .mean-ch {
     position: absolute;
-    right: 2px;
+    left: 88px;
     top: 2px;
     display: none;
 }
@@ -5194,10 +5204,10 @@ tbody tr:nth-child(even) {
 
 }
 
-/* .delivery-check .table-delivery {
+.delivery-check .table-delivery {
     padding: 20px;
 
-} */
+}
 
 .delivery-check .table-delivery table tbody {
     margin-bottom: 20px;
