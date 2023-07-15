@@ -304,7 +304,9 @@
         <figure><img class="bandner-nav" style="height:0px"></figure>
     <?php else : ?>
         <div class="slider owl-carousel">
-            <figure><img src="img/Rectangle 7.png" alt=""></figure>
+            <figure><img src="img/carousel/carousel1.png" alt=""></figure>
+            <figure><img src="img/carousel/carousel2.png" alt=""></figure>
+            <figure><img src="img/carousel/carousel3.png" alt=""></figure>
         </div>
 
 

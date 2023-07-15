@@ -292,3 +292,8 @@
         </div>
     </div>
 </div> 
+
+<script>
+    let gradeber = document.querySelector('.grade-ber').value;
+    console.log(gradeber);
+</script>
