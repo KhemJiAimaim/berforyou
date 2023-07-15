@@ -38,21 +38,21 @@
                 </div>
                 <div class="auspicious-level">
                     <div class="auspicious-level-color">
-                        <div class="color-img" style="background-color: #F9C80E; width: 22px; height:22px">
+                        <div class="color-img" style="background-color: #F9C80E;">
                         </div>
-                        <div class="color-img" style="background-color: #F99719; width: 22px; height:22px">
+                        <div class="color-img" style="background-color: #F99719;">
                         </div>
-                        <div class="color-img" style="background-color: #F86624; width: 22px; height:22px">
+                        <div class="color-img" style="background-color: #F86624;">
                         </div>
-                        <div class="color-img" style="background-color: #EA3546; width: 22px; height:22px">
+                        <div class="color-img" style="background-color: #EA3546;">
                         </div>
-                        <div class="color-img" style="background-color: #A83271; width: 22px; height:22px">
+                        <div class="color-img" style="background-color: #A83271;">
                         </div>
-                        <div class="color-img" style="background-color: #662E9B; width: 22px; height:22px">
+                        <div class="color-img" style="background-color: #662E9B;">
                         </div>
-                        <div class="color-img" style="background-color: #5575B4; width: 22px; height:22px">
+                        <div class="color-img" style="background-color: #5575B4;">
                         </div>
-                        <div class="color-img" style="background-color: #43BCCD; width: 22px; height:22px">
+                        <div class="color-img" style="background-color: #43BCCD;">
                         </div>
                     </div>
 

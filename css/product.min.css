@@ -559,6 +559,12 @@
     position: relative;
 }
 
+.fortube-ber .buttom-box-detail .auspicious-value .auspicious-level-color-detail .color-img {
+    border-radius: 5px;
+    width: 22px; 
+    height:22px
+}
+
 .fortube-ber .buttom-box .auspicious-value .auspicious-level-color {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto;
@@ -568,7 +574,7 @@
 }
 
 .border-buttom {
-    margin-top: 18px;
+    margin-top: 5px;
     border-bottom: 5px solid #000;
     border-radius: 5px;
 }
@@ -577,16 +583,10 @@
     position: relative;
 }
 
-@media screen and (min-width: 1900px){
-    .center-auspicious .center-tick {
-        top: 35% !important;
-    }   
-}
-
 .center-auspicious .center-tick {
     position: absolute;
-    top: 37%;
-    right: 5%;
+    bottom: 0;
+    right: 4%;
 
 }
 
@@ -602,13 +602,9 @@
 }
 
 .auspicious-level-color .color-img {
-    width: 5px;
-    height: 5px;
+    width: 22px;
+    height: 22px;
     border-radius: 5px;
-    border: unset;
-    box-shadow: none;
-    text-align: center;
-    color: #575555;
 
 }
 
@@ -616,6 +612,9 @@
     border: 1px solid #000;
     border-radius: 5px;
     padding: 3px;
+}
+
+.fortube-ber .buttom-box .auspicious-level .center-auspicious {
     position: relative;
 }
 

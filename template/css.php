@@ -1,8 +1,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BerHoRo</title>
+<title>Berforyou</title>
 
-<link href="https://fonts.googleapis.com/css?family=Sarabun:400,500,500i,600,700,800&display=swap&subset=thai" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css?family=Sarabun:400,500,500i,600,700,800&display=swap&subset=thai" rel="stylesheet"> -->
 <link rel="stylesheet" href="css/berstyle.min.css?v=<?= date('his'); ?>">
 <link rel="stylesheet" href="css/header.min.css?v=<?= date('his'); ?>">
 
