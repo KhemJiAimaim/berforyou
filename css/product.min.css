@@ -596,8 +596,8 @@
 
 .center-auspicious-detail .center-tick-detail {
     position: absolute;
-    top: 40%;
-    right: 5%;
+    bottom: 0;
+    right: 3%;
 
 }
 
@@ -622,6 +622,9 @@
     border: 1px solid #000;
     border-radius: 5px;
     padding: 3px;
+}
+
+.fortube-ber .buttom-box-detail .auspicious-level .center-auspicious-detail {
     position: relative;
 }
 
