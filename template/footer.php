@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="logo">
         <figure><img src="img/logo/Group 150.png" alt=""></figure>
-        <span>120/34-35 Moo 24 Mueang Khon Kaen District, Khon Kaen 40000 <br>Tell : 089-898-9898 <br>Email : Berforyou@mail.com</span>
+        <span>120/34-35 Moo 24 Mueang Khon Kaen District, Khon Kaen 40000 <br>Tell : 089-898-9898 <br>Email : Berforyou@gmail.com</span>
     </div>
 
     <!-- <div class="certificate">
@@ -55,7 +55,7 @@
 </footer>
 
 <div class="copy-right">
-    <p>&copy; copyright 2020 by <a href="https://www.wynnsoft-solution.com/">wynnsoft-solution.com</a></p>
+    <p>&copy; copyright 2023 Berforyou.com</a></p>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
