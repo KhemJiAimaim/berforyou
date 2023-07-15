@@ -161,7 +161,7 @@
     <div class="upload-box">
         <div class="upload-shadow">
             <div class="head-text">
-                <h1>การอัฟโหลดสลิป</h1>
+                <h1>การอัปโหลดสลิป</h1>
             </div>
 
             <div class="upload-content">
