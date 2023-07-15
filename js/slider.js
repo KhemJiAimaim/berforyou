@@ -2,6 +2,8 @@ $('.slider').owlCarousel({
     loop:true,
     item:1,
     nav:true,
+    autoplay: true,
+    autoplayTimeout: 4000,
     responsiveClass:true,
     responsive:{
         0:{
@@ -40,3 +42,5 @@ $('.slide-review').owlCarousel({
         }
     }
 });
+
+
