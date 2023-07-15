@@ -1,7 +1,8 @@
 <!-- <?php echo $slug
 
-?>  -->
+        ?>  -->
 <header>
+
     <section id="back-top">
         <nav>
             <div class="topnav">
@@ -627,7 +628,7 @@
                                     </div>
                                 </div>
                                 <div class="favorite-d">
-                                    <label>ตัวเลขที่ไม่ชอบ</label><br/>
+                                    <label>ตัวเลขที่ไม่ชอบ</label><br />
                                     <div class="button-num">
                                         <button id="button-0" data-favnum="0" class="btn">0</button>
                                         <button id="button-1" data-favnum="1" class="btn">1</button>
@@ -781,14 +782,14 @@
                                         <figure><img src="img/luck/8.png" alt="" class="pic-img"></figure>
                                         <span class="check-icon"></span>
                                     </button>
+                                </div>
                             </div>
                         </div>
+                        <div class="button-form">
+                            <button class="reset">ล้างข้อมูล</button>
+                            <button>ค้นหา</button>
+                        </div>
                     </div>
-                    <div class="button-form">
-                        <button class="reset">ล้างข้อมูล</button>
-                        <button>ค้นหา</button>
-                    </div>
-                </div>
 
             </section>
         </div>
@@ -818,17 +819,18 @@
 
     var luckPics = document.querySelectorAll('.luck-pic');
 
-    luckPics.forEach(function (pic) {
-    pic.addEventListener('click', function () {
-        if (this.classList.contains('active')) {
-        this.style.backgroundColor = "#FFF";
-        this.classList.remove('active');
-        this.querySelector('img').style.filter = ""; // เอาค่า style filter ออกเพื่อให้กลับมาใช้ค่าจาก CSS
-        } else {
-        this.classList.add('active');
-        this.style.backgroundColor = "#d79636";
-        this.querySelector('img').style.filter = "invert(92%) sepia(92%) saturate(31%) hue-rotate(62deg) brightness(106%) contrast(109%)";
-        }
+    luckPics.forEach(function(pic) {
+        pic.addEventListener('click', function() {
+            if (this.classList.contains('active')) {
+                this.style.backgroundColor = "#FFF";
+                this.classList.remove('active');
+                this.querySelector('img').style.filter = ""; // เอาค่า style filter ออกเพื่อให้กลับมาใช้ค่าจาก CSS
+            } else {
+                this.classList.add('active');
+                this.style.backgroundColor = "#d79636";
+                this.querySelector('img').style.filter = "invert(92%) sepia(92%) saturate(31%) hue-rotate(62deg) brightness(106%) contrast(109%)";
+            }
+        });
     });
-    });
+
 </script>
