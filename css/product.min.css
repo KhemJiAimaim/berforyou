@@ -2210,6 +2210,7 @@
     border: 1px solid #C4C4C4;
     background: #FBFAFB;
     padding: 10px;
+    font-family: 'Kanit', sans-serif;
 }
 
 .cart-page .cart-shadow .cart-box .address-box .input-zone .box-address {
@@ -2235,6 +2236,7 @@
     background: #FBFAFB;
     padding: 10px;
     width: 100%;
+    font-family: 'Kanit', sans-serif;
 }
 
 @media screen and (min-width: 481px) and (max-width: 1024px) {
@@ -2270,6 +2272,7 @@
     background: #8D7045;
     color: #ffffff;
     cursor: pointer;
+    
 
 }
 
@@ -2282,6 +2285,7 @@
     cursor: pointer;
     color: #000000;
     font-size: 1rem;
+    font-family: 'Kanit', sans-serif;
 }
 
 .cart-page .cart-shadow .cart-box .address-box .button-checkout .reset {
