@@ -577,9 +577,15 @@
     position: relative;
 }
 
+@media screen and (min-width: 1900px){
+    .center-auspicious .center-tick {
+        top: 35% !important;
+    }   
+}
+
 .center-auspicious .center-tick {
     position: absolute;
-    top: 40%;
+    top: 37%;
     right: 5%;
 
 }
