@@ -211,7 +211,7 @@
                     <div class="grade">
                         <h4>เกรด</h4>
                         <div class="grade-detail">
-                            <h4 class="grade-ber">A+</h4>
+                            <h4 class="grade-ber">B</h4>
                             <h4 class="total-sum">ผลรวม 50</h4>
                             <h4 class="advice">แนะนำ</h4>
                         </div>
@@ -294,6 +294,15 @@
 </div> 
 
 <script>
-    let gradeber = document.querySelector('.grade-ber').value;
+    let gradeber = document.querySelector('.grade-ber').innerText;
     console.log(gradeber);
+//     if (gradeber) {
+//   // ดึงค่าข้อความภายใน element
+//   const value = gradeber.innerText;
+  
+//   // แสดงค่า A+
+//   console.log(value);
+// } else {
+//   console.log('ไม่พบ gradeber');
+// }
 </script>

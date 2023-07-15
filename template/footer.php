@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="logo">
         <figure><img src="img/logo/Group 150.png" alt=""></figure>
-        <span>120/34-35 Moo 24 Mueang Khon Kaen District, Khon Kaen 40000 <br>Tell : 089-898-9898 <br>Email : Berforyou@mail.com</span>
+        <span>120/34-35 Moo 24 Mueang Khon Kaen District, Khon Kaen 40000 <br>Tell : 089-898-9898 <br>Email : Berforyou@gmail.com</span>
     </div>
 
     <!-- <div class="certificate">

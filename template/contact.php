@@ -16,19 +16,22 @@
                 <!-- ที่อยู่ -->
                 <div class="contact-address">
                     <img src="img/logo/berforyoulogo.png" alt="">
-                    <p>120/34-35 Moo 24 Mueang Khon Kaen District, Khon Kaen 40000 <br>Tell: 089-898-9898 <br>Email: Berforyou@mail.com</p>
-                        <div class="social-facebook">
-                            <div class="box-facebook"><img src="img/icon/facebook.png" alt=""></div>
-                            <p>Facebook : Berforyou</p>
-                        </div>
-                        <div class="social-line">
-                            <div class="box-line"><img src="img/icon/line1.png" alt=""></div>
-                            <p>Line Chat : Berforyou</p>
-                        </div>
-                        <div class="social-phone">
-                            <div class="box-phone"><img src="img/icon/phone.png" alt=""></div>
-                            <p>Phone : 089-898-9898</p>
-                        </div>
+                    <p>120/34-35 Moo 24 Mueang Khon Kaen District, Khon Kaen 40000 
+                        <br>Tell: 089-898-9898 
+                        <br>Email: Berforyou@gmail.com
+                    </p>
+                    <div class="social-facebook">
+                        <div class="box-facebook"><img src="img/icon/facebook.png" alt=""></div>
+                        <p>Facebook : Berforyou</p>
+                    </div>
+                    <div class="social-line">
+                        <div class="box-line"><img src="img/icon/line1.png" alt=""></div>
+                        <p>Line Chat : Berforyou</p>
+                    </div>
+                    <div class="social-phone">
+                        <div class="box-phone"><img src="img/icon/phone.png" alt=""></div>
+                        <p>Phone : 089-898-9898</p>
+                    </div>
                 </div>
                 <!-- ฟอร์มติดต่อ -->
                 <div class="boxForm">

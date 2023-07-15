@@ -2442,6 +2442,10 @@
         grid-template-columns: 1fr;
     }
 
+    .cart-page .cart-shadow .cart-box .address-box .input-zone .box-email-tel {
+        grid-template-columns: 1fr;
+    }
+
     .cart-page .cart-shadow .cart-box .address-box .input-zone .box-address {
         flex-direction: column;
     }
