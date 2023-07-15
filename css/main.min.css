@@ -383,7 +383,7 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
     /* gap: 10px; */
-    margin-top: 10px;
+    margin-top: 0.5rem;
 }
 
 .main-content .grid-content .box .box-body .grade .grade-detail {
@@ -393,10 +393,11 @@
 }
 
 .main-content .grid-content .box .box-body .grade .grade-detail .grade-ber {
-    background: #43BCCD;
+    /* background: #43BCCD; */
     color: #FFFFFF;
-    padding: 1px 5px;
+    text-align: center;
     border-radius: 5px;
+    width: 24px;
 }
 
 .main-content .grid-content .box .box-body .grade .grade-detail .total-sum {

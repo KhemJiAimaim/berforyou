@@ -25,7 +25,7 @@
                                 <div class="grade">
                                     <h4>เกรด</h4>
                                     <div class="grade-detail">
-                                        <h4 class="grade-ber">A+</h4>
+                                        <h4 class="grade-ber">A</h4>
                                         <h4 class="total-sum">ผลรวม 50</h4>
                                         <h4 class="advice">แนะนำ</h4>
                                     </div>
@@ -37,7 +37,7 @@
                                         <h4>THB</h4>
                                     </div>
                                     <div class="icon">
-                                        <i id="delete" class="fas fa-trash"></i>
+                                        <img src="img/icon/trash.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -346,3 +346,38 @@
         </div>
     </div>
 </div>
+
+<script>
+    // เปลี่ยนสีพื้นหลัง class="grade-ber" ตามเกรดเบอร์
+    let gradeber = document.querySelectorAll('.grade-ber');
+
+    if (gradeber.length > 0) {
+        gradeber.forEach(gradeber => {
+            const gradebervalue = gradeber.innerText;
+            // console.log(gradebervalue);
+            
+            if (gradebervalue === 'A+') {
+            gradeber.style.backgroundColor = '#43BCCD';
+            } else if (gradebervalue === 'A') {
+                gradeber.style.backgroundColor = '#5575B4';
+            } else if (gradebervalue === 'B+') {
+                gradeber.style.backgroundColor = '#662E9B';
+            } else if (gradebervalue === 'B') {
+                gradeber.style.backgroundColor = '#A83271';
+            } else if (gradebervalue === 'C+') {
+                gradeber.style.backgroundColor = '#EA3546';
+            } else if (gradebervalue === 'C') {
+                gradeber.style.backgroundColor = '#F86624';
+            }  else if (gradebervalue === 'D') {
+                gradeber.style.backgroundColor = '#F99719';
+            } else if (gradebervalue === 'F') {
+                gradeber.style.backgroundColor = '#F9C80E';
+            } else {
+                gradeber.style.backgroundColor = '#000';
+            }
+        })
+    } else {
+        console.log('ไม่พบ elements');
+    }
+    // จบฟังก์เปลี่ยนสีพื้นหลังเกรด
+</script>

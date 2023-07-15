@@ -1959,30 +1959,39 @@
 }
 
 .cart-page .cart-box .cart-list .list-item .box .box-header h2 {
+    width: 100%;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
     color: #FFF;
 }
 
 .cart-page .cart-box .cart-list .list-item .box .box-body {
-    padding: 10px;
+    padding: 0.5rem;
+}
+
+.cart-page .cart-box .cart-list .list-item .box .box-body h4 {
+    font-weight: 500;
 }
 
 .cart-page .cart-box .cart-list .list-item .box .box-body .grade {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    margin-top: 0.5rem;
 }
 
 .cart-page .cart-box .cart-list .list-item .box .box-body .grade .grade-detail {
     display: flex;
-    gap: 10px;
+    gap: 8px;
     align-items: center;
 }
 
 .cart-page .cart-box .cart-list .list-item .box .box-body .grade .grade-detail .grade-ber {
-    background: #43BCCD;
     color: #FFFFFF;
-    padding: 1px 5px;
+    text-align: center;
     border-radius: 5px;
     font-weight: 400;
+    width: 24px;
 }
 
 .cart-page .cart-box .cart-list .list-item .box .box-body .grade .grade-detail .total-sum {
@@ -2019,9 +2028,15 @@
     align-items: center;
 }
 
-.cart-page .cart-box .cart-list .list-item .box .box-body .price .icon i:hover {
+.cart-page .cart-box .cart-list .list-item .box .box-body .price .icon img {
     cursor: pointer;
-    color: #e30000;
+    width: 27px;
+    height: 25px;
+    filter: invert(0%) sepia(0%) saturate(7488%) hue-rotate(0deg) brightness(0%) contrast(83%);
+}
+
+.cart-page .cart-box .cart-list .list-item .box .box-body .price .icon img:hover { 
+    filter: invert(0%) sepia(0%) saturate(7488%) hue-rotate(0deg) brightness(94%) contrast(83%);
 }
 
 /* end box product*/
@@ -2447,7 +2462,8 @@
     }
 
     .cart-page .cart-shadow .cart-box .address-box .input-zone .box-address {
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
