@@ -2380,7 +2380,7 @@
 }
 
 .cart-page .upload-box .upload-shadow .upload-content {
-    padding: 3% 20px;
+    padding: 20px;
 }
 
 .cart-page .upload-box .upload-shadow .upload-content .upload-form {
@@ -2392,7 +2392,7 @@
     height: 100%;
     border-radius: 10px;
     color: #FFF;
-    padding: 20px;
+    padding: 3%;
 }
 
 .cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group {
