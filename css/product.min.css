@@ -2441,9 +2441,33 @@
     }
 }
 
+.cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-right .upload-file .upload-file-content .upload-file-child {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 678px) {
     .cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-right {
         flex-direction: column;
+    }
+    .cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-right .upload-file .upload-file-content {
+        flex-direction: row !important;
+        gap: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-right .upload-file .upload-image {
+        height:180px !important;
+        width: 170px !important;
+    }
+    .cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-right .upload-file .upload-file-child label {
+        width: 90px !important;
+        padding: 5px 5px !important;
     }
 }
 
@@ -2468,14 +2492,15 @@
     display: none;
 }
 
-.cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-right .upload-file label {
-    margin: 10px;
+.cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-right .upload-file .upload-file-child label {
     padding: 5px 20px;
     border-radius: 5px;
     background: #FFF;
     color: #000000;
-    box-shadow: 2px 2px 5px 0px rgba(0, 58, 130, 0.50);
     cursor: pointer;
+    width: 140px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .cart-page .upload-box .upload-shadow .upload-content .upload-form .upload-form-group .form-right .upload-file .upload-image {

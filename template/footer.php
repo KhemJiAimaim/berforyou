@@ -55,7 +55,7 @@
 </footer>
 
 <div class="copy-right">
-    <p>&copy; copyright 2020 by <a href="https://www.wynnsoft-solution.com/">wynnsoft-solution.com</a></p>
+    <p>&copy; copyright 2023 Berforyou.com</a></p>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

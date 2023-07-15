@@ -208,9 +208,11 @@
                                 <p>กรุณากดเพื่อสลิปชำระค่าเบอร์</p>
                                 <div class="upload-file-content">
                                     <img class="upload-image" src="img/icon/upload.png" alt="">
-                                    <p>File Supported JPG,PNG maximum size 2MB</p>
-                                    <input type="file" id="upload1" accept="image/*">
-                                    <label for="upload1">อัปโหลด</label>
+                                    <div class="upload-file-child">
+                                        <p>File Supported JPG,PNG maximum size 2MB</p>
+                                        <input type="file" id="upload1" accept="image/*">
+                                        <label for="upload1">อัปโหลด</label>
+                                    </div>
                                 </div>
                             </div>
                             <div class="upload-file">
@@ -218,9 +220,11 @@
                                 <p>เฉพาะลูกค้าที่ซื้อเบอร์เครือข่ายทรูมูฟเท่านั้น</p>
                                 <div class="upload-file-content">
                                     <img class="upload-image" src="img/icon/upload.png" alt="">
-                                    <p>File Supported JPG,PNG,PDF maximum size 2MB</p>
-                                    <input type="file" id="upload2" accept="image/*">
-                                    <label for="upload2">อัปโหลด</label>
+                                    <div class="upload-file-child">
+                                        <p>File Supported JPG,PNG,PDF maximum size 2MB</p>
+                                        <input type="file" id="upload2" accept="image/*">
+                                        <label for="upload2">อัปโหลด</label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
