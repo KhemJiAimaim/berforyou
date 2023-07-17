@@ -347,7 +347,7 @@
             } else if (gradebervalue === 'F') {
                 gradeber.style.backgroundColor = '#F9C80E';
             } else {
-                gradeber.style.backgroundColor = '#000';
+                gradeber.style.backgroundColor = '#F9C80E';
             }
         })
     } else {

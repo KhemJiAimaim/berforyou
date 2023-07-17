@@ -23,7 +23,7 @@
             <div class="auspicious-value">
                 <div class="num-value">
                     <label for="">ค่าความมงคล</label>
-                    <span>1,000</span>
+                    <span id="luck-value">1,000</span>
                 </div>
                 <div class="auspicious-level">
                     <div class="auspicious-level-color-detail">

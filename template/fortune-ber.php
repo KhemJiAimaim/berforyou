@@ -34,7 +34,7 @@
             <div class="auspicious-value">
                 <div class="num-value">
                     <label for="">ค่าความมงคล</label>
-                    <p>0,000</p>
+                    <p id="luck-value">900</p>
                 </div>
                 <div class="auspicious-level">
                     <div class="auspicious-level-color">
@@ -79,7 +79,7 @@
             <div class="auspicious-sim">
                 <div class="text-auspicious">
                     <label for="">เกรดเบอร์</label>
-                    <p>?</p>
+                    <p id="grade-ber">?</p>
                 </div>
                 <div class="sim-color">
                     <img src="img/carbon_sim-card.png" class="sim-img" alt="">
@@ -472,3 +472,26 @@
             </div>
         </div>
     </div>  -->
+
+    <script>
+        let luckValue = document.querySelector('#luck-value').innerText;
+        let paseluckValue = customParseNumber(luckValue);
+        let gradeber = document.querySelector('#grade-ber');
+
+        console.log(paseluckValue);
+
+        if ( paseluckValue >= 875) {
+            console.log("grade A")
+            gradeber.innerText = "A";
+        } else if ( paseluckValue >= 750) {
+            console.log("grade B+")
+            gradeber.innerText = "B+";
+        }
+
+
+        function customParseNumber(str) {
+        // ตัดอักขระที่ไม่ต้องการออกจาก string และแปลงเป็นตัวเลข
+        // โดยใช้เชิงตัวอักษร + หน้า string จะทำให้ string กลายเป็น number
+        return +str.replace(",", ""); // ตัวอย่างการลบเครื่องหมาย , ที่เป็นพิเศษ (สำหรับตัวเลขแบบทศนิยม)
+        }
+    </script>
